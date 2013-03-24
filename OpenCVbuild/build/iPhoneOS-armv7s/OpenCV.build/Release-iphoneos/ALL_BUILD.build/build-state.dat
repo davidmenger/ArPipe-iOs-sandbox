@@ -1,0 +1,28 @@
+TALL_BUILD
+v5
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-3E28BD5DF27A49FA96B06206.sh
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-3E28BD5DF27A49FA96B06206.sh
+c0000000051445D5F00000000000000E4
+t1363434847
+s228
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesf93162eb94f4b641^327662eb94f4b641^---0#1#0#--18"Check dependencies36"38016598-73FD-4929-9804-27121A05F478-
+
+CPhaseScriptExecution "CMake Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-3E28BD5DF27A49FA96B06206.sh
+s385127659.386186
+e385127659.422765
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-3E28BD5DF27A49FA96B06206.sh
+oecho ""
+o
+oecho Build\ all\ projects
+oBuild all projects
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'117163eb94f4b641^d2386ceb94f4b641^-54"echo ""echo Build\ all\ projectsBuild all projects3(21%IDEActivityLogMessage2@8"echo ""-385127659#0#8#-0#-----2@26"echo Build\ all\ projects-385127659#9#26#-0#-----2@19"Build all projects-385127659#35#19#-0#-----0#0#0#--402"PhaseScriptExecution "CMake Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-3E28BD5DF27A49FA96B06206.sh    cd /Users/Administrator/Development/AR/OpenCV    /bin/sh -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ALL_BUILD.build/Script-3E28BD5DF27A49FA96B06206.sh36"6850B752-0326-4041-AA5C-F6EEA23C4A55-
+

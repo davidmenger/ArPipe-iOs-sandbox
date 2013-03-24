@@ -1,0 +1,639 @@
+Topencv_objdetect
+v5
+r1
+cCheck dependencies
+cSymLink /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/libopencv_objdetect.a /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/distancetransform.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/distancetransform.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/cascadedetect.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/cascadedetect.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/datamatrix.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/datamatrix.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/featurepyramid.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/featurepyramid.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/haar.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/haar.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/fft.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/fft.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/hog.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/hog.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/latentsvm.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/latentsvm.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/latentsvmdetector.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/latentsvmdetector.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/linemod.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/linemod.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmparser.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/lsvmparser.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmtbbversion.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/lsvmtbbversion.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/matching.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/matching.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/resizeimg.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/resizeimg.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/precomp.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/routine.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/routine.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a normal armv7
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Script-DB45E40409CA4297B2600461.sh
+cStripping /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a
+cSetOwnerAndGroup Administrator:staff /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a
+cSetMode u+w,go-w,a+rX /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c0000000051444BDF0000000000000110
+t1363430367
+s272
+
+N/Users/Administrator/Development/AR/OpenCV/modules/core/include/opencv2/core.hpp
+c0000000051444FD9000000000002CA27
+t1363431385
+s182823
+
+N/Users/Administrator/Development/AR/OpenCV/modules/core/include/opencv2/core/core_c.h
+c0000000051444FD90000000000013298
+t1363431385
+s78488
+
+N/Users/Administrator/Development/AR/OpenCV/modules/core/include/opencv2/core/internal.hpp
+c0000000051444FD90000000000008272
+t1363431385
+s33394
+
+N/Users/Administrator/Development/AR/OpenCV/modules/core/include/opencv2/core/mat.hpp
+c0000000051444FD90000000000013987
+t1363431385
+s80263
+
+N/Users/Administrator/Development/AR/OpenCV/modules/core/include/opencv2/core/operations.hpp
+c0000000051444FD9000000000001FF12
+t1363431385
+s130834
+
+N/Users/Administrator/Development/AR/OpenCV/modules/core/include/opencv2/core/types_c.h
+c0000000051444FD9000000000000DF8A
+t1363431385
+s57226
+
+N/Users/Administrator/Development/AR/OpenCV/modules/core/include/opencv2/core/version.hpp
+c0000000051444FD90000000000000B70
+t1363431385
+s2928
+
+N/Users/Administrator/Development/AR/OpenCV/modules/highgui/include/opencv2/highgui.hpp
+c0000000051444FD90000000000002387
+t1363431385
+s9095
+
+N/Users/Administrator/Development/AR/OpenCV/modules/highgui/include/opencv2/highgui/highgui_c.h
+c0000000051444FD900000000000065C4
+t1363431385
+s26052
+
+N/Users/Administrator/Development/AR/OpenCV/modules/imgproc/include/opencv2/imgproc.hpp
+c0000000051444FD9000000000000DC3A
+t1363431385
+s56378
+
+N/Users/Administrator/Development/AR/OpenCV/modules/imgproc/include/opencv2/imgproc/imgproc_c.h
+c0000000051444FD9000000000000767F
+t1363431385
+s30335
+
+N/Users/Administrator/Development/AR/OpenCV/modules/imgproc/include/opencv2/imgproc/types_c.h
+c0000000051444FD90000000000003A85
+t1363431385
+s14981
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/include/opencv2/objdetect.hpp
+c0000000051444FDA0000000000009290
+t1363431386
+s37520
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/_latentsvm.h
+c0000000051444FDA00000000000038D5
+t1363431386
+s14549
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/_lsvm_distancetransform.h
+c0000000051444FDA0000000000001269
+t1363431386
+s4713
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/_lsvm_error.h
+c0000000051444FDA0000000000000266
+t1363431386
+s614
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/_lsvm_fft.h
+c0000000051444FDA0000000000000952
+t1363431386
+s2386
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/_lsvm_matching.h
+c0000000051444FDA00000000000043FA
+t1363431386
+s17402
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/_lsvm_resizeimg.h
+c0000000051444FDA0000000000000122
+t1363431386
+s290
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/_lsvm_routine.h
+c0000000051444FDA0000000000000494
+t1363431386
+s1172
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/_lsvm_types.h
+c0000000051444FDA00000000000008B6
+t1363431386
+s2230
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/_lsvmparser.h
+c0000000051444FDA000000000000067B
+t1363431386
+s1659
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/cascadedetect.cpp
+c0000000051444FDA000000000000A49A
+t1363431386
+s42138
+i"precomp.hpp"
+i<cstdio>
+i"cascadedetect.hpp"
+i<string>
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/cascadedetect.hpp
+c0000000051444FDA00000000000040A2
+t1363431386
+s16546
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/datamatrix.cpp
+c0000000051444FDA0000000000004500
+t1363431386
+s17664
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/distancetransform.cpp
+c0000000051444FDA0000000000002B02
+t1363431386
+s11010
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/featurepyramid.cpp
+c0000000051444FDA0000000000003F38
+t1363431386
+s16184
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/fft.cpp
+c0000000051444FDA0000000000001D73
+t1363431386
+s7539
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/haar.cpp
+c0000000051444FDA000000000001AB9F
+t1363431386
+s109471
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/hog.cpp
+c0000000051444FDA0000000000020588
+t1363431386
+s132488
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/latentsvm.cpp
+c0000000051444FDA0000000000005963
+t1363431386
+s22883
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/latentsvmdetector.cpp
+c0000000051444FDA0000000000002165
+t1363431386
+s8549
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/linemod.cpp
+c0000000051444FDA000000000000EE3B
+t1363431386
+s60987
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/lsvmparser.cpp
+c0000000051444FDA00000000000057A4
+t1363431386
+s22436
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/lsvmtbbversion.cpp
+c0000000051444FDA0000000000001223
+t1363431386
+s4643
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/matching.cpp
+c0000000051444FDA000000000000F07F
+t1363431386
+s61567
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/normal_lut.i
+c0000000051444FDA00000000000076DD
+t1363431386
+s30429
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/precomp.cpp
+c0000000051444FDA0000000000000852
+t1363431386
+s2130
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/precomp.hpp
+c0000000051444FDA0000000000000A53
+t1363431386
+s2643
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/resizeimg.cpp
+c0000000051444FDA0000000000001720
+t1363431386
+s5920
+
+N/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/routine.cpp
+c0000000051444FDA0000000000000D60
+t1363431386
+s3424
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/cvconfig.h
+c0000000051445AE700000000000014BC
+t1363434215
+s5308
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/libopencv_objdetect.a
+t1363434356
+s512056
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/cascadedetect.o
+t1363434348
+s96440
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/datamatrix.o
+t1363434340
+s9428
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/distancetransform.o
+t1363434340
+s4032
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/featurepyramid.o
+t1363434340
+s6240
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/fft.o
+t1363434339
+s2684
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/haar.o
+t1363434344
+s72216
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/hog.o
+t1363434345
+s96632
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/latentsvm.o
+t1363434340
+s5180
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/latentsvmdetector.o
+t1363434344
+s12604
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/linemod.o
+t1363434355
+s146072
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmparser.o
+t1363434345
+s9804
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmtbbversion.o
+t1363434344
+s424
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/matching.o
+t1363434349
+s10744
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/opencv_objdetect.LinkFileList
+c0000000051445B5F0000000000000AD8
+t1363434335
+s2776
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/precomp.o
+t1363434348
+s424
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/resizeimg.o
+t1363434349
+s736
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/routine.o
+t1363434352
+s1772
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Script-DB45E40409CA4297B2600461.sh
+c0000000051445B5F0000000000000107
+t1363434335
+s263
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a
+t2
+s0
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/opencv2/opencv_modules.hpp
+c0000000051445AE70000000000000276
+t1363434215
+s630
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb892998193f4b641^bb629a8193f4b641^---0#1#0#--18"Check dependencies36"32619B68-2B39-48F0-B87A-18835133F139-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/cascadedetect.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/cascadedetect.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385127135.864649
+e385127148.418363
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/cascadedetect.o
+x/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/cascadedetect.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/cascadedetect.cpp2591dddf92f4b641^ca186bec92f4b641^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/cascadedetect.cpp0000000000000000^3938"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/cascadedetect.o modules/objdetect/src/cascadedetect.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -D__OPENCV_BUILD=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/include -I/Users/Administrator/Development/AR/OpenCV/modules/highgui/include -I/Users/Administrator/Development/AR/OpenCV/modules/imgproc/include -I/Users/Administrator/Development/AR/OpenCV/modules/core/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/cascadedetect.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/cascadedetect.dia -c /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/cascadedetect.cpp -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/cascadedetect.o36"AD990F86-2748-43FF-9FE4-B4054E7D68C5-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/datamatrix.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/datamatrix.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385127135.864619
+e385127140.482692
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/datamatrix.o
+x/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/datamatrix.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/datamatrix.cpp6093dddf92f4b641^0ea47be492f4b641^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/datamatrix.cpp0000000000000000^3920"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/datamatrix.o modules/objdetect/src/datamatrix.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -D__OPENCV_BUILD=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/include -I/Users/Administrator/Development/AR/OpenCV/modules/highgui/include -I/Users/Administrator/Development/AR/OpenCV/modules/imgproc/include -I/Users/Administrator/Development/AR/OpenCV/modules/core/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/datamatrix.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/datamatrix.dia -c /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/datamatrix.cpp -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/datamatrix.o36"D2D37A55-7531-489E-8E41-BEC8157ECE73-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/distancetransform.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/distancetransform.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385127135.864635
+e385127140.039834
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/distancetransform.o
+x/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/distancetransform.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/distancetransform.cppb0cadddf92f4b641^c6310ae492f4b641^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/distancetransform.cpp0000000000000000^3962"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/distancetransform.o modules/objdetect/src/distancetransform.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -D__OPENCV_BUILD=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/include -I/Users/Administrator/Development/AR/OpenCV/modules/highgui/include -I/Users/Administrator/Development/AR/OpenCV/modules/imgproc/include -I/Users/Administrator/Development/AR/OpenCV/modules/core/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/distancetransform.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/distancetransform.dia -c /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/distancetransform.cpp -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/distancetransform.o36"22C4E597-8FAF-447A-B7C2-EC71BAD89CA0-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/featurepyramid.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/featurepyramid.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385127135.864849
+e385127140.359804
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/featurepyramid.o
+x/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/featurepyramid.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/featurepyramid.cppaa99dddf92f4b641^f4195ce492f4b641^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/featurepyramid.cpp0000000000000000^3944"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/featurepyramid.o modules/objdetect/src/featurepyramid.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -D__OPENCV_BUILD=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/include -I/Users/Administrator/Development/AR/OpenCV/modules/highgui/include -I/Users/Administrator/Development/AR/OpenCV/modules/imgproc/include -I/Users/Administrator/Development/AR/OpenCV/modules/core/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/featurepyramid.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/featurepyramid.dia -c /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/featurepyramid.cpp -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/featurepyramid.o36"7222F4FB-05B3-4712-89B6-0376121EC8BC-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/fft.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/fft.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385127135.865738
+e385127139.869242
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/fft.o
+x/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/fft.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/fft.cppbad7dddf92f4b641^8c9fdee392f4b641^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/fft.cpp0000000000000000^3878"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/fft.o modules/objdetect/src/fft.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -D__OPENCV_BUILD=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/include -I/Users/Administrator/Development/AR/OpenCV/modules/highgui/include -I/Users/Administrator/Development/AR/OpenCV/modules/imgproc/include -I/Users/Administrator/Development/AR/OpenCV/modules/core/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/fft.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/fft.dia -c /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/fft.cpp -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/fft.o36"9C3A0F0B-C45F-41AD-8B82-604F96D7BB69-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/haar.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/haar.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385127135.865964
+e385127144.216573
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/haar.o
+x/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/haar.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/haar.cppe2e5dddf92f4b641^498337e892f4b641^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/haar.cpp0000000000000000^3884"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/haar.o modules/objdetect/src/haar.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -D__OPENCV_BUILD=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/include -I/Users/Administrator/Development/AR/OpenCV/modules/highgui/include -I/Users/Administrator/Development/AR/OpenCV/modules/imgproc/include -I/Users/Administrator/Development/AR/OpenCV/modules/core/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/haar.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/haar.dia -c /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/haar.cpp -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/haar.o36"F2888783-E553-414A-9DF7-9B576A165F98-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/hog.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/hog.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385127135.866421
+e385127145.059131
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/hog.o
+x/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/hog.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/hog.cpp8f00dedf92f4b641^2f340fe992f4b641^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/hog.cpp0000000000000000^3878"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/hog.o modules/objdetect/src/hog.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -D__OPENCV_BUILD=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/include -I/Users/Administrator/Development/AR/OpenCV/modules/highgui/include -I/Users/Administrator/Development/AR/OpenCV/modules/imgproc/include -I/Users/Administrator/Development/AR/OpenCV/modules/core/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/hog.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/hog.dia -c /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/hog.cpp -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/hog.o36"5B41DAD0-3477-4CB7-A610-A314141B9891-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/latentsvm.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/latentsvm.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385127135.866812
+e385127140.134487
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/latentsvm.o
+x/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/latentsvm.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/latentsvm.cpp3b1bdedf92f4b641^fa7e22e492f4b641^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/latentsvm.cpp0000000000000000^3914"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/latentsvm.o modules/objdetect/src/latentsvm.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -D__OPENCV_BUILD=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/include -I/Users/Administrator/Development/AR/OpenCV/modules/highgui/include -I/Users/Administrator/Development/AR/OpenCV/modules/imgproc/include -I/Users/Administrator/Development/AR/OpenCV/modules/core/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/latentsvm.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/latentsvm.dia -c /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/latentsvm.cpp -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/latentsvm.o36"F913786A-1684-47DB-919B-1CC1B2235D4C-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/latentsvmdetector.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/latentsvmdetector.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385127139.870989
+e385127144.687798
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/latentsvmdetector.o
+x/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/latentsvmdetector.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/latentsvmdetector.cppda3bdfe392f4b641^bb2ab0e892f4b641^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/latentsvmdetector.cpp0000000000000000^3962"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/latentsvmdetector.o modules/objdetect/src/latentsvmdetector.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -D__OPENCV_BUILD=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/include -I/Users/Administrator/Development/AR/OpenCV/modules/highgui/include -I/Users/Administrator/Development/AR/OpenCV/modules/imgproc/include -I/Users/Administrator/Development/AR/OpenCV/modules/core/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/latentsvmdetector.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/latentsvmdetector.dia -c /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/latentsvmdetector.cpp -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/latentsvmdetector.o36"DC383011-AC32-4521-9B32-5DB7D438B7DE-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/linemod.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/linemod.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385127140.041279
+e385127155.109853
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/linemod.o
+x/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/linemod.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/linemod.cpp9dd50ae492f4b641^5c1d1cf392f4b641^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/linemod.cpp0000000000000000^3902"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/linemod.o modules/objdetect/src/linemod.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -D__OPENCV_BUILD=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/include -I/Users/Administrator/Development/AR/OpenCV/modules/highgui/include -I/Users/Administrator/Development/AR/OpenCV/modules/imgproc/include -I/Users/Administrator/Development/AR/OpenCV/modules/core/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/linemod.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/linemod.dia -c /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/linemod.cpp -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/linemod.o36"BE2FF5AF-1CF6-4E05-BCDD-52255760C6AB-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmparser.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/lsvmparser.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385127140.361230
+e385127145.402794
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmparser.o
+x/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/lsvmparser.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/lsvmparser.cpp45125de492f4b641^e31a67e992f4b641^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/lsvmparser.cpp0000000000000000^3920"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmparser.o modules/objdetect/src/lsvmparser.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -D__OPENCV_BUILD=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/include -I/Users/Administrator/Development/AR/OpenCV/modules/highgui/include -I/Users/Administrator/Development/AR/OpenCV/modules/imgproc/include -I/Users/Administrator/Development/AR/OpenCV/modules/core/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmparser.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmparser.dia -c /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/lsvmparser.cpp -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmparser.o36"E47946BE-334B-4E07-9821-178DB80DEEDE-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmtbbversion.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/lsvmtbbversion.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385127140.489609
+e385127144.361515
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmtbbversion.o
+x/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/lsvmtbbversion.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/lsvmtbbversion.cpp8ba87de492f4b641^81ce5ce892f4b641^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/lsvmtbbversion.cpp0000000000000000^3944"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmtbbversion.o modules/objdetect/src/lsvmtbbversion.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -D__OPENCV_BUILD=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/include -I/Users/Administrator/Development/AR/OpenCV/modules/highgui/include -I/Users/Administrator/Development/AR/OpenCV/modules/imgproc/include -I/Users/Administrator/Development/AR/OpenCV/modules/core/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmtbbversion.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmtbbversion.dia -c /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/lsvmtbbversion.cpp -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmtbbversion.o36"5EBD70AC-725B-4633-A029-902834EEC6BC-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/matching.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/matching.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385127144.362903
+e385127149.393004
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/matching.o
+x/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/matching.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/matching.cppf73a5de892f4b641^209b64ed92f4b641^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/matching.cpp0000000000000000^3908"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/matching.o modules/objdetect/src/matching.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -D__OPENCV_BUILD=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/include -I/Users/Administrator/Development/AR/OpenCV/modules/highgui/include -I/Users/Administrator/Development/AR/OpenCV/modules/imgproc/include -I/Users/Administrator/Development/AR/OpenCV/modules/core/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/matching.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/matching.dia -c /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/matching.cpp -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/matching.o36"28046B66-3B9A-4DA8-A561-34D5838C8D0A-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/precomp.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385127145.064570
+e385127148.911074
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/precomp.o
+x/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/precomp.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/precomp.cppdecc10e992f4b641^2f51e9ec92f4b641^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/precomp.cpp0000000000000000^3902"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/precomp.o modules/objdetect/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -D__OPENCV_BUILD=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/include -I/Users/Administrator/Development/AR/OpenCV/modules/highgui/include -I/Users/Administrator/Development/AR/OpenCV/modules/imgproc/include -I/Users/Administrator/Development/AR/OpenCV/modules/core/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/precomp.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/precomp.dia -c /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/precomp.cpp -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/precomp.o36"CC45F4F9-365C-4B0C-B0E2-5128FD46CB78-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/resizeimg.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/resizeimg.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385127145.559122
+e385127149.446696
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/resizeimg.o
+x/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/resizeimg.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/resizeimg.cpp84668fe992f4b641^d65872ed92f4b641^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/resizeimg.cpp0000000000000000^3914"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/resizeimg.o modules/objdetect/src/resizeimg.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -D__OPENCV_BUILD=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/include -I/Users/Administrator/Development/AR/OpenCV/modules/highgui/include -I/Users/Administrator/Development/AR/OpenCV/modules/imgproc/include -I/Users/Administrator/Development/AR/OpenCV/modules/core/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/resizeimg.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/resizeimg.dia -c /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/resizeimg.cpp -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/resizeimg.o36"23943D6F-D141-4214-8C45-FC0CD29E7280-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/routine.o /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/routine.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385127148.912465
+e385127152.859788
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/routine.o
+x/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/routine.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/routine.cpp41d8e9ec92f4b641^d219dcf092f4b641^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/routine.cpp0000000000000000^3902"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/routine.o modules/objdetect/src/routine.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -D__OPENCV_BUILD=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/include -I/Users/Administrator/Development/AR/OpenCV/modules/highgui/include -I/Users/Administrator/Development/AR/OpenCV/modules/imgproc/include -I/Users/Administrator/Development/AR/OpenCV/modules/core/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/src -I/Users/Administrator/Development/AR/OpenCV/modules/objdetect/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/routine.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/routine.dia -c /Users/Administrator/Development/AR/OpenCV/modules/objdetect/src/routine.cpp -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/routine.o36"1C7AB7A9-4407-4503-B3CB-E848A16DEB29-
+
+CLibtool /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/libopencv_objdetect.a normal armv7
+s385127155.987472
+e385127156.008579
+r1
+xLibtool
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/libopencv_objdetect.a
+xnormal
+xarmv7
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmtbbversion.o has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/precomp.o has no symbols
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Libtool /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/libopencv_objdetect.a normal armv7c2f9fcf392f4b641^aa4302f492f4b641^-583"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmtbbversion.o has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/precomp.o has no symbols-0#0#0#--1112"Libtool /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/libopencv_objdetect.a normal armv7    cd /Users/Administrator/Development/AR/OpenCV    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release -filelist /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/opencv_objdetect.LinkFileList -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/libopencv_objdetect.a36"433E4873-E475-4216-9716-44F55D2C049B-
+
+CLibtool /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a normal armv7
+s385127297.635905
+e385127297.651764
+r1
+xLibtool
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a
+xnormal
+xarmv7
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmtbbversion.o has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/precomp.o has no symbols
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection149"Libtool /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a normal armv717f4a28193f4b641^aed9a68193f4b641^-583"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/lsvmtbbversion.o has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/precomp.o has no symbols-0#0#0#--1164"Libtool /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a normal armv7    cd /Users/Administrator/Development/AR/OpenCV    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release -filelist /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Objects-normal/armv7/opencv_objdetect.LinkFileList -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a36"8314A4B8-F4AE-40EA-8DE8-9B5C646F2A67-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Script-DB45E40409CA4297B2600461.sh
+s385127297.659957
+e385127297.733991
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Script-DB45E40409CA4297B2600461.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_objdetect.Release
+omake[1]: Nothing to be done for `PostBuild.opencv_objdetect.Release'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_objdetect.Release
+omake[1]: Nothing to be done for `PostBuild.opencv_objdetect.Release'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'b1dda98193f4b641^43e5bb8193f4b641^-894"echo "Depend check for xcode"Depend check for xcodecd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_objdetect.Releasemake[1]: Nothing to be done for `PostBuild.opencv_objdetect.Release'.echo "Depend check for xcode"Depend check for xcodecd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_objdetect.Releasemake[1]: Nothing to be done for `PostBuild.opencv_objdetect.Release'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-385127297#0#30#-0#-----2@23"Depend check for xcode-385127297#30#23#-0#-----2@297"cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_objdetect.Release-385127297#53#297#-0#-----2@70"make[1]: Nothing to be done for `PostBuild.opencv_objdetect.Release'.-385127297#350#70#-0#-----2@30"echo "Depend check for xcode"-385127297#420#30#-0#-----2@23"Depend check for xcode-385127297#450#23#-0#-----2@351"cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_objdetect.Release-385127297#473#351#-0#-----2@70"make[1]: Nothing to be done for `PostBuild.opencv_objdetect.Release'.-385127297#824#70#-0#-----0#0#0#--460"PhaseScriptExecution "CMake PostBuild Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Script-DB45E40409CA4297B2600461.sh    cd /Users/Administrator/Development/AR/OpenCV    /bin/sh -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/OpenCV.build/Release-iphoneos/opencv_objdetect.build/Script-DB45E40409CA4297B2600461.sh36"5600277E-C79C-4841-A785-B990D1B2050D-
+
+CSetMode u+w,go-w,a+rX /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a
+s385127297.889112
+e385127297.897035
+r1
+xSetMode
+xu+w,go-w,a+rX
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection150"SetMode u+w,go-w,a+rX /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a48c1e38193f4b641^3ca3e58193f4b641^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a0000000000000000^631"SetMode u+w,go-w,a+rX /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a    cd /Users/Administrator/Development/AR/OpenCV    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /bin/chmod -RH u+w,go-w,a+rX /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a36"FDBEC2E6-EAE3-4BFD-944F-9B4FCE7FC533-
+
+CSetOwnerAndGroup Administrator:staff /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a
+s385127297.871363
+e385127297.881034
+r1
+xSetOwnerAndGroup
+xAdministrator:staff
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection165"SetOwnerAndGroup Administrator:staff /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a0e2cdf8193f4b641^0d8be18193f4b641^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a0000000000000000^661"SetOwnerAndGroup "Administrator:staff" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a    cd /Users/Administrator/Development/AR/OpenCV    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /usr/sbin/chown -RH "Administrator:staff" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a36"2C74936E-6E6F-492E-94B3-5F3B50416681-
+
+CStripping /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a
+s385127297.741759
+e385127297.863338
+r1
+xStripping
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip: input object file stripped: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a(lsvmtbbversion.o)
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip: input object file stripped: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a(precomp.o)
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Stripping /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a8107be8193f4b641^2103dd8193f4b641^-531"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip: input object file stripped: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a(lsvmtbbversion.o)/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip: input object file stripped: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a(precomp.o)-0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a0000000000000000^686"Stripping /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a    cd /Users/Administrator/Development/AR/OpenCV    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a36"6C271A2C-304A-4524-9A28-350BA1032D4C-
+
+CSymLink /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/libopencv_objdetect.a /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a
+s385127297.608601
+e385127297.617013
+r1
+xSymLink
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/libopencv_objdetect.a
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Process /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/libopencv_objdetect.afef09b8193f4b641^f9f39d8193f4b641^---0#0#0#--806"SymLink /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/libopencv_objdetect.a /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a    cd /Users/Administrator/Development/AR/OpenCV    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /bin/ln -sf /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/objdetect/UninstalledProducts/libopencv_objdetect.a /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/libopencv_objdetect.a36"744ADC1A-A42B-4235-881A-7AD38C4756FE-
+

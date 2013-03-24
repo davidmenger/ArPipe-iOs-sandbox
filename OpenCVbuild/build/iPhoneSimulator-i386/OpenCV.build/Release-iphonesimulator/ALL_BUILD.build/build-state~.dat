@@ -1,0 +1,28 @@
+TALL_BUILD
+v5
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-19644B6171CD4499871385D4.sh
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-19644B6171CD4499871385D4.sh
+c0000000051445EAA00000000000000EE
+t1363435178
+s238
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd0d17e2a96f4b641^50387f2a96f4b641^---0#1#0#--18"Check dependencies36"C9A26DF7-E16B-409F-B401-A217AB4BB526-
+
+CPhaseScriptExecution "CMake Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-19644B6171CD4499871385D4.sh
+s385127978.498551
+e385127978.538938
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-19644B6171CD4499871385D4.sh
+oecho ""
+o
+oecho Build\ all\ projects
+oBuild all projects
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'b56d802a96f4b641^45f6892a96f4b641^-54"echo ""echo Build\ all\ projectsBuild all projects3(21%IDEActivityLogMessage2@8"echo ""-385127978#0#8#-0#-----2@26"echo Build\ all\ projects-385127978#9#26#-0#-----2@19"Build all projects-385127978#35#19#-0#-----0#0#0#--426"PhaseScriptExecution "CMake Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-19644B6171CD4499871385D4.sh    cd /Users/Administrator/Development/AR/OpenCV    /bin/sh -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-19644B6171CD4499871385D4.sh36"97A36A8C-5DBD-428E-9A4F-B26DD5147C10-
+

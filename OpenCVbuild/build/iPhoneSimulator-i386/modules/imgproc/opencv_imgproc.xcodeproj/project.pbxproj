@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              6C27176FF9774FBEB4B21C0B /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 955BF86AC8FC454283F92FDF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            A9EB3625C1D1434A80A07043 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            B51850CF60A94EDD94F2467E /* PBXTargetDependency */,
+                            A7F895FB018A49C5AA33BFE9 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              645592EB1DD84B6F8FF8EEF2 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = CD52C91BF5594870B80FB39C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            3D2D26F453A64DD7B6DD43D3 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              F5D45CFC62F94F7FB122CACB /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = BFC7A4E760A3469899A5F2DF /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            74A37F9B5B624051833521A5 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            799C4383E4E34B3BBC05EE32 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+F8BD85C88F6143779D3E3126 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include/opencv2/imgproc.hpp */ = {isa = PBXBuildFile; fileRef = 5DA25B606D33427D9662F4E1 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include/opencv2/imgproc.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+985925A293374B56890BCEAD /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include/opencv2/imgproc/imgproc.hpp */ = {isa = PBXBuildFile; fileRef = 1EA5E238F3C6400BB60F4AA2 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include/opencv2/imgproc/imgproc.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+18CCD437A68945DE9A704F26 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include/opencv2/imgproc/imgproc_c.h */ = {isa = PBXBuildFile; fileRef = A76A35B9376D48D8B8AE1FDB /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include/opencv2/imgproc/imgproc_c.h */; settings = { COMPILER_FLAGS = ""; }; };
+115ACA5713834631B30F900D /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include/opencv2/imgproc/types_c.h */ = {isa = PBXBuildFile; fileRef = 5250B9564A1E42B3A2A775EC /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include/opencv2/imgproc/types_c.h */; settings = { COMPILER_FLAGS = ""; }; };
+D480EAA6756B430BA43B8873 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/accum.cpp */ = {isa = PBXBuildFile; fileRef = BE41497E13AB4350875BC087 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/accum.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+20D65AEC2752428D8891AA4B /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/approx.cpp */ = {isa = PBXBuildFile; fileRef = 2470F176E9864EF2B460A5EA /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/approx.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+E4BAE0460E1C40AF80A237A5 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/canny.cpp */ = {isa = PBXBuildFile; fileRef = 516F67F32A134FBFABF78D29 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/canny.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+D6155472475D4BDA94CBEFD1 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/color.cpp */ = {isa = PBXBuildFile; fileRef = E45871DA11634744977951EC /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/color.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+1DFDB5FE4F9C49C7A9BD77AC /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/connectedcomponents.cpp */ = {isa = PBXBuildFile; fileRef = 8295CA5D0FF740DF8B8AF2F7 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/connectedcomponents.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+B32358F818A2428AA6D6E5FA /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/contours.cpp */ = {isa = PBXBuildFile; fileRef = 86C53AD8037C4896A61F05D1 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/contours.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+53D86199214E4518851034EF /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/convhull.cpp */ = {isa = PBXBuildFile; fileRef = 83780F9AA77D411BAAA9FD20 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/convhull.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+C45491F177114E86A1D82C27 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/corner.cpp */ = {isa = PBXBuildFile; fileRef = 00CD251BA7A047EAA0A548DD /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/corner.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+198A6D05BD2C4D19879343F5 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/cornersubpix.cpp */ = {isa = PBXBuildFile; fileRef = F92AF5C235D24A34B970CAB2 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/cornersubpix.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+5CA89376520A4CF59A7532A2 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/demosaicing.cpp */ = {isa = PBXBuildFile; fileRef = 9EE89AAA8936452BA63D3883 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/demosaicing.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+659D3668F9824A018D5FE4EC /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/deriv.cpp */ = {isa = PBXBuildFile; fileRef = C16780AE156245979A78C61A /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/deriv.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+B4AE4B3CFD734E4FAC198741 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/distransform.cpp */ = {isa = PBXBuildFile; fileRef = 540BBFE4AF764CE5918D3090 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/distransform.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+17453C2B4A0049E2AAF11565 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/emd.cpp */ = {isa = PBXBuildFile; fileRef = 967561E2D8B64F4487417ED4 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/emd.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+63F3DDBB0D6B47DAB108DCC2 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/featureselect.cpp */ = {isa = PBXBuildFile; fileRef = ED7CD8CEA88A4F90A6399B69 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/featureselect.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+C586592654364B2ABA981CD8 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/filter.cpp */ = {isa = PBXBuildFile; fileRef = B8C74334D89C4DE2805B41E7 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/filter.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+FFA4FB8D17E0483698471BDE /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/floodfill.cpp */ = {isa = PBXBuildFile; fileRef = 6E02392C40B448F185A9664F /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/floodfill.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+EC42AF2C90A84D3C863607A4 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/gabor.cpp */ = {isa = PBXBuildFile; fileRef = 4B3FFAC105764FF58D652B43 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/gabor.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+97096886D1004F98BF601ABD /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/generalized_hough.cpp */ = {isa = PBXBuildFile; fileRef = D3A6F97254DB4721A5840A1B /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/generalized_hough.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+236F208EED724D1793403151 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/geometry.cpp */ = {isa = PBXBuildFile; fileRef = 6E7C79706A6D465FB695C7AD /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/geometry.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+DB0E2BBB26B44762BA293B2B /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/grabcut.cpp */ = {isa = PBXBuildFile; fileRef = 88C436F61AF646419DABB15D /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/grabcut.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+C3C385B9BA8E493084782C7C /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/histogram.cpp */ = {isa = PBXBuildFile; fileRef = CC57A0E9ABF24686BE71BB10 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/histogram.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+A3B9953F2C38423D82BF60F8 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/hough.cpp */ = {isa = PBXBuildFile; fileRef = DA2099318A33413A9538D497 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/hough.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+75E3BA40322546769CFB2777 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/imgwarp.cpp */ = {isa = PBXBuildFile; fileRef = 1AA38FE891594679980ADC5F /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/imgwarp.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+1C5D097D269A43CD903C2B74 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/linefit.cpp */ = {isa = PBXBuildFile; fileRef = 0C6ABD097109441C8AC91F11 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/linefit.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+B938534D7F1A4F6DAD89834D /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/matchcontours.cpp */ = {isa = PBXBuildFile; fileRef = 195D0EA8DD4E4DCCA2F44EE1 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/matchcontours.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+60FD4EF13CA8421F813826FA /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/moments.cpp */ = {isa = PBXBuildFile; fileRef = 3FC6DCB479894C629BE882C1 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/moments.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+91E0C5D6EA04424E8BD2989B /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/morph.cpp */ = {isa = PBXBuildFile; fileRef = 998FDE948E2E448BAB69006D /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/morph.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+105E2351AF62406BB3E68EA8 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/phasecorr.cpp */ = {isa = PBXBuildFile; fileRef = 7536EC632ADC4CA9813C8BCF /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/phasecorr.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+D1377A1305E8441C959BFD07 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/precomp.cpp */ = {isa = PBXBuildFile; fileRef = 58A15796829644AAA628BADC /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/precomp.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+74B6B8E922D54641AE6285B2 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/pyramids.cpp */ = {isa = PBXBuildFile; fileRef = 6802FECFCCC545439CDFBB96 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/pyramids.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+5CA9C40A3EDA47BAB6854F88 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/rotcalipers.cpp */ = {isa = PBXBuildFile; fileRef = C851875C58FC44ED819352E6 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/rotcalipers.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+3A777BB2854F4226918B3064 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/samplers.cpp */ = {isa = PBXBuildFile; fileRef = EE75BBE4C23441B8B0A0CB98 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/samplers.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+2E904D1D80BF44C08C62DD7B /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/segmentation.cpp */ = {isa = PBXBuildFile; fileRef = 468D3B5BBEEC48389A6B1B1F /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/segmentation.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+D27EB236FDFC4A039087D59D /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/shapedescr.cpp */ = {isa = PBXBuildFile; fileRef = CCBEAEDAE1B5413ABFCBA71B /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/shapedescr.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+DAA3A16C40A945A09AC03E51 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/smooth.cpp */ = {isa = PBXBuildFile; fileRef = 31DEFF94D44D4BB1B91A1C96 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/smooth.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+420C237B17A54EC6B8BFE732 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/subdivision2d.cpp */ = {isa = PBXBuildFile; fileRef = FCAEEA17B0AF4BAA904E0DF2 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/subdivision2d.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+092C1F2EA5A749F19912FE2A /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/sumpixels.cpp */ = {isa = PBXBuildFile; fileRef = 67AF008F532D4B58B213796B /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/sumpixels.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+CD90B2B2B4894155982848B8 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/tables.cpp */ = {isa = PBXBuildFile; fileRef = 49C99F5402774F7A9CC9BB0C /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/tables.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+E0A402CCAC6C48C9875884CF /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/templmatch.cpp */ = {isa = PBXBuildFile; fileRef = 3790380CD2374282B4191A27 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/templmatch.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+06D51F5917744DF3AB83E635 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/thresh.cpp */ = {isa = PBXBuildFile; fileRef = CB161C1982E741D984C334BF /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/thresh.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+241691268B8848F68579101F /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/undistort.cpp */ = {isa = PBXBuildFile; fileRef = 4A735ACDC87A4E278408BFBD /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/undistort.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+4491FF3447D54396902BD05A /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/utils.cpp */ = {isa = PBXBuildFile; fileRef = A54BD0C4C693435FB8A8BCC1 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/utils.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+E9E0ED9F3D2C4982B178D80D /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/gcgraph.hpp */ = {isa = PBXBuildFile; fileRef = 599C2B306DAF4814A518FCA5 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/gcgraph.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+6B18C4FCB0E1413EA1F572E6 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = 158D8E8671AA4A6E9104B037 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/precomp.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+A64F98AB9DBD48CD8BC87D45 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/_geom.h */ = {isa = PBXBuildFile; fileRef = ED6523285E0A4D72B3AD68DE /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/_geom.h */; settings = { COMPILER_FLAGS = ""; }; };
+EE53AACDD18E46BBB8CE9D6C /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 74E6AC7A0E4E46AE98B8B46F /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              6350F048577F452483B7AF6B /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              1F92218F9C1B463CA137B19E /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              0CD693D364584469970DA2C0 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              5B9807EA72A64EADA3FBEAF4 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 76D274EF4E4D48D3AE8AE8B1 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 645592EB1DD84B6F8FF8EEF2;
+                     remoteInfo = ZERO_CHECK;
+              };
+              97DE34CFE523440293AB9D0D /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 76D274EF4E4D48D3AE8AE8B1 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 6BABF16998294D2D95089F0E;
+                     remoteInfo = opencv_imgproc;
+              };
+              5F91233DC6CF4026B475ED8A /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 76D274EF4E4D48D3AE8AE8B1 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 6C27176FF9774FBEB4B21C0B;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+74E6AC7A0E4E46AE98B8B46F /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+5DA25B606D33427D9662F4E1 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include/opencv2/imgproc.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "imgproc.hpp"; path = "include/opencv2/imgproc.hpp"; sourceTree = SOURCE_ROOT; };
+1EA5E238F3C6400BB60F4AA2 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include/opencv2/imgproc/imgproc.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "imgproc.hpp"; path = "include/opencv2/imgproc/imgproc.hpp"; sourceTree = SOURCE_ROOT; };
+A76A35B9376D48D8B8AE1FDB /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include/opencv2/imgproc/imgproc_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "imgproc_c.h"; path = "include/opencv2/imgproc/imgproc_c.h"; sourceTree = SOURCE_ROOT; };
+5250B9564A1E42B3A2A775EC /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include/opencv2/imgproc/types_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "types_c.h"; path = "include/opencv2/imgproc/types_c.h"; sourceTree = SOURCE_ROOT; };
+BE41497E13AB4350875BC087 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/accum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "accum.cpp"; path = "src/accum.cpp"; sourceTree = SOURCE_ROOT; };
+2470F176E9864EF2B460A5EA /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/approx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "approx.cpp"; path = "src/approx.cpp"; sourceTree = SOURCE_ROOT; };
+516F67F32A134FBFABF78D29 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/canny.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "canny.cpp"; path = "src/canny.cpp"; sourceTree = SOURCE_ROOT; };
+E45871DA11634744977951EC /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/color.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "color.cpp"; path = "src/color.cpp"; sourceTree = SOURCE_ROOT; };
+8295CA5D0FF740DF8B8AF2F7 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/connectedcomponents.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "connectedcomponents.cpp"; path = "src/connectedcomponents.cpp"; sourceTree = SOURCE_ROOT; };
+86C53AD8037C4896A61F05D1 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/contours.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "contours.cpp"; path = "src/contours.cpp"; sourceTree = SOURCE_ROOT; };
+83780F9AA77D411BAAA9FD20 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/convhull.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "convhull.cpp"; path = "src/convhull.cpp"; sourceTree = SOURCE_ROOT; };
+00CD251BA7A047EAA0A548DD /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/corner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "corner.cpp"; path = "src/corner.cpp"; sourceTree = SOURCE_ROOT; };
+F92AF5C235D24A34B970CAB2 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/cornersubpix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "cornersubpix.cpp"; path = "src/cornersubpix.cpp"; sourceTree = SOURCE_ROOT; };
+9EE89AAA8936452BA63D3883 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/demosaicing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "demosaicing.cpp"; path = "src/demosaicing.cpp"; sourceTree = SOURCE_ROOT; };
+C16780AE156245979A78C61A /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/deriv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "deriv.cpp"; path = "src/deriv.cpp"; sourceTree = SOURCE_ROOT; };
+540BBFE4AF764CE5918D3090 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/distransform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "distransform.cpp"; path = "src/distransform.cpp"; sourceTree = SOURCE_ROOT; };
+967561E2D8B64F4487417ED4 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/emd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "emd.cpp"; path = "src/emd.cpp"; sourceTree = SOURCE_ROOT; };
+ED7CD8CEA88A4F90A6399B69 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/featureselect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "featureselect.cpp"; path = "src/featureselect.cpp"; sourceTree = SOURCE_ROOT; };
+B8C74334D89C4DE2805B41E7 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/filter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "filter.cpp"; path = "src/filter.cpp"; sourceTree = SOURCE_ROOT; };
+6E02392C40B448F185A9664F /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/floodfill.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "floodfill.cpp"; path = "src/floodfill.cpp"; sourceTree = SOURCE_ROOT; };
+4B3FFAC105764FF58D652B43 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/gabor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "gabor.cpp"; path = "src/gabor.cpp"; sourceTree = SOURCE_ROOT; };
+D3A6F97254DB4721A5840A1B /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/generalized_hough.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "generalized_hough.cpp"; path = "src/generalized_hough.cpp"; sourceTree = SOURCE_ROOT; };
+6E7C79706A6D465FB695C7AD /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/geometry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "geometry.cpp"; path = "src/geometry.cpp"; sourceTree = SOURCE_ROOT; };
+88C436F61AF646419DABB15D /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/grabcut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "grabcut.cpp"; path = "src/grabcut.cpp"; sourceTree = SOURCE_ROOT; };
+CC57A0E9ABF24686BE71BB10 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/histogram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "histogram.cpp"; path = "src/histogram.cpp"; sourceTree = SOURCE_ROOT; };
+DA2099318A33413A9538D497 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/hough.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "hough.cpp"; path = "src/hough.cpp"; sourceTree = SOURCE_ROOT; };
+1AA38FE891594679980ADC5F /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/imgwarp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "imgwarp.cpp"; path = "src/imgwarp.cpp"; sourceTree = SOURCE_ROOT; };
+0C6ABD097109441C8AC91F11 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/linefit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "linefit.cpp"; path = "src/linefit.cpp"; sourceTree = SOURCE_ROOT; };
+195D0EA8DD4E4DCCA2F44EE1 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/matchcontours.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "matchcontours.cpp"; path = "src/matchcontours.cpp"; sourceTree = SOURCE_ROOT; };
+3FC6DCB479894C629BE882C1 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/moments.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "moments.cpp"; path = "src/moments.cpp"; sourceTree = SOURCE_ROOT; };
+998FDE948E2E448BAB69006D /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/morph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "morph.cpp"; path = "src/morph.cpp"; sourceTree = SOURCE_ROOT; };
+7536EC632ADC4CA9813C8BCF /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/phasecorr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "phasecorr.cpp"; path = "src/phasecorr.cpp"; sourceTree = SOURCE_ROOT; };
+58A15796829644AAA628BADC /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/precomp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "precomp.cpp"; path = "src/precomp.cpp"; sourceTree = SOURCE_ROOT; };
+6802FECFCCC545439CDFBB96 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/pyramids.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "pyramids.cpp"; path = "src/pyramids.cpp"; sourceTree = SOURCE_ROOT; };
+C851875C58FC44ED819352E6 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/rotcalipers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "rotcalipers.cpp"; path = "src/rotcalipers.cpp"; sourceTree = SOURCE_ROOT; };
+EE75BBE4C23441B8B0A0CB98 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/samplers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "samplers.cpp"; path = "src/samplers.cpp"; sourceTree = SOURCE_ROOT; };
+468D3B5BBEEC48389A6B1B1F /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/segmentation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "segmentation.cpp"; path = "src/segmentation.cpp"; sourceTree = SOURCE_ROOT; };
+CCBEAEDAE1B5413ABFCBA71B /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/shapedescr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "shapedescr.cpp"; path = "src/shapedescr.cpp"; sourceTree = SOURCE_ROOT; };
+31DEFF94D44D4BB1B91A1C96 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/smooth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "smooth.cpp"; path = "src/smooth.cpp"; sourceTree = SOURCE_ROOT; };
+FCAEEA17B0AF4BAA904E0DF2 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/subdivision2d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "subdivision2d.cpp"; path = "src/subdivision2d.cpp"; sourceTree = SOURCE_ROOT; };
+67AF008F532D4B58B213796B /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/sumpixels.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "sumpixels.cpp"; path = "src/sumpixels.cpp"; sourceTree = SOURCE_ROOT; };
+49C99F5402774F7A9CC9BB0C /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/tables.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "tables.cpp"; path = "src/tables.cpp"; sourceTree = SOURCE_ROOT; };
+3790380CD2374282B4191A27 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/templmatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "templmatch.cpp"; path = "src/templmatch.cpp"; sourceTree = SOURCE_ROOT; };
+CB161C1982E741D984C334BF /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/thresh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "thresh.cpp"; path = "src/thresh.cpp"; sourceTree = SOURCE_ROOT; };
+4A735ACDC87A4E278408BFBD /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/undistort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "undistort.cpp"; path = "src/undistort.cpp"; sourceTree = SOURCE_ROOT; };
+A54BD0C4C693435FB8A8BCC1 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "utils.cpp"; path = "src/utils.cpp"; sourceTree = SOURCE_ROOT; };
+599C2B306DAF4814A518FCA5 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/gcgraph.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "gcgraph.hpp"; path = "src/gcgraph.hpp"; sourceTree = SOURCE_ROOT; };
+158D8E8671AA4A6E9104B037 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/precomp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "precomp.hpp"; path = "src/precomp.hpp"; sourceTree = SOURCE_ROOT; };
+ED6523285E0A4D72B3AD68DE /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/_geom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.c.h"; name = "_geom.h"; path = "src/_geom.h"; sourceTree = SOURCE_ROOT; };
+A99DF332A3E0423CAA9634BC /* opencv_imgproc */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libopencv_imgproc.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              336F7B680DA743AA967639E4  = {
+                     isa = PBXGroup;
+                     children = (
+                            982CFD4CE1D5466E8652231C /* Sources */,
+                            7D1DAC7E3E8D488CBE50EED0 /* Resources */,
+                            E5BB2597784140C4A204875D /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              982CFD4CE1D5466E8652231C /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            CEC00EFC3F784C718D548E25 /* ALL_BUILD */,
+                            B87E80B9B5884135BCC1F091 /* ZERO_CHECK */,
+                            F06AE1D58C1F4E9F96B7E60E /* modules */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              7D1DAC7E3E8D488CBE50EED0 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              CEC00EFC3F784C718D548E25 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            9C026728064F454B97DAB778 /* CMake Rules */,
+                            74E6AC7A0E4E46AE98B8B46F /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              9C026728064F454B97DAB778 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              B87E80B9B5884135BCC1F091 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C1039D08D56641F9B50DD0BC /* CMake Rules */,
+                            74E6AC7A0E4E46AE98B8B46F /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              C1039D08D56641F9B50DD0BC /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              F06AE1D58C1F4E9F96B7E60E /* modules */ = {
+                     isa = PBXGroup;
+                     children = (
+                            F670E6C8448045FB954B0470 /* opencv_imgproc */,
+                     );
+                     name = modules;
+                     sourceTree = "<group>";
+              };
+              F670E6C8448045FB954B0470 /* opencv_imgproc */ = {
+                     isa = PBXGroup;
+                     children = (
+                            600B64204E5B47DD88CCBBF7 /* Include */,
+                            ADAC9F131A1747D6BDED889F /* Src */,
+                            74E6AC7A0E4E46AE98B8B46F /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/CMakeLists.txt */,
+                     );
+                     name = opencv_imgproc;
+                     sourceTree = "<group>";
+              };
+              600B64204E5B47DD88CCBBF7 /* Include */ = {
+                     isa = PBXGroup;
+                     children = (
+                            5DA25B606D33427D9662F4E1 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include/opencv2/imgproc.hpp */,
+                            1EA5E238F3C6400BB60F4AA2 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include/opencv2/imgproc/imgproc.hpp */,
+                            A76A35B9376D48D8B8AE1FDB /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include/opencv2/imgproc/imgproc_c.h */,
+                            5250B9564A1E42B3A2A775EC /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include/opencv2/imgproc/types_c.h */,
+                     );
+                     name = Include;
+                     sourceTree = "<group>";
+              };
+              ADAC9F131A1747D6BDED889F /* Src */ = {
+                     isa = PBXGroup;
+                     children = (
+                            BE41497E13AB4350875BC087 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/accum.cpp */,
+                            2470F176E9864EF2B460A5EA /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/approx.cpp */,
+                            516F67F32A134FBFABF78D29 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/canny.cpp */,
+                            E45871DA11634744977951EC /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/color.cpp */,
+                            8295CA5D0FF740DF8B8AF2F7 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/connectedcomponents.cpp */,
+                            86C53AD8037C4896A61F05D1 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/contours.cpp */,
+                            83780F9AA77D411BAAA9FD20 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/convhull.cpp */,
+                            00CD251BA7A047EAA0A548DD /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/corner.cpp */,
+                            F92AF5C235D24A34B970CAB2 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/cornersubpix.cpp */,
+                            9EE89AAA8936452BA63D3883 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/demosaicing.cpp */,
+                            C16780AE156245979A78C61A /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/deriv.cpp */,
+                            540BBFE4AF764CE5918D3090 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/distransform.cpp */,
+                            967561E2D8B64F4487417ED4 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/emd.cpp */,
+                            ED7CD8CEA88A4F90A6399B69 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/featureselect.cpp */,
+                            B8C74334D89C4DE2805B41E7 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/filter.cpp */,
+                            6E02392C40B448F185A9664F /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/floodfill.cpp */,
+                            4B3FFAC105764FF58D652B43 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/gabor.cpp */,
+                            D3A6F97254DB4721A5840A1B /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/generalized_hough.cpp */,
+                            6E7C79706A6D465FB695C7AD /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/geometry.cpp */,
+                            88C436F61AF646419DABB15D /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/grabcut.cpp */,
+                            CC57A0E9ABF24686BE71BB10 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/histogram.cpp */,
+                            DA2099318A33413A9538D497 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/hough.cpp */,
+                            1AA38FE891594679980ADC5F /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/imgwarp.cpp */,
+                            0C6ABD097109441C8AC91F11 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/linefit.cpp */,
+                            195D0EA8DD4E4DCCA2F44EE1 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/matchcontours.cpp */,
+                            3FC6DCB479894C629BE882C1 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/moments.cpp */,
+                            998FDE948E2E448BAB69006D /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/morph.cpp */,
+                            7536EC632ADC4CA9813C8BCF /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/phasecorr.cpp */,
+                            58A15796829644AAA628BADC /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/precomp.cpp */,
+                            6802FECFCCC545439CDFBB96 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/pyramids.cpp */,
+                            C851875C58FC44ED819352E6 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/rotcalipers.cpp */,
+                            EE75BBE4C23441B8B0A0CB98 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/samplers.cpp */,
+                            468D3B5BBEEC48389A6B1B1F /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/segmentation.cpp */,
+                            CCBEAEDAE1B5413ABFCBA71B /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/shapedescr.cpp */,
+                            31DEFF94D44D4BB1B91A1C96 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/smooth.cpp */,
+                            FCAEEA17B0AF4BAA904E0DF2 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/subdivision2d.cpp */,
+                            67AF008F532D4B58B213796B /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/sumpixels.cpp */,
+                            49C99F5402774F7A9CC9BB0C /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/tables.cpp */,
+                            3790380CD2374282B4191A27 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/templmatch.cpp */,
+                            CB161C1982E741D984C334BF /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/thresh.cpp */,
+                            4A735ACDC87A4E278408BFBD /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/undistort.cpp */,
+                            A54BD0C4C693435FB8A8BCC1 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/utils.cpp */,
+                            599C2B306DAF4814A518FCA5 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/gcgraph.hpp */,
+                            158D8E8671AA4A6E9104B037 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/precomp.hpp */,
+                            ED6523285E0A4D72B3AD68DE /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/_geom.h */,
+                     );
+                     name = Src;
+                     sourceTree = "<group>";
+              };
+              E5BB2597784140C4A204875D /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            A99DF332A3E0423CAA9634BC /* opencv_imgproc */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              6BABF16998294D2D95089F0E /* opencv_imgproc */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 39264FDA9FAF4666B524034A /* Build configuration list for PBXNativeTarget "opencv_imgproc" */;
+                     buildPhases = (
+                            EFB5138EB7784B0E82BFDB82 /* Sources */,
+                            8BFC69D52AB648668F542776 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            B51850CF60A94EDD94F2467E /* PBXTargetDependency */,
+                     );
+                     name = opencv_imgproc;
+                     productName = opencv_imgproc;
+                     productReference = A99DF332A3E0423CAA9634BC /* opencv_imgproc */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              76D274EF4E4D48D3AE8AE8B1 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 4BDC18CEC1884D08B8F45079 /* Build configuration list for PBXProject  "opencv_imgproc" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            1F92218F9C1B463CA137B19E /* Debug */,
+                            0CD693D364584469970DA2C0 /* Release */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 336F7B680DA743AA967639E4;
+                     projectDirPath = /Users/Administrator/Development/AR/OpenCV/modules/imgproc;
+                     projectRoot = "";
+                     targets = (
+                            6C27176FF9774FBEB4B21C0B /* ALL_BUILD */,
+                            645592EB1DD84B6F8FF8EEF2 /* ZERO_CHECK */,
+                            F5D45CFC62F94F7FB122CACB /* install */,
+                            6BABF16998294D2D95089F0E /* opencv_imgproc */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              4AE4FA13286D4268978C5C68 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              A9EB3625C1D1434A80A07043 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/imgproc -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/imgproc/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              44AD52FD405A4402A44E98E8 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              3D2D26F453A64DD7B6DD43D3 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/imgproc -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/imgproc/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              15C5C9FA64AA46438B481EF3 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              74A37F9B5B624051833521A5 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/imgproc -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/imgproc/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              8BFC69D52AB648668F542776 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/imgproc -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/imgproc/CMakeScripts/opencv_imgproc_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              EFB5138EB7784B0E82BFDB82 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            D480EAA6756B430BA43B8873 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/accum.cpp */,
+                            20D65AEC2752428D8891AA4B /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/approx.cpp */,
+                            E4BAE0460E1C40AF80A237A5 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/canny.cpp */,
+                            D6155472475D4BDA94CBEFD1 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/color.cpp */,
+                            1DFDB5FE4F9C49C7A9BD77AC /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/connectedcomponents.cpp */,
+                            B32358F818A2428AA6D6E5FA /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/contours.cpp */,
+                            53D86199214E4518851034EF /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/convhull.cpp */,
+                            C45491F177114E86A1D82C27 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/corner.cpp */,
+                            198A6D05BD2C4D19879343F5 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/cornersubpix.cpp */,
+                            5CA89376520A4CF59A7532A2 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/demosaicing.cpp */,
+                            659D3668F9824A018D5FE4EC /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/deriv.cpp */,
+                            B4AE4B3CFD734E4FAC198741 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/distransform.cpp */,
+                            17453C2B4A0049E2AAF11565 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/emd.cpp */,
+                            63F3DDBB0D6B47DAB108DCC2 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/featureselect.cpp */,
+                            C586592654364B2ABA981CD8 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/filter.cpp */,
+                            FFA4FB8D17E0483698471BDE /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/floodfill.cpp */,
+                            EC42AF2C90A84D3C863607A4 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/gabor.cpp */,
+                            97096886D1004F98BF601ABD /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/generalized_hough.cpp */,
+                            236F208EED724D1793403151 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/geometry.cpp */,
+                            DB0E2BBB26B44762BA293B2B /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/grabcut.cpp */,
+                            C3C385B9BA8E493084782C7C /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/histogram.cpp */,
+                            A3B9953F2C38423D82BF60F8 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/hough.cpp */,
+                            75E3BA40322546769CFB2777 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/imgwarp.cpp */,
+                            1C5D097D269A43CD903C2B74 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/linefit.cpp */,
+                            B938534D7F1A4F6DAD89834D /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/matchcontours.cpp */,
+                            60FD4EF13CA8421F813826FA /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/moments.cpp */,
+                            91E0C5D6EA04424E8BD2989B /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/morph.cpp */,
+                            105E2351AF62406BB3E68EA8 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/phasecorr.cpp */,
+                            D1377A1305E8441C959BFD07 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/precomp.cpp */,
+                            74B6B8E922D54641AE6285B2 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/pyramids.cpp */,
+                            5CA9C40A3EDA47BAB6854F88 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/rotcalipers.cpp */,
+                            3A777BB2854F4226918B3064 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/samplers.cpp */,
+                            2E904D1D80BF44C08C62DD7B /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/segmentation.cpp */,
+                            D27EB236FDFC4A039087D59D /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/shapedescr.cpp */,
+                            DAA3A16C40A945A09AC03E51 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/smooth.cpp */,
+                            420C237B17A54EC6B8BFE732 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/subdivision2d.cpp */,
+                            092C1F2EA5A749F19912FE2A /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/sumpixels.cpp */,
+                            CD90B2B2B4894155982848B8 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/tables.cpp */,
+                            E0A402CCAC6C48C9875884CF /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/templmatch.cpp */,
+                            06D51F5917744DF3AB83E635 /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/thresh.cpp */,
+                            241691268B8848F68579101F /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/undistort.cpp */,
+                            4491FF3447D54396902BD05A /* /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src/utils.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              B51850CF60A94EDD94F2467E /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 645592EB1DD84B6F8FF8EEF2 /* ZERO_CHECK */;
+                     targetProxy = 5B9807EA72A64EADA3FBEAF4 /* PBXContainerItemProxy */;
+              };
+              A7F895FB018A49C5AA33BFE9 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 6BABF16998294D2D95089F0E /* opencv_imgproc */;
+                     targetProxy = 97DE34CFE523440293AB9D0D /* PBXContainerItemProxy */;
+              };
+              799C4383E4E34B3BBC05EE32 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 6C27176FF9774FBEB4B21C0B /* ALL_BUILD */;
+                     targetProxy = 5F91233DC6CF4026B475ED8A /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              14501FB84A864A338F75047F /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ONLY_ACTIVE_ARCH = YES;
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/imgproc/build";
+                     };
+                     name = Debug;
+              };
+              BD9606D73043410193E22009 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ONLY_ACTIVE_ARCH = YES;
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/imgproc/build";
+                     };
+                     name = Release;
+              };
+              2FAB826119C8400C9DC1C46D /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, "'__OPENCV_BUILD=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/Administrator/Development/AR/OpenCV/modules/core/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/imgproc", /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src, /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/imgproc";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              54BEEA68F2DA4256996CCB8D /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, "'__OPENCV_BUILD=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/Administrator/Development/AR/OpenCV/modules/core/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/imgproc", /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src, /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/imgproc";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              815916BDBD37415BB2B50C4C /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, "'__OPENCV_BUILD=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/Administrator/Development/AR/OpenCV/modules/core/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/imgproc", /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src, /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/imgproc";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              9D77A7AB09B9483483BCC81A /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, "'__OPENCV_BUILD=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/Administrator/Development/AR/OpenCV/modules/core/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/imgproc", /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src, /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/imgproc";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              8491E40569FB4636A2FA304E /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, "'__OPENCV_BUILD=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/Administrator/Development/AR/OpenCV/modules/core/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/imgproc", /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src, /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/imgproc";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              6FC5B58C53C942FBAAD40273 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, "'__OPENCV_BUILD=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/Administrator/Development/AR/OpenCV/modules/core/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/imgproc", /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src, /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/imgproc";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              725BEA6D68404FAFB34D9173 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/lib/Debug";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, "'__OPENCV_BUILD=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/Administrator/Development/AR/OpenCV/modules/core/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/imgproc", /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src, /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = " -fPIC   -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer         -DDEBUG -D_DEBUG         ";
+                            OTHER_CPLUSPLUSFLAGS = "-stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC   -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer         -DDEBUG -D_DEBUG         ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = opencv_imgproc;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/imgproc";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              E39B7578FF164A708620AA30 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/lib/Release";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, "'__OPENCV_BUILD=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/Administrator/Development/AR/OpenCV/modules/core/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/imgproc", /Users/Administrator/Development/AR/OpenCV/modules/imgproc/src, /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = " -fPIC   -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer     -DNDEBUG  -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "-stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC   -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG     -fomit-frame-pointer -ffast-math  -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = opencv_imgproc;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/imgproc";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              4BDC18CEC1884D08B8F45079 /* Build configuration list for PBXProject  "opencv_imgproc" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            14501FB84A864A338F75047F /* Debug */,
+                            BD9606D73043410193E22009 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              955BF86AC8FC454283F92FDF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            2FAB826119C8400C9DC1C46D /* Debug */,
+                            54BEEA68F2DA4256996CCB8D /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              CD52C91BF5594870B80FB39C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            815916BDBD37415BB2B50C4C /* Debug */,
+                            9D77A7AB09B9483483BCC81A /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              BFC7A4E760A3469899A5F2DF /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            8491E40569FB4636A2FA304E /* Debug */,
+                            6FC5B58C53C942FBAAD40273 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              39264FDA9FAF4666B524034A /* Build configuration list for PBXNativeTarget "opencv_imgproc" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            725BEA6D68404FAFB34D9173 /* Debug */,
+                            E39B7578FF164A708620AA30 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 76D274EF4E4D48D3AE8AE8B1;
+}

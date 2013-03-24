@@ -1,0 +1,4 @@
+3a85894281a74340aea36bf8a553146a 28de8b686493cd7c092e28cceb980b13 ffffffffffffffffffffffffffffffff 0 /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/world/UninstalledProducts/libopencv_world.a
+00000000000000000000000000000000 9f39a1778b9112894f570700c93e2f40 ffffffffffffffffffffffffffffffff 12246600 /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/lib/Release/libopencv_world.a
+0000000051444fda00000000000009a1 1b6c8cd15209c11d89c87dc6ee1809de ffffffffffffffffffffffffffffffff 804 /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/world/OpenCV.build/Release-iphoneos/opencv_world.build/Objects-normal/armv7s/world_init.o
+0000000051444fda0000000000000000 21e9059382eac981276b163e4b49bed9 ffffffffffffffffffffffffffffffff 424 /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/world/OpenCV.build/Release-iphoneos/opencv_world.build/Objects-normal/armv7s/precomp.o

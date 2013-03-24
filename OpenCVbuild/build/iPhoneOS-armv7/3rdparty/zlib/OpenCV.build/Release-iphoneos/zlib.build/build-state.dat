@@ -1,0 +1,511 @@
+Tzlib
+v5
+r1
+cCheck dependencies
+cSymLink /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release/libzlib.a /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/crc32.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/crc32.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/adler32.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/adler32.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/compress.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/compress.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/deflate.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/deflate.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzclose.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzclose.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzlib.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzlib.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzread.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzread.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzwrite.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzwrite.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/inflate.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/inflate.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/inftrees.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/inftrees.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/infback.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/infback.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/inffast.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/inffast.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/uncompr.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/uncompr.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/trees.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/trees.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/zutil.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/zutil.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a normal armv7
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Script-10136B4B10A9407E971EF9CB.sh
+cStripping /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a
+cSetOwnerAndGroup Administrator:staff /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a
+cSetMode u+w,go-w,a+rX /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c0000000051444BDF0000000000000110
+t1363430367
+s272
+
+N/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/adler32.c
+c0000000051444FD70000000000001368
+t1363431383
+s4968
+i"zutil.h"
+
+N/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/compress.c
+c0000000051444FD700000000000009D8
+t1363431383
+s2520
+
+N/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/crc32.c
+c0000000051444FD70000000000003376
+t1363431383
+s13174
+
+N/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/crc32.h
+c0000000051444FD70000000000007762
+t1363431383
+s30562
+
+N/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/deflate.c
+c0000000051444FD700000000000116E0
+t1363431383
+s71392
+
+N/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/deflate.h
+c0000000051444FD700000000000031F3
+t1363431383
+s12787
+
+N/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzclose.c
+c0000000051444FD700000000000002A6
+t1363431383
+s678
+
+N/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzguts.h
+c0000000051444FD7000000000000178D
+t1363431383
+s6029
+
+N/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzlib.c
+c0000000051444FD70000000000003DD1
+t1363431383
+s15825
+
+N/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzread.c
+c0000000051444FD70000000000004856
+t1363431383
+s18518
+
+N/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzwrite.c
+c0000000051444FD70000000000003DC9
+t1363431383
+s15817
+
+N/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/infback.c
+c0000000051444FD700000000000058AD
+t1363431383
+s22701
+
+N/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/inffast.c
+c0000000051444FD7000000000000347F
+t1363431383
+s13439
+
+N/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/inffast.h
+c0000000051444FD700000000000001AB
+t1363431383
+s427
+
+N/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/inffixed.h
+c0000000051444FD700000000000018BC
+t1363431383
+s6332
+
+N/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/inflate.c
+c0000000051444FD7000000000000CEF6
+t1363431383
+s52982
+
+N/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/inflate.h
+c0000000051444FD700000000000018FF
+t1363431383
+s6399
+
+N/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/inftrees.c
+c0000000051444FD700000000000032E8
+t1363431383
+s13032
+
+N/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/inftrees.h
+c0000000051444FD70000000000000B70
+t1363431383
+s2928
+
+N/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/trees.c
+c0000000051444FD7000000000000AC81
+t1363431383
+s44161
+
+N/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/trees.h
+c0000000051444FD70000000000002118
+t1363431383
+s8472
+
+N/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/uncompr.c
+c0000000051444FD700000000000007CA
+t1363431383
+s1994
+
+N/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/zlib.h
+c0000000051444FD700000000000152BD
+t1363431383
+s86717
+
+N/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/zutil.c
+c0000000051444FD70000000000001CF4
+t1363431383
+s7412
+
+N/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/zutil.h
+c0000000051444FD70000000000001A6D
+t1363431383
+s6765
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release/libzlib.a
+t1363434220
+s78848
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/adler32.o
+t1363434219
+s1440
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/compress.o
+t1363434218
+s1096
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/crc32.o
+t1363434219
+s10268
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/deflate.o
+t1363434220
+s13524
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzclose.o
+t1363434218
+s640
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzlib.o
+t1363434219
+s3424
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzread.o
+t1363434219
+s4556
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzwrite.o
+t1363434219
+s4472
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/infback.o
+t1363434219
+s7396
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/inffast.o
+t1363434219
+s1932
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/inflate.o
+t1363434220
+s12292
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/inftrees.o
+t1363434219
+s2332
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/trees.o
+t1363434219
+s10208
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/uncompr.o
+t1363434219
+s872
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/zlib.LinkFileList
+c0000000051445AEA000000000000090E
+t1363434218
+s2318
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/zutil.o
+t1363434219
+s1220
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Script-10136B4B10A9407E971EF9CB.sh
+c0000000051445AEA00000000000000F3
+t1363434218
+s243
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a
+t2
+s0
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/zconf.h
+c0000000051445AD90000000000003C0C
+t1363434201
+s15372
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies8604bc7d93f4b641^f19dbc7d93f4b641^---0#1#0#--18"Check dependencies36"45477038-C877-4A9E-9769-A142B44A723A-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/adler32.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/adler32.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s385127018.602726
+e385127019.054500
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/adler32.o
+x/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/adler32.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/adler32.c0dfe9a6a92f4b641^f1d80f6b92f4b641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/adler32.c0000000000000000^3301"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/adler32.o 3rdparty/zlib/adler32.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/adler32.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/adler32.dia -c /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/adler32.c -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/adler32.o36"A87E2F2A-9CBA-4EF8-878D-C131C8FAB0E9-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/compress.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/compress.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s385127018.603696
+e385127018.967956
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/compress.o
+x/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/compress.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/compress.cf8fe9a6a92f4b641^6a30f96a92f4b641^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/compress.c0000000000000000^3307"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/compress.o 3rdparty/zlib/compress.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/compress.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/compress.dia -c /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/compress.c -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/compress.o36"0244F47E-CEEE-4E77-8880-97BC24E70C8D-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/crc32.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/crc32.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s385127018.603956
+e385127019.159756
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/crc32.o
+x/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/crc32.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/crc32.c15009b6a92f4b641^95f4286b92f4b641^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/crc32.c0000000000000000^3289"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/crc32.o 3rdparty/zlib/crc32.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/crc32.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/crc32.dia -c /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/crc32.c -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/crc32.o36"0E166800-ABFC-45F7-A376-52669ACCBF5C-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/deflate.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/deflate.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s385127018.603743
+e385127020.096835
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/deflate.o
+x/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/deflate.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/deflate.c7eff9a6a92f4b641^03ef186c92f4b641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/deflate.c0000000000000000^3301"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/deflate.o 3rdparty/zlib/deflate.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/deflate.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/deflate.dia -c /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/deflate.c -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/deflate.o36"CBDC1B96-4846-4CB0-B60F-71E9EA6348C4-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzclose.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzclose.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s385127018.605677
+e385127018.934410
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzclose.o
+x/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzclose.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzclose.c88469b6a92f4b641^4452ef6a92f4b641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzclose.c0000000000000000^3301"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzclose.o 3rdparty/zlib/gzclose.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzclose.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzclose.dia -c /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzclose.c -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzclose.o36"E3AD80BD-78BF-4439-AC85-04A8B3589E9A-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzlib.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzlib.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s385127018.607688
+e385127019.219421
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzlib.o
+x/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzlib.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzlib.c2ecb9b6a92f4b641^f244386b92f4b641^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzlib.c0000000000000000^3289"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzlib.o 3rdparty/zlib/gzlib.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzlib.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzlib.dia -c /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzlib.c -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzlib.o36"061F59D3-EEF1-4317-810F-43F55C65BDDC-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzread.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzread.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s385127018.609047
+e385127019.245533
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzread.o
+x/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzread.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzread.c29259c6a92f4b641^ae9e3f6b92f4b641^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzread.c0000000000000000^3295"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzread.o 3rdparty/zlib/gzread.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzread.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzread.dia -c /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzread.c -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzread.o36"3456E3BB-C567-4CBE-B458-AED6771744CF-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzwrite.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzwrite.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s385127018.609070
+e385127019.286910
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzwrite.o
+x/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzwrite.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzwrite.ce5289c6a92f4b641^d0b7496b92f4b641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzwrite.c0000000000000000^3301"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzwrite.o 3rdparty/zlib/gzwrite.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzwrite.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzwrite.dia -c /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/gzwrite.c -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/gzwrite.o36"B299EBBB-21D8-47C7-B098-2A85E0B85513-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/infback.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/infback.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s385127018.969787
+e385127019.658592
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/infback.o
+x/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/infback.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/infback.cca8bf86a92f4b641^1ea7a86b92f4b641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/infback.c0000000000000000^3301"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/infback.o 3rdparty/zlib/infback.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/infback.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/infback.dia -c /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/infback.c -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/infback.o36"BC88C57C-C62A-4176-912B-660F621BAA0E-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/inffast.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/inffast.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s385127019.161163
+e385127019.491122
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/inffast.o
+x/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/inffast.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/inffast.cb1362a6b92f4b641^70ef7e6b92f4b641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/inffast.c0000000000000000^3301"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/inffast.o 3rdparty/zlib/inffast.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/inffast.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/inffast.dia -c /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/inffast.c -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/inffast.o36"B4EE5C6B-AD03-448E-AAD8-C8B36D5B31CF-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/inflate.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/inflate.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s385127018.935768
+e385127020.215115
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/inflate.o
+x/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/inflate.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/inflate.c79cdef6a92f4b641^6211376c92f4b641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/inflate.c0000000000000000^3301"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/inflate.o 3rdparty/zlib/inflate.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/inflate.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/inflate.dia -c /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/inflate.c -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/inflate.o36"D3A41EC4-17A5-4399-B092-ECB1C59198F1-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/inftrees.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/inftrees.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s385127019.072365
+e385127019.297131
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/inftrees.o
+x/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/inftrees.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/inftrees.cfcc7126b92f4b641^9f1d4c6b92f4b641^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/inftrees.c0000000000000000^3307"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/inftrees.o 3rdparty/zlib/inftrees.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/inftrees.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/inftrees.dia -c /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/inftrees.c -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/inftrees.o36"493F2215-9926-4ED6-B679-0C2E7E78189D-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/trees.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/trees.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s385127019.220748
+e385127019.853123
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/trees.o
+x/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/trees.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/trees.c48c4386b92f4b641^9966da6b92f4b641^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/trees.c0000000000000000^3289"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/trees.o 3rdparty/zlib/trees.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/trees.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/trees.dia -c /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/trees.c -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/trees.o36"73099579-B82B-43A3-ACD2-67779BCB7E9D-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/uncompr.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/uncompr.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s385127019.252666
+e385127019.316275
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/uncompr.o
+x/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/uncompr.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/uncompr.c06f2406b92f4b641^a916516b92f4b641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/uncompr.c0000000000000000^3301"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/uncompr.o 3rdparty/zlib/uncompr.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/uncompr.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/uncompr.dia -c /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/uncompr.c -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/uncompr.o36"98EB7EE8-DFAC-41F1-8F3D-FC0B22537F2B-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/zutil.o /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/zutil.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s385127019.288335
+e385127019.369905
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/zutil.o
+x/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/zutil.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/zutil.c300e4a6b92f4b641^50c85e6b92f4b641^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/zutil.c0000000000000000^3289"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/zutil.o 3rdparty/zlib/zutil.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCV/3rdparty/zlib -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -fPIC -Wno-attributes -Wno-strict-prototypes -Wno-missing-prototypes -Wno-missing-declarations -DNDEBUG -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/zutil.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/zutil.dia -c /Users/Administrator/Development/AR/OpenCV/3rdparty/zlib/zutil.c -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/zutil.o36"07E98BD6-40FD-42A5-BDFD-9D2115F6E527-
+
+CLibtool /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release/libzlib.a normal armv7
+s385127020.221638
+e385127020.240369
+r1
+xLibtool
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release/libzlib.a
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Libtool /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release/libzlib.a normal armv743e4386c92f4b641^1c973d6c92f4b641^---0#0#0#--1087"Libtool /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release/libzlib.a normal armv7    cd /Users/Administrator/Development/AR/OpenCV    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release -filelist /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/zlib.LinkFileList -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release/libzlib.a36"F41C6FC9-4F8D-4D9F-80D6-249013124C75-
+
+CLibtool /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a normal armv7
+s385127293.778388
+e385127293.795200
+r1
+xLibtool
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a
+xnormal
+xarmv7
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Libtool /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a normal armv78b70c77d93f4b641^a391cb7d93f4b641^---0#0#0#--1113"Libtool /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a normal armv7    cd /Users/Administrator/Development/AR/OpenCV    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release -filelist /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Objects-normal/armv7/zlib.LinkFileList -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a36"60001E67-EEC7-40B4-978C-FEF9B46912CF-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Script-10136B4B10A9407E971EF9CB.sh
+s385127293.803263
+e385127293.893421
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Script-10136B4B10A9407E971EF9CB.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.zlib.Release
+omake[1]: Nothing to be done for `PostBuild.zlib.Release'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.zlib.Release
+omake[1]: Nothing to be done for `PostBuild.zlib.Release'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'1095ce7d93f4b641^2bbfe47d93f4b641^-834"echo "Depend check for xcode"Depend check for xcodecd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.zlib.Releasemake[1]: Nothing to be done for `PostBuild.zlib.Release'.echo "Depend check for xcode"Depend check for xcodecd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.zlib.Releasemake[1]: Nothing to be done for `PostBuild.zlib.Release'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-385127293#0#30#-0#-----2@23"Depend check for xcode-385127293#30#23#-0#-----2@285"cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.zlib.Release-385127293#53#285#-0#-----2@58"make[1]: Nothing to be done for `PostBuild.zlib.Release'.-385127293#338#58#-0#-----2@30"echo "Depend check for xcode"-385127293#396#30#-0#-----2@23"Depend check for xcode-385127293#426#23#-0#-----2@327"cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.zlib.Release-385127293#449#327#-0#-----2@58"make[1]: Nothing to be done for `PostBuild.zlib.Release'.-385127293#776#58#-0#-----0#0#0#--428"PhaseScriptExecution "CMake PostBuild Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Script-10136B4B10A9407E971EF9CB.sh    cd /Users/Administrator/Development/AR/OpenCV    /bin/sh -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/OpenCV.build/Release-iphoneos/zlib.build/Script-10136B4B10A9407E971EF9CB.sh36"D81F8F9A-C7F6-4027-B873-65128031AE2F-
+
+CSetMode u+w,go-w,a+rX /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a
+s385127294.082970
+e385127294.093599
+r1
+xSetMode
+xu+w,go-w,a+rX
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"SetMode u+w,go-w,a+rX /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a7061157e93f4b641^e8f5177e93f4b641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a0000000000000000^599"SetMode u+w,go-w,a+rX /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a    cd /Users/Administrator/Development/AR/OpenCV    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /bin/chmod -RH u+w,go-w,a+rX /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a36"49E69C94-A1D3-485D-B522-CC0718146DDF-
+
+CSetOwnerAndGroup Administrator:staff /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a
+s385127294.063253
+e385127294.074973
+r1
+xSetOwnerAndGroup
+xAdministrator:staff
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection149"SetOwnerAndGroup Administrator:staff /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.ace54107e93f4b641^793a137e93f4b641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a0000000000000000^629"SetOwnerAndGroup "Administrator:staff" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a    cd /Users/Administrator/Development/AR/OpenCV    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /usr/sbin/chown -RH "Administrator:staff" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a36"53CA7A56-981F-4592-A8BF-A122DD9AC89F-
+
+CStripping /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a
+s385127293.901720
+e385127294.055557
+r1
+xStripping
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Stripping /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.aa4fae67d93f4b641^d6390e7e93f4b641^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a0000000000000000^654"Stripping /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a    cd /Users/Administrator/Development/AR/OpenCV    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a36"3D7B30F4-F5E1-4BFB-8BDB-7EEA56319A9B-
+
+CSymLink /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release/libzlib.a /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a
+s385127293.748183
+e385127293.758522
+r1
+xSymLink
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release/libzlib.a
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Process /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release/libzlib.a8bc1bf7d93f4b641^512dc27d93f4b641^---0#0#0#--768"SymLink /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release/libzlib.a /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a    cd /Users/Administrator/Development/AR/OpenCV    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /bin/ln -sf /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/zlib/UninstalledProducts/libzlib.a /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/3rdparty/lib/Release/libzlib.a36"1600BD64-3E8C-45D4-BCE8-72C02BB32A21-
+

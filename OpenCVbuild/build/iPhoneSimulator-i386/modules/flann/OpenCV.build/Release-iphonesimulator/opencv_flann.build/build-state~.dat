@@ -1,0 +1,142 @@
+Topencv_flann
+v5
+r1
+cCheck dependencies
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/flann.o /Users/Administrator/Development/AR/OpenCV/modules/flann/src/flann.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/miniflann.o /Users/Administrator/Development/AR/OpenCV/modules/flann/src/miniflann.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/precomp.o /Users/Administrator/Development/AR/OpenCV/modules/flann/src/precomp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/lib/Release/libopencv_flann.a normal i386
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Script-FC0B4776A2BC4123B445F373.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000051444C080000000000000110
+t1363430408
+s272
+
+N/Users/Administrator/Development/AR/OpenCV/modules/flann/include/opencv2/flann.hpp
+c0000000051444FD90000000000004486
+t1363431385
+s17542
+
+N/Users/Administrator/Development/AR/OpenCV/modules/flann/src/flann.cpp
+c0000000051444FD90000000000000A4D
+t1363431385
+s2637
+i"precomp.hpp"
+i"opencv2/flann.hpp"
+
+N/Users/Administrator/Development/AR/OpenCV/modules/flann/src/miniflann.cpp
+c0000000051444FD90000000000006649
+t1363431385
+s26185
+
+N/Users/Administrator/Development/AR/OpenCV/modules/flann/src/precomp.cpp
+c0000000051444FD90000000000000017
+t1363431385
+s23
+
+N/Users/Administrator/Development/AR/OpenCV/modules/flann/src/precomp.hpp
+c0000000051444FD90000000000000257
+t1363431385
+s599
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/lib/Release/libopencv_flann.a
+t2
+s0
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/flann.o
+t2
+s0
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/miniflann.o
+t2
+s0
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/opencv_flann.LinkFileList
+c0000000051445DCD000000000000020D
+t1363434957
+s525
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/precomp.o
+t2
+s0
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Script-FC0B4776A2BC4123B445F373.sh
+c0000000051445DCD0000000000000107
+t1363434957
+s263
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies3d47a04d95f4b641^7748a14d95f4b641^---0#1#0#--18"Check dependencies36"E4E46B5D-F88B-4AF7-A35F-3E3995A804F4-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/flann.o /Users/Administrator/Development/AR/OpenCV/modules/flann/src/flann.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385127757.632760
+e385127761.823665
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/flann.o
+x/Users/Administrator/Development/AR/OpenCV/modules/flann/src/flann.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/Administrator/Development/AR/OpenCV/modules/flann/src/flann.cppe142a24d95f4b641^7d22d35195f4b641^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/Administrator/Development/AR/OpenCV/modules/flann/src/flann.cpp0000000000000000^3838"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/flann.o modules/flann/src/flann.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -D__OPENCV_BUILD=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -mios-simulator-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/lib/Release/include -I/Users/Administrator/Development/AR/OpenCV/modules/core/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann -I/Users/Administrator/Development/AR/OpenCV/modules/flann/src -I/Users/Administrator/Development/AR/OpenCV/modules/flann/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/DerivedSources/i386 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/flann.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/flann.dia -c /Users/Administrator/Development/AR/OpenCV/modules/flann/src/flann.cpp -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/flann.o36"BEF0418F-0781-453B-9414-C35DA6817BB1-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/miniflann.o /Users/Administrator/Development/AR/OpenCV/modules/flann/src/miniflann.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385127757.632894
+e385127785.042814
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/miniflann.o
+x/Users/Administrator/Development/AR/OpenCV/modules/flann/src/miniflann.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/Administrator/Development/AR/OpenCV/modules/flann/src/miniflann.cppaf42a24d95f4b641^8cf80a6995f4b641^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/Administrator/Development/AR/OpenCV/modules/flann/src/miniflann.cpp0000000000000000^3862"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/miniflann.o modules/flann/src/miniflann.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -D__OPENCV_BUILD=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -mios-simulator-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/lib/Release/include -I/Users/Administrator/Development/AR/OpenCV/modules/core/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann -I/Users/Administrator/Development/AR/OpenCV/modules/flann/src -I/Users/Administrator/Development/AR/OpenCV/modules/flann/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/DerivedSources/i386 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/miniflann.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/miniflann.dia -c /Users/Administrator/Development/AR/OpenCV/modules/flann/src/miniflann.cpp -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/miniflann.o36"508D2DBA-4FBE-4D49-87CA-6D3E0896C03D-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/precomp.o /Users/Administrator/Development/AR/OpenCV/modules/flann/src/precomp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385127757.634094
+e385127761.814289
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/precomp.o
+x/Users/Administrator/Development/AR/OpenCV/modules/flann/src/precomp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/Administrator/Development/AR/OpenCV/modules/flann/src/precomp.cpp3195a24d95f4b641^3e75d05195f4b641^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/Administrator/Development/AR/OpenCV/modules/flann/src/precomp.cpp0000000000000000^3850"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/precomp.o modules/flann/src/precomp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphonesimulator\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -D__OPENCV_BUILD=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -mios-simulator-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/lib/Release/include -I/Users/Administrator/Development/AR/OpenCV/modules/core/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann -I/Users/Administrator/Development/AR/OpenCV/modules/flann/src -I/Users/Administrator/Development/AR/OpenCV/modules/flann/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/DerivedSources/i386 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/precomp.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/precomp.dia -c /Users/Administrator/Development/AR/OpenCV/modules/flann/src/precomp.cpp -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/precomp.o36"438FFAA1-B261-4A0F-9CF5-B5BB888C014A-
+
+CLibtool /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/lib/Release/libopencv_flann.a normal i386
+s385127785.205793
+e385127785.230243
+r1
+xLibtool
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/lib/Release/libopencv_flann.a
+xnormal
+xi386
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/precomp.o has no symbols
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Libtool /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/lib/Release/libopencv_flann.a normal i38604e3346995f4b641^b6113b6995f4b641^-292"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/precomp.o has no symbols-0#0#0#--1141"Libtool /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/lib/Release/libopencv_flann.a normal i386    cd /Users/Administrator/Development/AR/OpenCV    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/lib/Release -filelist /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Objects-normal/i386/opencv_flann.LinkFileList -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/lib/Release/libopencv_flann.a36"BF37FB9D-B943-4415-9B8D-CF573F7BA14E-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Script-FC0B4776A2BC4123B445F373.sh
+s385127803.051844
+e385127803.193201
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Script-FC0B4776A2BC4123B445F373.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386 && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386 -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_flann.Release
+omake[1]: Nothing to be done for `PostBuild.opencv_flann.Release'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_flann.Release
+omake[1]: Nothing to be done for `PostBuild.opencv_flann.Release'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'9b5a0e7b95f4b641^8673317b95f4b641^-902"echo "Depend check for xcode"Depend check for xcodecd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386 && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386 -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_flann.Releasemake[1]: Nothing to be done for `PostBuild.opencv_flann.Release'.echo "Depend check for xcode"Depend check for xcodecd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_flann.Releasemake[1]: Nothing to be done for `PostBuild.opencv_flann.Release'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-385127803#0#30#-0#-----2@23"Depend check for xcode-385127803#30#23#-0#-----2@311"cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386 && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386 -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_flann.Release-385127803#53#311#-0#-----2@66"make[1]: Nothing to be done for `PostBuild.opencv_flann.Release'.-385127803#364#66#-0#-----2@30"echo "Depend check for xcode"-385127803#430#30#-0#-----2@23"Depend check for xcode-385127803#460#23#-0#-----2@353"cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_flann.Release-385127803#483#353#-0#-----2@66"make[1]: Nothing to be done for `PostBuild.opencv_flann.Release'.-385127803#836#66#-0#-----0#0#0#--470"PhaseScriptExecution "CMake PostBuild Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Script-FC0B4776A2BC4123B445F373.sh    cd /Users/Administrator/Development/AR/OpenCV    /bin/sh -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/modules/flann/OpenCV.build/Release-iphonesimulator/opencv_flann.build/Script-FC0B4776A2BC4123B445F373.sh36"01325B40-537C-4F06-BF5E-A3DB83CFEFDF-
+

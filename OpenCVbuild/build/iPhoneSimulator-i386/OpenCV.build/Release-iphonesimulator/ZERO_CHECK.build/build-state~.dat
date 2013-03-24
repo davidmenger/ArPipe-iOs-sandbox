@@ -1,0 +1,28 @@
+TZERO_CHECK
+v5
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-24C03734C308401BA9509564.sh
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-24C03734C308401BA9509564.sh
+c0000000051445DAE00000000000000EF
+t1363434926
+s239
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd176bc2e95f4b641^cec3c12e95f4b641^---0#1#0#--18"Check dependencies36"D67FF080-FCA6-4B24-B8B8-5E5DFF49A810-
+
+CPhaseScriptExecution "CMake Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-24C03734C308401BA9509564.sh
+s385127727.381347
+e385127727.675928
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-24C03734C308401BA9509564.sh
+oecho ""
+o
+omake -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeScripts/ReRunCMake.make
+omake[1]: `CMakeFiles/cmake.check_cache' is up to date.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'6a84622f95f4b641^4017ad2f95f4b641^-176"echo ""make -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeScripts/ReRunCMake.makemake[1]: `CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-385127727#0#8#-0#-----2@112"make -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeScripts/ReRunCMake.make-385127727#9#112#-0#-----2@55"make[1]: `CMakeFiles/cmake.check_cache' is up to date.-385127727#121#55#-0#-----0#0#0#--428"PhaseScriptExecution "CMake Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-24C03734C308401BA9509564.sh    cd /Users/Administrator/Development/AR/OpenCV    /bin/sh -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ZERO_CHECK.build/Script-24C03734C308401BA9509564.sh36"0C0E9078-B240-48A1-9E84-15EFB78897EA-
+

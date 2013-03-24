@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              BD3E6953A96B45DFAEB9CA6E /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = DB72B7E3372D4CCDB6D5B932 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            7CEABE17FEE94AA282B14D86 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            AC0EFAD3C77A42E89662960E /* PBXTargetDependency */,
+                            8EE4663B4EEF42B7AAD84D15 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              3D0D05DCF12D4F80864A3FFA /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 55F887EC1F52404C9FB570D9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            8858C48DF61F4CD9AF423332 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              6F7F7689E84A4B39B2427BEB /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 2E7FDCC048EF4B6AB2A050DD /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            0EFA5EC23CCC466D9570D04F /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            0CA3CA225A4D470AAC5F9B43 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+927DBC406F3144A684E9D214 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab.hpp */ = {isa = PBXBuildFile; fileRef = 8D376A87156048CD9DA3109B /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+0C713549C37B4FD5BFE51EF1 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/deblurring.hpp */ = {isa = PBXBuildFile; fileRef = AD52117E55924A7BBE676BAD /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/deblurring.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+357C8097F7C24FDDBCE7D5E4 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/fast_marching.hpp */ = {isa = PBXBuildFile; fileRef = 0566AC5EBF8F4E1AA8F8BC7B /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/fast_marching.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+FF7748BD019D4DF08A3CE433 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/fast_marching_inl.hpp */ = {isa = PBXBuildFile; fileRef = 66BF8E7F74E8481AB1AEB728 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/fast_marching_inl.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+1BE40EB022C449A98842F523 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/frame_source.hpp */ = {isa = PBXBuildFile; fileRef = C00130B7D5E2410E98BC6EFE /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/frame_source.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+86AC5A0F8C044026AF19A0AA /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/global_motion.hpp */ = {isa = PBXBuildFile; fileRef = 618AB88379C84BCD950C513A /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/global_motion.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+813D64B367934E49B7641DDE /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/inpainting.hpp */ = {isa = PBXBuildFile; fileRef = B061B228A83C4A929B565A55 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/inpainting.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+72F5ED9147794AC18D6B6BD9 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/log.hpp */ = {isa = PBXBuildFile; fileRef = 84660662E4154F7583CD2660 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/log.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+9635839A40FC4FFBA534B135 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/motion_core.hpp */ = {isa = PBXBuildFile; fileRef = 82E3E625B8A14607B5D7E81F /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/motion_core.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+7FACC8D9C1C54BD696F3E5D5 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/motion_stabilizing.hpp */ = {isa = PBXBuildFile; fileRef = 9FFBF3D516AE45ECB1744C94 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/motion_stabilizing.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+E0222F9E48CF4630B208A4C2 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/optical_flow.hpp */ = {isa = PBXBuildFile; fileRef = 9230674C9CE7404DAEE1BAC0 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/optical_flow.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+B8A2759DED8641B8B0941344 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/outlier_rejection.hpp */ = {isa = PBXBuildFile; fileRef = 092BC596D06F4C1A823434D1 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/outlier_rejection.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+ECBE2EFEC5F24E78905A13ED /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/ring_buffer.hpp */ = {isa = PBXBuildFile; fileRef = B1D61B368A6B4B73829ABEBD /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/ring_buffer.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+C6C80C400F864EA4B100146A /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/stabilizer.hpp */ = {isa = PBXBuildFile; fileRef = 42E6B272C84D4F0E8C10B89C /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/stabilizer.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+DB46D958D8AB43FF9FF9F701 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/wobble_suppression.hpp */ = {isa = PBXBuildFile; fileRef = 8FF5B38673744C7BAB843DED /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/wobble_suppression.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+05C9036DF48540C299BF260B /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/deblurring.cpp */ = {isa = PBXBuildFile; fileRef = 7E69BA213F1C4A6090D36A85 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/deblurring.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+671D0C6149C4467AB6A4C0F2 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/fast_marching.cpp */ = {isa = PBXBuildFile; fileRef = 38966D5A96384B7C8E035E1B /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/fast_marching.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+EA1A2D306DDD43B0BB514C46 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/frame_source.cpp */ = {isa = PBXBuildFile; fileRef = C1F45C9FD67F459E8E8B3D0D /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/frame_source.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+AFE3CCE301C945608CF6FFC3 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/global_motion.cpp */ = {isa = PBXBuildFile; fileRef = 1297C93F9E31426BA183254C /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/global_motion.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+3E235C79FEB74F7388BA2E46 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/inpainting.cpp */ = {isa = PBXBuildFile; fileRef = 04F23B37C5F7465CACB19789 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/inpainting.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+686384E931B84408B3DABF93 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/log.cpp */ = {isa = PBXBuildFile; fileRef = 14F9076C9BE341A6AB334B6A /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/log.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+AB7CF73824A9449B9177FAD1 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/motion_stabilizing.cpp */ = {isa = PBXBuildFile; fileRef = 4F3E3DC26D334603BDEEDAC1 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/motion_stabilizing.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+F11FFE687C394F62BF5ECC7D /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/optical_flow.cpp */ = {isa = PBXBuildFile; fileRef = EB20DE1F355D4AFEB7F65042 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/optical_flow.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+6E7DAF2E62D3457EB323A323 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/outlier_rejection.cpp */ = {isa = PBXBuildFile; fileRef = 8F12D11310E54F448215D788 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/outlier_rejection.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+25AA9CD49EB94E9793BE4E48 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/precomp.cpp */ = {isa = PBXBuildFile; fileRef = 013662AE1B824DE3B8561ABB /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/precomp.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+14B397B2D9174D1CA171AA82 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/stabilizer.cpp */ = {isa = PBXBuildFile; fileRef = E7E9A3C654094BB198D530D0 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/stabilizer.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+38D3BAAF88014B3998E67DF4 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/wobble_suppression.cpp */ = {isa = PBXBuildFile; fileRef = F59C4D6779ED4775A1B6CD89 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/wobble_suppression.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+D39AF721DCA54F69A1B137C8 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/clp.hpp */ = {isa = PBXBuildFile; fileRef = EA8138B615F14D41833176A6 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/clp.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+496C71D5F18946CAB559B9CF /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = 271DA3CA3571400A9EAA3ED3 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/precomp.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+CA1ED94CBEC14B49B5BFAB9D /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B77F79E3E2A9457EB3694619 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              8C0A4E6FAA974C96B97F7B0A /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              F973EE1CAB20407E87287988 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              5F5420EAE7FE438E9EBD6791 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              7D177AD508AB46C587E63A9E /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 582A4AA2C2E74DC8BE9C85B4 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 3D0D05DCF12D4F80864A3FFA;
+                     remoteInfo = ZERO_CHECK;
+              };
+              410AF0DAA98449299DEE3F46 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 582A4AA2C2E74DC8BE9C85B4 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = BBA406AC650448F4A367052C;
+                     remoteInfo = opencv_videostab;
+              };
+              7EE7DBED92A74B269EDA459C /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 582A4AA2C2E74DC8BE9C85B4 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = BD3E6953A96B45DFAEB9CA6E;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+B77F79E3E2A9457EB3694619 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+8D376A87156048CD9DA3109B /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "videostab.hpp"; path = "include/opencv2/videostab.hpp"; sourceTree = SOURCE_ROOT; };
+AD52117E55924A7BBE676BAD /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/deblurring.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "deblurring.hpp"; path = "include/opencv2/videostab/deblurring.hpp"; sourceTree = SOURCE_ROOT; };
+0566AC5EBF8F4E1AA8F8BC7B /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/fast_marching.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "fast_marching.hpp"; path = "include/opencv2/videostab/fast_marching.hpp"; sourceTree = SOURCE_ROOT; };
+66BF8E7F74E8481AB1AEB728 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/fast_marching_inl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "fast_marching_inl.hpp"; path = "include/opencv2/videostab/fast_marching_inl.hpp"; sourceTree = SOURCE_ROOT; };
+C00130B7D5E2410E98BC6EFE /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/frame_source.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "frame_source.hpp"; path = "include/opencv2/videostab/frame_source.hpp"; sourceTree = SOURCE_ROOT; };
+618AB88379C84BCD950C513A /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/global_motion.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "global_motion.hpp"; path = "include/opencv2/videostab/global_motion.hpp"; sourceTree = SOURCE_ROOT; };
+B061B228A83C4A929B565A55 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/inpainting.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "inpainting.hpp"; path = "include/opencv2/videostab/inpainting.hpp"; sourceTree = SOURCE_ROOT; };
+84660662E4154F7583CD2660 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/log.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "log.hpp"; path = "include/opencv2/videostab/log.hpp"; sourceTree = SOURCE_ROOT; };
+82E3E625B8A14607B5D7E81F /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/motion_core.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "motion_core.hpp"; path = "include/opencv2/videostab/motion_core.hpp"; sourceTree = SOURCE_ROOT; };
+9FFBF3D516AE45ECB1744C94 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/motion_stabilizing.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "motion_stabilizing.hpp"; path = "include/opencv2/videostab/motion_stabilizing.hpp"; sourceTree = SOURCE_ROOT; };
+9230674C9CE7404DAEE1BAC0 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/optical_flow.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "optical_flow.hpp"; path = "include/opencv2/videostab/optical_flow.hpp"; sourceTree = SOURCE_ROOT; };
+092BC596D06F4C1A823434D1 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/outlier_rejection.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "outlier_rejection.hpp"; path = "include/opencv2/videostab/outlier_rejection.hpp"; sourceTree = SOURCE_ROOT; };
+B1D61B368A6B4B73829ABEBD /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/ring_buffer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "ring_buffer.hpp"; path = "include/opencv2/videostab/ring_buffer.hpp"; sourceTree = SOURCE_ROOT; };
+42E6B272C84D4F0E8C10B89C /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/stabilizer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "stabilizer.hpp"; path = "include/opencv2/videostab/stabilizer.hpp"; sourceTree = SOURCE_ROOT; };
+8FF5B38673744C7BAB843DED /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/wobble_suppression.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "wobble_suppression.hpp"; path = "include/opencv2/videostab/wobble_suppression.hpp"; sourceTree = SOURCE_ROOT; };
+7E69BA213F1C4A6090D36A85 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/deblurring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "deblurring.cpp"; path = "src/deblurring.cpp"; sourceTree = SOURCE_ROOT; };
+38966D5A96384B7C8E035E1B /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/fast_marching.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "fast_marching.cpp"; path = "src/fast_marching.cpp"; sourceTree = SOURCE_ROOT; };
+C1F45C9FD67F459E8E8B3D0D /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/frame_source.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "frame_source.cpp"; path = "src/frame_source.cpp"; sourceTree = SOURCE_ROOT; };
+1297C93F9E31426BA183254C /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/global_motion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "global_motion.cpp"; path = "src/global_motion.cpp"; sourceTree = SOURCE_ROOT; };
+04F23B37C5F7465CACB19789 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/inpainting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "inpainting.cpp"; path = "src/inpainting.cpp"; sourceTree = SOURCE_ROOT; };
+14F9076C9BE341A6AB334B6A /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/log.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "log.cpp"; path = "src/log.cpp"; sourceTree = SOURCE_ROOT; };
+4F3E3DC26D334603BDEEDAC1 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/motion_stabilizing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "motion_stabilizing.cpp"; path = "src/motion_stabilizing.cpp"; sourceTree = SOURCE_ROOT; };
+EB20DE1F355D4AFEB7F65042 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/optical_flow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "optical_flow.cpp"; path = "src/optical_flow.cpp"; sourceTree = SOURCE_ROOT; };
+8F12D11310E54F448215D788 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/outlier_rejection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "outlier_rejection.cpp"; path = "src/outlier_rejection.cpp"; sourceTree = SOURCE_ROOT; };
+013662AE1B824DE3B8561ABB /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/precomp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "precomp.cpp"; path = "src/precomp.cpp"; sourceTree = SOURCE_ROOT; };
+E7E9A3C654094BB198D530D0 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/stabilizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "stabilizer.cpp"; path = "src/stabilizer.cpp"; sourceTree = SOURCE_ROOT; };
+F59C4D6779ED4775A1B6CD89 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/wobble_suppression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "wobble_suppression.cpp"; path = "src/wobble_suppression.cpp"; sourceTree = SOURCE_ROOT; };
+EA8138B615F14D41833176A6 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/clp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "clp.hpp"; path = "src/clp.hpp"; sourceTree = SOURCE_ROOT; };
+271DA3CA3571400A9EAA3ED3 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/precomp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "precomp.hpp"; path = "src/precomp.hpp"; sourceTree = SOURCE_ROOT; };
+77E8170734A6447881F89A25 /* opencv_videostab */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libopencv_videostab.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              A64926E2CEA54215B651206D  = {
+                     isa = PBXGroup;
+                     children = (
+                            86628C689431412C91A23A6F /* Sources */,
+                            AD084146F450475ABC9CC038 /* Resources */,
+                            B478C4182C3C4D438A02DC5C /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              86628C689431412C91A23A6F /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            DAF3EF06F9594A74BA638223 /* ALL_BUILD */,
+                            8D72CE0FDE9C42A084EEA064 /* ZERO_CHECK */,
+                            4A5C85182C21481FA72DE496 /* modules */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              AD084146F450475ABC9CC038 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              DAF3EF06F9594A74BA638223 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            31811E58E1C6462592614F80 /* CMake Rules */,
+                            B77F79E3E2A9457EB3694619 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              31811E58E1C6462592614F80 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              8D72CE0FDE9C42A084EEA064 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            18053599080D47CBB0600337 /* CMake Rules */,
+                            B77F79E3E2A9457EB3694619 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              18053599080D47CBB0600337 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              4A5C85182C21481FA72DE496 /* modules */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C2118D357BCE43D0BC926F42 /* opencv_videostab */,
+                     );
+                     name = modules;
+                     sourceTree = "<group>";
+              };
+              C2118D357BCE43D0BC926F42 /* opencv_videostab */ = {
+                     isa = PBXGroup;
+                     children = (
+                            8B758B958ABF4E9D92309A20 /* Include */,
+                            3088C6920FD84992A50748FE /* Src */,
+                            B77F79E3E2A9457EB3694619 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/CMakeLists.txt */,
+                     );
+                     name = opencv_videostab;
+                     sourceTree = "<group>";
+              };
+              8B758B958ABF4E9D92309A20 /* Include */ = {
+                     isa = PBXGroup;
+                     children = (
+                            8D376A87156048CD9DA3109B /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab.hpp */,
+                            AD52117E55924A7BBE676BAD /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/deblurring.hpp */,
+                            0566AC5EBF8F4E1AA8F8BC7B /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/fast_marching.hpp */,
+                            66BF8E7F74E8481AB1AEB728 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/fast_marching_inl.hpp */,
+                            C00130B7D5E2410E98BC6EFE /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/frame_source.hpp */,
+                            618AB88379C84BCD950C513A /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/global_motion.hpp */,
+                            B061B228A83C4A929B565A55 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/inpainting.hpp */,
+                            84660662E4154F7583CD2660 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/log.hpp */,
+                            82E3E625B8A14607B5D7E81F /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/motion_core.hpp */,
+                            9FFBF3D516AE45ECB1744C94 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/motion_stabilizing.hpp */,
+                            9230674C9CE7404DAEE1BAC0 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/optical_flow.hpp */,
+                            092BC596D06F4C1A823434D1 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/outlier_rejection.hpp */,
+                            B1D61B368A6B4B73829ABEBD /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/ring_buffer.hpp */,
+                            42E6B272C84D4F0E8C10B89C /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/stabilizer.hpp */,
+                            8FF5B38673744C7BAB843DED /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/include/opencv2/videostab/wobble_suppression.hpp */,
+                     );
+                     name = Include;
+                     sourceTree = "<group>";
+              };
+              3088C6920FD84992A50748FE /* Src */ = {
+                     isa = PBXGroup;
+                     children = (
+                            7E69BA213F1C4A6090D36A85 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/deblurring.cpp */,
+                            38966D5A96384B7C8E035E1B /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/fast_marching.cpp */,
+                            C1F45C9FD67F459E8E8B3D0D /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/frame_source.cpp */,
+                            1297C93F9E31426BA183254C /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/global_motion.cpp */,
+                            04F23B37C5F7465CACB19789 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/inpainting.cpp */,
+                            14F9076C9BE341A6AB334B6A /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/log.cpp */,
+                            4F3E3DC26D334603BDEEDAC1 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/motion_stabilizing.cpp */,
+                            EB20DE1F355D4AFEB7F65042 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/optical_flow.cpp */,
+                            8F12D11310E54F448215D788 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/outlier_rejection.cpp */,
+                            013662AE1B824DE3B8561ABB /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/precomp.cpp */,
+                            E7E9A3C654094BB198D530D0 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/stabilizer.cpp */,
+                            F59C4D6779ED4775A1B6CD89 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/wobble_suppression.cpp */,
+                            EA8138B615F14D41833176A6 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/clp.hpp */,
+                            271DA3CA3571400A9EAA3ED3 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/precomp.hpp */,
+                     );
+                     name = Src;
+                     sourceTree = "<group>";
+              };
+              B478C4182C3C4D438A02DC5C /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            77E8170734A6447881F89A25 /* opencv_videostab */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              BBA406AC650448F4A367052C /* opencv_videostab */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 0430C0F105FD4118968789CA /* Build configuration list for PBXNativeTarget "opencv_videostab" */;
+                     buildPhases = (
+                            2406913FCA1D41B5B5FA5664 /* Sources */,
+                            77624C86D8264685AD366663 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            AC0EFAD3C77A42E89662960E /* PBXTargetDependency */,
+                     );
+                     name = opencv_videostab;
+                     productName = opencv_videostab;
+                     productReference = 77E8170734A6447881F89A25 /* opencv_videostab */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              582A4AA2C2E74DC8BE9C85B4 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = CC99FACD42B74B2FA03C572F /* Build configuration list for PBXProject  "opencv_videostab" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            F973EE1CAB20407E87287988 /* Debug */,
+                            5F5420EAE7FE438E9EBD6791 /* Release */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = A64926E2CEA54215B651206D;
+                     projectDirPath = /Users/Administrator/Development/AR/OpenCV/modules/videostab;
+                     projectRoot = "";
+                     targets = (
+                            BD3E6953A96B45DFAEB9CA6E /* ALL_BUILD */,
+                            3D0D05DCF12D4F80864A3FFA /* ZERO_CHECK */,
+                            6F7F7689E84A4B39B2427BEB /* install */,
+                            BBA406AC650448F4A367052C /* opencv_videostab */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              A71EBB24016C4CA09CF3CE4E /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              7CEABE17FEE94AA282B14D86 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/videostab -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/videostab/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              328E8D7969734A6AA64CD6F0 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              8858C48DF61F4CD9AF423332 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/videostab -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/videostab/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              67C3EF71D13046A7A5D8DB4F /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              0EFA5EC23CCC466D9570D04F /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/videostab -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/videostab/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              77624C86D8264685AD366663 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/videostab -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/videostab/CMakeScripts/opencv_videostab_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              2406913FCA1D41B5B5FA5664 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            05C9036DF48540C299BF260B /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/deblurring.cpp */,
+                            671D0C6149C4467AB6A4C0F2 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/fast_marching.cpp */,
+                            EA1A2D306DDD43B0BB514C46 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/frame_source.cpp */,
+                            AFE3CCE301C945608CF6FFC3 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/global_motion.cpp */,
+                            3E235C79FEB74F7388BA2E46 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/inpainting.cpp */,
+                            686384E931B84408B3DABF93 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/log.cpp */,
+                            AB7CF73824A9449B9177FAD1 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/motion_stabilizing.cpp */,
+                            F11FFE687C394F62BF5ECC7D /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/optical_flow.cpp */,
+                            6E7DAF2E62D3457EB323A323 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/outlier_rejection.cpp */,
+                            25AA9CD49EB94E9793BE4E48 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/precomp.cpp */,
+                            14B397B2D9174D1CA171AA82 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/stabilizer.cpp */,
+                            38D3BAAF88014B3998E67DF4 /* /Users/Administrator/Development/AR/OpenCV/modules/videostab/src/wobble_suppression.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              AC0EFAD3C77A42E89662960E /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 3D0D05DCF12D4F80864A3FFA /* ZERO_CHECK */;
+                     targetProxy = 7D177AD508AB46C587E63A9E /* PBXContainerItemProxy */;
+              };
+              8EE4663B4EEF42B7AAD84D15 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = BBA406AC650448F4A367052C /* opencv_videostab */;
+                     targetProxy = 410AF0DAA98449299DEE3F46 /* PBXContainerItemProxy */;
+              };
+              0CA3CA225A4D470AAC5F9B43 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = BD3E6953A96B45DFAEB9CA6E /* ALL_BUILD */;
+                     targetProxy = 7EE7DBED92A74B269EDA459C /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              2BCB3B26040149F8988FBF71 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ONLY_ACTIVE_ARCH = YES;
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/videostab/build";
+                     };
+                     name = Debug;
+              };
+              758F5667E0D44E1580DE1843 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ONLY_ACTIVE_ARCH = YES;
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/videostab/build";
+                     };
+                     name = Release;
+              };
+              BA0C60FD7CEB44B4A279094F /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, "'__OPENCV_BUILD=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/Administrator/Development/AR/OpenCV/modules/calib3d/include, /Users/Administrator/Development/AR/OpenCV/modules/photo/include, /Users/Administrator/Development/AR/OpenCV/modules/video/include, /Users/Administrator/Development/AR/OpenCV/modules/features2d/include, /Users/Administrator/Development/AR/OpenCV/modules/highgui/include, /Users/Administrator/Development/AR/OpenCV/modules/flann/include, /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include, /Users/Administrator/Development/AR/OpenCV/modules/core/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/videostab", /Users/Administrator/Development/AR/OpenCV/modules/videostab/src, /Users/Administrator/Development/AR/OpenCV/modules/videostab/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/videostab";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              96A25F8176F44AD88208302B /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, "'__OPENCV_BUILD=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/Administrator/Development/AR/OpenCV/modules/calib3d/include, /Users/Administrator/Development/AR/OpenCV/modules/photo/include, /Users/Administrator/Development/AR/OpenCV/modules/video/include, /Users/Administrator/Development/AR/OpenCV/modules/features2d/include, /Users/Administrator/Development/AR/OpenCV/modules/highgui/include, /Users/Administrator/Development/AR/OpenCV/modules/flann/include, /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include, /Users/Administrator/Development/AR/OpenCV/modules/core/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/videostab", /Users/Administrator/Development/AR/OpenCV/modules/videostab/src, /Users/Administrator/Development/AR/OpenCV/modules/videostab/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/videostab";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              C89EC74D6BFD446D9E62BEF7 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, "'__OPENCV_BUILD=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/Administrator/Development/AR/OpenCV/modules/calib3d/include, /Users/Administrator/Development/AR/OpenCV/modules/photo/include, /Users/Administrator/Development/AR/OpenCV/modules/video/include, /Users/Administrator/Development/AR/OpenCV/modules/features2d/include, /Users/Administrator/Development/AR/OpenCV/modules/highgui/include, /Users/Administrator/Development/AR/OpenCV/modules/flann/include, /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include, /Users/Administrator/Development/AR/OpenCV/modules/core/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/videostab", /Users/Administrator/Development/AR/OpenCV/modules/videostab/src, /Users/Administrator/Development/AR/OpenCV/modules/videostab/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/videostab";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              3FB5E2AA75654299B1E10614 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, "'__OPENCV_BUILD=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/Administrator/Development/AR/OpenCV/modules/calib3d/include, /Users/Administrator/Development/AR/OpenCV/modules/photo/include, /Users/Administrator/Development/AR/OpenCV/modules/video/include, /Users/Administrator/Development/AR/OpenCV/modules/features2d/include, /Users/Administrator/Development/AR/OpenCV/modules/highgui/include, /Users/Administrator/Development/AR/OpenCV/modules/flann/include, /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include, /Users/Administrator/Development/AR/OpenCV/modules/core/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/videostab", /Users/Administrator/Development/AR/OpenCV/modules/videostab/src, /Users/Administrator/Development/AR/OpenCV/modules/videostab/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/videostab";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              8637408738674F969AC4841B /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, "'__OPENCV_BUILD=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/Administrator/Development/AR/OpenCV/modules/calib3d/include, /Users/Administrator/Development/AR/OpenCV/modules/photo/include, /Users/Administrator/Development/AR/OpenCV/modules/video/include, /Users/Administrator/Development/AR/OpenCV/modules/features2d/include, /Users/Administrator/Development/AR/OpenCV/modules/highgui/include, /Users/Administrator/Development/AR/OpenCV/modules/flann/include, /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include, /Users/Administrator/Development/AR/OpenCV/modules/core/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/videostab", /Users/Administrator/Development/AR/OpenCV/modules/videostab/src, /Users/Administrator/Development/AR/OpenCV/modules/videostab/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/videostab";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              9D324B807FED4A2AA134C019 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, "'__OPENCV_BUILD=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/Administrator/Development/AR/OpenCV/modules/calib3d/include, /Users/Administrator/Development/AR/OpenCV/modules/photo/include, /Users/Administrator/Development/AR/OpenCV/modules/video/include, /Users/Administrator/Development/AR/OpenCV/modules/features2d/include, /Users/Administrator/Development/AR/OpenCV/modules/highgui/include, /Users/Administrator/Development/AR/OpenCV/modules/flann/include, /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include, /Users/Administrator/Development/AR/OpenCV/modules/core/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/videostab", /Users/Administrator/Development/AR/OpenCV/modules/videostab/src, /Users/Administrator/Development/AR/OpenCV/modules/videostab/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/videostab";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              A58B2E6C3A134ED0BD4F5AB4 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Debug";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, "'__OPENCV_BUILD=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/Administrator/Development/AR/OpenCV/modules/calib3d/include, /Users/Administrator/Development/AR/OpenCV/modules/photo/include, /Users/Administrator/Development/AR/OpenCV/modules/video/include, /Users/Administrator/Development/AR/OpenCV/modules/features2d/include, /Users/Administrator/Development/AR/OpenCV/modules/highgui/include, /Users/Administrator/Development/AR/OpenCV/modules/flann/include, /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include, /Users/Administrator/Development/AR/OpenCV/modules/core/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/videostab", /Users/Administrator/Development/AR/OpenCV/modules/videostab/src, /Users/Administrator/Development/AR/OpenCV/modules/videostab/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = " -fPIC   -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer         -DDEBUG -D_DEBUG         ";
+                            OTHER_CPLUSPLUSFLAGS = "-stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC   -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer         -DDEBUG -D_DEBUG         ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = opencv_videostab;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/videostab";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              5C48A991995F4ADE8F037B68 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, "'__OPENCV_BUILD=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/Administrator/Development/AR/OpenCV/modules/calib3d/include, /Users/Administrator/Development/AR/OpenCV/modules/photo/include, /Users/Administrator/Development/AR/OpenCV/modules/video/include, /Users/Administrator/Development/AR/OpenCV/modules/features2d/include, /Users/Administrator/Development/AR/OpenCV/modules/highgui/include, /Users/Administrator/Development/AR/OpenCV/modules/flann/include, /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include, /Users/Administrator/Development/AR/OpenCV/modules/core/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/videostab", /Users/Administrator/Development/AR/OpenCV/modules/videostab/src, /Users/Administrator/Development/AR/OpenCV/modules/videostab/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = " -fPIC   -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer     -DNDEBUG  -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "-stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC   -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG     -fomit-frame-pointer -ffast-math  -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = opencv_videostab;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/videostab";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              CC99FACD42B74B2FA03C572F /* Build configuration list for PBXProject  "opencv_videostab" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            2BCB3B26040149F8988FBF71 /* Debug */,
+                            758F5667E0D44E1580DE1843 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              DB72B7E3372D4CCDB6D5B932 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            BA0C60FD7CEB44B4A279094F /* Debug */,
+                            96A25F8176F44AD88208302B /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              55F887EC1F52404C9FB570D9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            C89EC74D6BFD446D9E62BEF7 /* Debug */,
+                            3FB5E2AA75654299B1E10614 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              2E7FDCC048EF4B6AB2A050DD /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            8637408738674F969AC4841B /* Debug */,
+                            9D324B807FED4A2AA134C019 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              0430C0F105FD4118968789CA /* Build configuration list for PBXNativeTarget "opencv_videostab" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            A58B2E6C3A134ED0BD4F5AB4 /* Debug */,
+                            5C48A991995F4ADE8F037B68 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 582A4AA2C2E74DC8BE9C85B4;
+}

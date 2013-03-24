@@ -1,0 +1,142 @@
+Topencv_flann
+v5
+r1
+cCheck dependencies
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7s/flann.o /Users/Administrator/Development/AR/OpenCV/modules/flann/src/flann.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7s/miniflann.o /Users/Administrator/Development/AR/OpenCV/modules/flann/src/miniflann.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7s/precomp.o /Users/Administrator/Development/AR/OpenCV/modules/flann/src/precomp.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/lib/Release/libopencv_flann.a normal armv7s
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Script-5F42C9E1CB024A22B7E2B42E.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c0000000051444BDF0000000000000110
+t1363430367
+s272
+
+N/Users/Administrator/Development/AR/OpenCV/modules/flann/include/opencv2/flann.hpp
+c0000000051444FD90000000000004486
+t1363431385
+s17542
+
+N/Users/Administrator/Development/AR/OpenCV/modules/flann/src/flann.cpp
+c0000000051444FD90000000000000A4D
+t1363431385
+s2637
+i"precomp.hpp"
+i"opencv2/flann.hpp"
+
+N/Users/Administrator/Development/AR/OpenCV/modules/flann/src/miniflann.cpp
+c0000000051444FD90000000000006649
+t1363431385
+s26185
+
+N/Users/Administrator/Development/AR/OpenCV/modules/flann/src/precomp.cpp
+c0000000051444FD90000000000000017
+t1363431385
+s23
+
+N/Users/Administrator/Development/AR/OpenCV/modules/flann/src/precomp.hpp
+c0000000051444FD90000000000000257
+t1363431385
+s599
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/lib/Release/libopencv_flann.a
+t2
+s0
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7s/flann.o
+t2
+s0
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7s/miniflann.o
+t2
+s0
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7s/opencv_flann.LinkFileList
+c0000000051445C6E00000000000001EF
+t1363434606
+s495
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7s/precomp.o
+t2
+s0
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Script-5F42C9E1CB024A22B7E2B42E.sh
+c0000000051445C6E00000000000000FD
+t1363434606
+s253
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesec1764ee93f4b641^0ff064ee93f4b641^---0#1#0#--18"Check dependencies36"C5E2EB7C-21EE-4D67-81F1-5DA00E4EF874-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7s/flann.o /Users/Administrator/Development/AR/OpenCV/modules/flann/src/flann.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385127406.396718
+e385127410.760796
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7s/flann.o
+x/Users/Administrator/Development/AR/OpenCV/modules/flann/src/flann.cpp
+xnormal
+xarmv7s
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/Administrator/Development/AR/OpenCV/modules/flann/src/flann.cpp46d365ee93f4b641^0bd4c2f293f4b641^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/Administrator/Development/AR/OpenCV/modules/flann/src/flann.cpp0000000000000000^3701"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7s/flann.o modules/flann/src/flann.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -D__OPENCV_BUILD=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/lib/Release/include -I/Users/Administrator/Development/AR/OpenCV/modules/core/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann -I/Users/Administrator/Development/AR/OpenCV/modules/flann/src -I/Users/Administrator/Development/AR/OpenCV/modules/flann/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/DerivedSources/armv7s -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7s/flann.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7s/flann.dia -c /Users/Administrator/Development/AR/OpenCV/modules/flann/src/flann.cpp -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7s/flann.o36"9BF559D8-76E5-4987-A3C8-1CB79633E97C-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7s/miniflann.o /Users/Administrator/Development/AR/OpenCV/modules/flann/src/miniflann.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385127406.396937
+e385127438.558709
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7s/miniflann.o
+x/Users/Administrator/Development/AR/OpenCV/modules/flann/src/miniflann.cpp
+xnormal
+xarmv7s
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/Administrator/Development/AR/OpenCV/modules/flann/src/miniflann.cppcff565ee93f4b641^d9058f0e94f4b641^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/Administrator/Development/AR/OpenCV/modules/flann/src/miniflann.cpp0000000000000000^3725"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7s/miniflann.o modules/flann/src/miniflann.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -D__OPENCV_BUILD=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/lib/Release/include -I/Users/Administrator/Development/AR/OpenCV/modules/core/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann -I/Users/Administrator/Development/AR/OpenCV/modules/flann/src -I/Users/Administrator/Development/AR/OpenCV/modules/flann/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/DerivedSources/armv7s -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7s/miniflann.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7s/miniflann.dia -c /Users/Administrator/Development/AR/OpenCV/modules/flann/src/miniflann.cpp -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7s/miniflann.o36"56B4CCBD-E8F7-471F-9108-723E29B4F1C4-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7s/precomp.o /Users/Administrator/Development/AR/OpenCV/modules/flann/src/precomp.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385127406.398072
+e385127410.715380
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7s/precomp.o
+x/Users/Administrator/Development/AR/OpenCV/modules/flann/src/precomp.cpp
+xnormal
+xarmv7s
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/Administrator/Development/AR/OpenCV/modules/flann/src/precomp.cpp653866ee93f4b641^d521b7f293f4b641^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/Administrator/Development/AR/OpenCV/modules/flann/src/precomp.cpp0000000000000000^3713"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7s/precomp.o modules/flann/src/precomp.cpp normal armv7s c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7s -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -D__OPENCV_BUILD=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/lib/Release/include -I/Users/Administrator/Development/AR/OpenCV/modules/core/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann -I/Users/Administrator/Development/AR/OpenCV/modules/flann/src -I/Users/Administrator/Development/AR/OpenCV/modules/flann/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/DerivedSources/armv7s -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7s/precomp.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7s/precomp.dia -c /Users/Administrator/Development/AR/OpenCV/modules/flann/src/precomp.cpp -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7s/precomp.o36"03147ED5-6019-48D4-8768-BF0E74AAF0B2-
+
+CLibtool /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/lib/Release/libopencv_flann.a normal armv7s
+s385127439.638551
+e385127439.659556
+r1
+xLibtool
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/lib/Release/libopencv_flann.a
+xnormal
+xarmv7s
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7s/precomp.o has no symbols
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Libtool /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/lib/Release/libopencv_flann.a normal armv7s3faca30f94f4b641^9fe6a80f94f4b641^-282"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7s/precomp.o has no symbols-0#0#0#--1099"Libtool /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/lib/Release/libopencv_flann.a normal armv7s    cd /Users/Administrator/Development/AR/OpenCV    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/lib/Release -filelist /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Objects-normal/armv7s/opencv_flann.LinkFileList -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/lib/Release/libopencv_flann.a36"9880B823-3ACB-4E1F-8ABA-999D213A2543-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Script-5F42C9E1CB024A22B7E2B42E.sh
+s385127458.568978
+e385127458.693447
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Script-5F42C9E1CB024A22B7E2B42E.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_flann.Release
+omake[1]: Nothing to be done for `PostBuild.opencv_flann.Release'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_flann.Release
+omake[1]: Nothing to be done for `PostBuild.opencv_flann.Release'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'79af922294f4b641^e883b12294f4b641^-872"echo "Depend check for xcode"Depend check for xcodecd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_flann.Releasemake[1]: Nothing to be done for `PostBuild.opencv_flann.Release'.echo "Depend check for xcode"Depend check for xcodecd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_flann.Releasemake[1]: Nothing to be done for `PostBuild.opencv_flann.Release'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-385127458#0#30#-0#-----2@23"Depend check for xcode-385127458#30#23#-0#-----2@296"cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_flann.Release-385127458#53#296#-0#-----2@66"make[1]: Nothing to be done for `PostBuild.opencv_flann.Release'.-385127458#349#66#-0#-----2@30"echo "Depend check for xcode"-385127458#415#30#-0#-----2@23"Depend check for xcode-385127458#445#23#-0#-----2@338"cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_flann.Release-385127458#468#338#-0#-----2@66"make[1]: Nothing to be done for `PostBuild.opencv_flann.Release'.-385127458#806#66#-0#-----0#0#0#--446"PhaseScriptExecution "CMake PostBuild Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Script-5F42C9E1CB024A22B7E2B42E.sh    cd /Users/Administrator/Development/AR/OpenCV    /bin/sh -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/modules/flann/OpenCV.build/Release-iphoneos/opencv_flann.build/Script-5F42C9E1CB024A22B7E2B42E.sh36"B1E4BCC9-4C98-4F89-BB45-A4C67E16855F-
+

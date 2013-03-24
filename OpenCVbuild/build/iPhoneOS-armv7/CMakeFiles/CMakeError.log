@@ -1,0 +1,165 @@
+Determining size of off64_t failed with the following output:
+Change Dir: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-10.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec643783757 -configuration Release
+=== BUILD NATIVE TARGET cmTryCompileExec643783757 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Release ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec643783757.build/Objects-normal/i386/OFF64_T.o ../CheckTypeSize/OFF64_T.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-new** BUILD FAILED **
+
+
+The following build commands failed:
+line-eof "-DCMAKE_INTDIR=\"Release\"" -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec643783757.build/DerivedSources/i386 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec643783757.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/Release -fPIC -W -Werror=return-t	CompileC CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec643783757.build/Objects-normal/i386/OFF64_T.o ../CheckTypeSize/OFF64_T.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+ype -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec643783757.build/Objects-normal/i386/OFF64_T.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec643783757.build/Objects-normal/i386/OFF64_T.dia -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/../CheckTypeSize/OFF64_T.c -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec643783757.build/Objects-normal/i386/OFF64_T.o
+/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/../CheckTypeSize/OFF64_T.c:19:12: error: use of undeclared identifier 'off64_t'; did you mean 'off_t'?
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/../CheckTypeSize/OFF64_T.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/../CheckTypeSize/OFF64_T.c:20:12: error: use of undeclared identifier 'off64_t'; did you mean 'off_t'?
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/../CheckTypeSize/OFF64_T.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/../CheckTypeSize/OFF64_T.c:21:12: error: use of undeclared identifier 'off64_t'; did you mean 'off_t'?
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/../CheckTypeSize/OFF64_T.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/../CheckTypeSize/OFF64_T.c:22:12: error: use of undeclared identifier 'off64_t'; did you mean 'off_t'?
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/../CheckTypeSize/OFF64_T.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/../CheckTypeSize/OFF64_T.c:23:12: error: use of undeclared identifier 'off64_t'; did you mean 'off_t'?
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/../CheckTypeSize/OFF64_T.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+5 errors generated.
+
+
+
+/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-10.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec1600818011 -configuration Release
+=== BUILD NATIVE TARGET cmTryCompileExec1600818011 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Release ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1600818011.build/Objects-normal/i386/CheckIncludeFile.o CheckIncludeFile.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1600818011.build/Objects-normal/i386/CheckIncludeFile.o CheckIncludeFile.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+newline-eof "-DCMAKE_INTDIR=\"Release\"" -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1600818011.build/DerivedSources/i386 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1600818011.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/Release -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1600818011.build/Objects-normal/i386/CheckIncludeFile.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1600818011.build/Objects-normal/i386/CheckIncludeFile.dia -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1600818011.build/Objects-normal/i386/CheckIncludeFile.o
+/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'linux/videodev.h' file not found
+#include <linux/videodev.h>
+         ^
+1 error generated.
+
+
+
+
+Determining if the include file linux/videodev2.h exists failed with the following output:
+Change Dir: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-10.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec1759796487 -configuration Release
+=== BUILD NATIVE TARGET cmTryCompileExec1759796487 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Release ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1759796487.build/Objects-normal/i386/CheckIncludeFile.o CheckIncludeFile.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1759796487.build/Objects-normal/i386/CheckIncludeFile.o CheckIncludeFile.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+newline-eof "-DCMAKE_INTDIR=\"Release\"" -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1759796487.build/DerivedSources/i386 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1759796487.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/Release -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1759796487.build/Objects-normal/i386/CheckIncludeFile.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1759796487.build/Objects-normal/i386/CheckIncludeFile.dia -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1759796487.build/Objects-normal/i386/CheckIncludeFile.o
+/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'linux/videodev2.h' file not found
+#include <linux/videodev2.h>
+         ^
+1 error generated.
+
+
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-10.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec1270049599 -configuration Release
+=== BUILD NATIVE TARGET cmTryCompileExec1270049599 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Release ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1270049599.build/Objects-normal/i386/CheckIncludeFile.o CheckIncludeFile.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-** BUILD FAILED **
+
+
+The following build commands failed:
+newline-eof "-DCMAKE_INTDIR=\"Release\"" -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1270049599.build/DerivedSources/i386 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1270049599.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/Release -fPIC -W -Werror=ret	CompileC CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1270049599.build/Objects-normal/i386/CheckIncludeFile.o CheckIncludeFile.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+urn-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1270049599.build/Objects-normal/i386/CheckIncludeFile.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1270049599.build/Objects-normal/i386/CheckIncludeFile.dia -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1270049599.build/Objects-normal/i386/CheckIncludeFile.o
+/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'sys/videoio.h' file not found
+#include <sys/videoio.h>
+         ^
+1 error generated.
+
+
+
+

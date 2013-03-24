@@ -1,0 +1,272 @@
+The target system is: iOS -  - 
+The host system is: Darwin - 12.3.0 - i386
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+=== BUILD NATIVE TARGET CompilerIdCXX OF PROJECT CompilerIdCXX WITH THE DEFAULT CONFIGURATION (Debug) ===
+Check dependencies
+
+CompileC ./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o CMakeCXXCompilerId.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdCXX
+    setenv LANG en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdCXX/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/i386 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdCXX -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.dia -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o
+
+Ld ./CompilerIdCXX normal i386
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdCXX
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -L/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdCXX -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdCXX -filelist /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX.LinkFileList -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX
+
+PhaseScriptExecution "Run Script" ./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdCXX
+    /bin/sh -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdCXX/./CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX"
+
+The CXX compiler identification is Clang, found in "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdCXX/CompilerIdCXX"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+=== BUILD NATIVE TARGET CompilerIdC OF PROJECT CompilerIdC WITH THE DEFAULT CONFIGURATION (Debug) ===
+Check dependencies
+
+CompileC ./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC
+    setenv LANG en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/i386 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.dia -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o
+
+Ld ./CompilerIdC normal i386
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -L/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC -filelist /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC
+
+PhaseScriptExecution "Run Script" ./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC
+    /bin/sh -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC"
+
+The C compiler identification is Clang, found in "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/2.8.10.2/CompilerIdC/CompilerIdC"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-10.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec336925291 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec336925291 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec336925291.build/Objects-normal/i386/CMakeCXXCompilerABI.o "../../../../../../../../../Applications/CMake 2.8-10.app/Contents/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Debug\"" -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec336925291.build/DerivedSources/i386 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec336925291.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Debug -g -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec336925291.build/Objects-normal/i386/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec336925291.build/Objects-normal/i386/CMakeCXXCompilerABI.dia -c "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/../../../../../../../../../Applications/CMake 2.8-10.app/Contents/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp" -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec336925291.build/Objects-normal/i386/CMakeCXXCompilerABI.o
+
+Ld Debug/cmTryCompileExec336925291 normal i386
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -L/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Debug -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Debug -filelist /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec336925291.build/Objects-normal/i386/cmTryCompileExec336925291.LinkFileList -v -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec336925291
+Apple LLVM version 4.2 (clang-425.0.27) (based on LLVM 3.2svn)
+Target: i386-apple-darwin12.3.0
+Thread model: posix
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch i386 -macosx_version_min 10.8.0 -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec336925291 -L/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Debug -filelist /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec336925291.build/Objects-normal/i386/cmTryCompileExec336925291.LinkFileList -lstdc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/4.2/lib/darwin/libclang_rt.eprintf.a /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/4.2/lib/darwin/libclang_rt.osx.a -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Debug
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec336925291.build/Script-CBC5CC8DAA804EF3B69B2FC2.sh
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec336925291.build/Script-CBC5CC8DAA804EF3B69B2FC2.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec336925291.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec336925291.Debug'.
+
+
+** BUILD SUCCEEDED **
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-10.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec2512944276 -configuration Debug
+=== BUILD NATIVE TARGET cmTryCompileExec2512944276 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2512944276.build/Objects-normal/i386/CMakeCCompilerABI.o "../../../../../../../../../Applications/CMake 2.8-10.app/Contents/share/cmake-2.8/Modules/CMakeCCompilerABI.c" normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Debug\"" -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2512944276.build/DerivedSources/i386 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2512944276.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2512944276.build/Objects-normal/i386/CMakeCCompilerABI.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2512944276.build/Objects-normal/i386/CMakeCCompilerABI.dia -c "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/../../../../../../../../../Applications/CMake 2.8-10.app/Contents/share/cmake-2.8/Modules/CMakeCCompilerABI.c" -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2512944276.build/Objects-normal/i386/CMakeCCompilerABI.o
+
+Ld Debug/cmTryCompileExec2512944276 normal i386
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -L/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Debug -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Debug -filelist /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2512944276.build/Objects-normal/i386/cmTryCompileExec2512944276.LinkFileList -v -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2512944276
+Apple LLVM version 4.2 (clang-425.0.27) (based on LLVM 3.2svn)
+Target: i386-apple-darwin12.3.0
+Thread model: posix
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch i386 -macosx_version_min 10.8.0 -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2512944276 -L/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Debug -filelist /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2512944276.build/Objects-normal/i386/cmTryCompileExec2512944276.LinkFileList -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/4.2/lib/darwin/libclang_rt.eprintf.a /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/4.2/lib/darwin/libclang_rt.osx.a -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Debug
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2512944276.build/Script-CBAA3C2028B742FAB345B499.sh
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTryCompileExec2512944276.build/Script-CBAA3C2028B742FAB345B499.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec2512944276.Debug
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec2512944276.Debug'.
+
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-10.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec1449592634 -configuration Release
+=== BUILD NATIVE TARGET cmTryCompileExec1449592634 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Release ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1449592634.build/Objects-normal/i386/CheckFunctionExists.o "../../../../../../../../../Applications/CMake 2.8-10.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c" normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release\"" -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1449592634.build/DerivedSources/i386 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1449592634.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Release -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DCHECK_FUNCTION_EXISTS=fseeko -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1449592634.build/Objects-normal/i386/CheckFunctionExists.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1449592634.build/Objects-normal/i386/CheckFunctionExists.dia -c "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/../../../../../../../../../Applications/CMake 2.8-10.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c" -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1449592634.build/Objects-normal/i386/CheckFunctionExists.o
+
+Ld Release/cmTryCompileExec1449592634 normal i386
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -L/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Release -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Release -filelist /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1449592634.build/Objects-normal/i386/cmTryCompileExec1449592634.LinkFileList -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Release/cmTryCompileExec1449592634
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1449592634.build/Script-D63D3336E2D1452B9DF3C7DC.sh
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1449592634.build/Script-D63D3336E2D1452B9DF3C7DC.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec1449592634.Release
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec1449592634.Release'.
+
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-10.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec3008902933 -configuration Release
+=== BUILD NATIVE TARGET cmTryCompileExec3008902933 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Release ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec3008902933.build/Objects-normal/i386/CheckIncludeFile.o CheckIncludeFile.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release\"" -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec3008902933.build/DerivedSources/i386 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec3008902933.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Release -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec3008902933.build/Objects-normal/i386/CheckIncludeFile.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec3008902933.build/Objects-normal/i386/CheckIncludeFile.dia -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec3008902933.build/Objects-normal/i386/CheckIncludeFile.o
+
+Ld Release/cmTryCompileExec3008902933 normal i386
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -L/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Release -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Release -filelist /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec3008902933.build/Objects-normal/i386/cmTryCompileExec3008902933.LinkFileList -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Release/cmTryCompileExec3008902933
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec3008902933.build/Script-05132BC60DC14FA8B6CFF7A2.sh
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec3008902933.build/Script-05132BC60DC14FA8B6CFF7A2.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec3008902933.Release
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec3008902933.Release'.
+
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-10.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec1988961625 -configuration Release
+=== BUILD NATIVE TARGET cmTryCompileExec1988961625 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Release ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1988961625.build/Objects-normal/i386/CheckIncludeFile.o CheckIncludeFile.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release\"" -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1988961625.build/DerivedSources/i386 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1988961625.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Release -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1988961625.build/Objects-normal/i386/CheckIncludeFile.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1988961625.build/Objects-normal/i386/CheckIncludeFile.dia -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1988961625.build/Objects-normal/i386/CheckIncludeFile.o
+
+Ld Release/cmTryCompileExec1988961625 normal i386
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -L/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Release -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Release -filelist /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1988961625.build/Objects-normal/i386/cmTryCompileExec1988961625.LinkFileList -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Release/cmTryCompileExec1988961625
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1988961625.build/Script-F1C0E7CB8D0D4B3B8911A19E.sh
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec1988961625.build/Script-F1C0E7CB8D0D4B3B8911A19E.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec1988961625.Release
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec1988961625.Release'.
+
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-10.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec300489103 -configuration Release
+=== BUILD NATIVE TARGET cmTryCompileExec300489103 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Release ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec300489103.build/Objects-normal/i386/CheckIncludeFile.o CheckIncludeFile.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release\"" -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec300489103.build/DerivedSources/i386 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec300489103.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Release -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec300489103.build/Objects-normal/i386/CheckIncludeFile.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec300489103.build/Objects-normal/i386/CheckIncludeFile.dia -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec300489103.build/Objects-normal/i386/CheckIncludeFile.o
+
+Ld Release/cmTryCompileExec300489103 normal i386
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -L/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Release -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Release -filelist /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec300489103.build/Objects-normal/i386/cmTryCompileExec300489103.LinkFileList -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Release/cmTryCompileExec300489103
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec300489103.build/Script-420588C3B6594DA3A31C5693.sh
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec300489103.build/Script-420588C3B6594DA3A31C5693.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec300489103.Release
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec300489103.Release'.
+
+
+** BUILD SUCCEEDED **
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp
+
+Run Build Command:/Applications/CMake\ 2.8-10.app/Contents/bin/cmakexbuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTryCompileExec848623895 -configuration Release
+=== BUILD NATIVE TARGET cmTryCompileExec848623895 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Release ===
+Check dependencies
+
+CompileC CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec848623895.build/Objects-normal/i386/CheckIncludeFile.o CheckIncludeFile.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof "-DCMAKE_INTDIR=\"Release\"" -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-sign-conversion -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec848623895.build/DerivedSources/i386 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec848623895.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Release -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec848623895.build/Objects-normal/i386/CheckIncludeFile.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec848623895.build/Objects-normal/i386/CheckIncludeFile.dia -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec848623895.build/Objects-normal/i386/CheckIncludeFile.o
+
+Ld Release/cmTryCompileExec848623895 normal i386
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -L/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Release -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Release -filelist /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec848623895.build/Objects-normal/i386/cmTryCompileExec848623895.LinkFileList -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/Release/cmTryCompileExec848623895
+
+PhaseScriptExecution "CMake PostBuild Rules" CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec848623895.build/Script-BF06BFC63E9648D69F24FDAA.sh
+    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp
+    /bin/sh -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Release/cmTryCompileExec848623895.build/Script-BF06BFC63E9648D69F24FDAA.sh
+echo "Depend check for xcode"
+Depend check for xcode
+cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/CMakeFiles/CMakeTmp/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.cmTryCompileExec848623895.Release
+make[1]: Nothing to be done for `PostBuild.cmTryCompileExec848623895.Release'.
+
+
+** BUILD SUCCEEDED **
+
+
+

@@ -1,0 +1,28 @@
+TZERO_CHECK
+v5
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-83EAB19E1EE041B2ACA2B25C.sh
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-83EAB19E1EE041B2ACA2B25C.sh
+c0000000051445C4A00000000000000E5
+t1363434570
+s229
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies2a73cbca93f4b641^815dd1ca93f4b641^---0#1#0#--18"Check dependencies36"6F1EAC76-F427-4B02-B991-9B4231FA69E0-
+
+CPhaseScriptExecution "CMake Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-83EAB19E1EE041B2ACA2B25C.sh
+s385127371.413786
+e385127371.682029
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-83EAB19E1EE041B2ACA2B25C.sh
+oecho ""
+o
+omake -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/CMakeScripts/ReRunCMake.make
+omake[1]: `CMakeFiles/cmake.check_cache' is up to date.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'c5c86acb93f4b641^4bcdaecb93f4b641^-171"echo ""make -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/CMakeScripts/ReRunCMake.makemake[1]: `CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-385127371#0#8#-0#-----2@107"make -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/CMakeScripts/ReRunCMake.make-385127371#9#107#-0#-----2@55"make[1]: `CMakeFiles/cmake.check_cache' is up to date.-385127371#116#55#-0#-----0#0#0#--404"PhaseScriptExecution "CMake Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-83EAB19E1EE041B2ACA2B25C.sh    cd /Users/Administrator/Development/AR/OpenCV    /bin/sh -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7s/OpenCV.build/Release-iphoneos/ZERO_CHECK.build/Script-83EAB19E1EE041B2ACA2B25C.sh36"1D459033-4745-4B83-9A43-F85C0AF2A598-
+

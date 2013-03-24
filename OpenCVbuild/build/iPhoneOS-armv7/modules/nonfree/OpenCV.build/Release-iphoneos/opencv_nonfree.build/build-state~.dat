@@ -1,0 +1,160 @@
+Topencv_nonfree
+v5
+r1
+cCheck dependencies
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/nonfree_init.o /Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/nonfree_init.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/precomp.o /Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/sift.o /Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/sift.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/surf.o /Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/surf.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/libopencv_nonfree.a normal armv7
+cPhaseScriptExecution "CMake PostBuild Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Script-115F5C0C84334A3D93729D17.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c0000000051444BDF0000000000000110
+t1363430367
+s272
+
+N/Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/nonfree_init.cpp
+c0000000051444FDA0000000000000DC8
+t1363431386
+s3528
+i"precomp.hpp"
+
+N/Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/precomp.cpp
+c0000000051444FDA0000000000000897
+t1363431386
+s2199
+
+N/Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/precomp.hpp
+c0000000051444FDA0000000000000947
+t1363431386
+s2375
+
+N/Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/sift.cpp
+c0000000051444FDA0000000000007FF3
+t1363431386
+s32755
+
+N/Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/surf.cpp
+c0000000051444FDA0000000000009D59
+t1363431386
+s40281
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/libopencv_nonfree.a
+t2
+s0
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/nonfree_init.o
+t2
+s0
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/opencv_nonfree.LinkFileList
+c0000000051445B90000000000000029B
+t1363434384
+s667
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/precomp.o
+t2
+s0
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/sift.o
+t2
+s0
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/surf.o
+t2
+s0
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Script-115F5C0C84334A3D93729D17.sh
+c0000000051445B900000000000000101
+t1363434384
+s257
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa112831093f4b641^2f18841093f4b641^---0#1#0#--18"Check dependencies36"37BF5BFD-ACEA-41F3-8499-4EE876FF056A-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/nonfree_init.o /Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/nonfree_init.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385127184.518887
+e385127188.785595
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/nonfree_init.o
+x/Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/nonfree_init.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/nonfree_init.cpp4819851093f4b641^ac19c91493f4b641^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/nonfree_init.cpp0000000000000000^4106"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/nonfree_init.o modules/nonfree/src/nonfree_init.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -D__OPENCV_BUILD=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/include -I/Users/Administrator/Development/AR/OpenCV/modules/calib3d/include -I/Users/Administrator/Development/AR/OpenCV/modules/features2d/include -I/Users/Administrator/Development/AR/OpenCV/modules/highgui/include -I/Users/Administrator/Development/AR/OpenCV/modules/flann/include -I/Users/Administrator/Development/AR/OpenCV/modules/imgproc/include -I/Users/Administrator/Development/AR/OpenCV/modules/core/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree -I/Users/Administrator/Development/AR/OpenCV/modules/nonfree/src -I/Users/Administrator/Development/AR/OpenCV/modules/nonfree/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/nonfree_init.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/nonfree_init.dia -c /Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/nonfree_init.cpp -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/nonfree_init.o36"B6EB0F0C-9BE7-47BE-BE0B-8FA973A83701-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/precomp.o /Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385127184.519403
+e385127188.166920
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/precomp.o
+x/Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/precomp.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/precomp.cpp6535851093f4b641^e5b92a1493f4b641^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/precomp.cpp0000000000000000^4076"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/precomp.o modules/nonfree/src/precomp.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -D__OPENCV_BUILD=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/include -I/Users/Administrator/Development/AR/OpenCV/modules/calib3d/include -I/Users/Administrator/Development/AR/OpenCV/modules/features2d/include -I/Users/Administrator/Development/AR/OpenCV/modules/highgui/include -I/Users/Administrator/Development/AR/OpenCV/modules/flann/include -I/Users/Administrator/Development/AR/OpenCV/modules/imgproc/include -I/Users/Administrator/Development/AR/OpenCV/modules/core/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree -I/Users/Administrator/Development/AR/OpenCV/modules/nonfree/src -I/Users/Administrator/Development/AR/OpenCV/modules/nonfree/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/precomp.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/precomp.dia -c /Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/precomp.cpp -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/precomp.o36"4F82F84C-A9C2-44B7-8BFE-BCCB6701C492-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/sift.o /Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/sift.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385127184.520600
+e385127191.050043
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/sift.o
+x/Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/sift.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/sift.cpp098c851093f4b641^4fce0c1793f4b641^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/sift.cpp0000000000000000^4058"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/sift.o modules/nonfree/src/sift.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -D__OPENCV_BUILD=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/include -I/Users/Administrator/Development/AR/OpenCV/modules/calib3d/include -I/Users/Administrator/Development/AR/OpenCV/modules/features2d/include -I/Users/Administrator/Development/AR/OpenCV/modules/highgui/include -I/Users/Administrator/Development/AR/OpenCV/modules/flann/include -I/Users/Administrator/Development/AR/OpenCV/modules/imgproc/include -I/Users/Administrator/Development/AR/OpenCV/modules/core/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree -I/Users/Administrator/Development/AR/OpenCV/modules/nonfree/src -I/Users/Administrator/Development/AR/OpenCV/modules/nonfree/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/sift.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/sift.dia -c /Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/sift.cpp -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/sift.o36"5DF67734-34C0-4F66-91CE-53189959B408-
+
+CCompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/surf.o /Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/surf.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385127184.520895
+e385127192.940925
+r1
+xCompileC
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/surf.o
+x/Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/surf.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/surf.cpp8a91851093f4b641^66f7f01893f4b641^-116"clang: warning: argument unused during compilation: '-headerpad_max_install_names' [-Wunused-command-line-argument]-0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/surf.cpp0000000000000000^4058"CompileC /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/surf.o modules/nonfree/src/surf.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCV    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions "-DCMAKE_INTDIR=\"Release-iphoneos\"" -DHAVE_CVCONFIG_H -DHAVE_ALLOCA -DHAVE_ALLOCA_H -DHAVE_LIBPTHREAD -DHAVE_UNISTD_H -D__OPENCV_BUILD=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -miphoneos-version-min=6.1 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/include -I/Users/Administrator/Development/AR/OpenCV/modules/calib3d/include -I/Users/Administrator/Development/AR/OpenCV/modules/features2d/include -I/Users/Administrator/Development/AR/OpenCV/modules/highgui/include -I/Users/Administrator/Development/AR/OpenCV/modules/flann/include -I/Users/Administrator/Development/AR/OpenCV/modules/imgproc/include -I/Users/Administrator/Development/AR/OpenCV/modules/core/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree -I/Users/Administrator/Development/AR/OpenCV/modules/nonfree/src -I/Users/Administrator/Development/AR/OpenCV/modules/nonfree/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/DerivedSources/armv7 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release -stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG -fomit-frame-pointer -ffast-math -DNDEBUG -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/surf.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/surf.dia -c /Users/Administrator/Development/AR/OpenCV/modules/nonfree/src/surf.cpp -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/surf.o36"7CE3DB3E-B70B-402C-BFC0-A0D69F3FF09A-
+
+CLibtool /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/libopencv_nonfree.a normal armv7
+s385127193.191852
+e385127193.205950
+r1
+xLibtool
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/libopencv_nonfree.a
+xnormal
+xarmv7
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/precomp.o has no symbols
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Libtool /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/libopencv_nonfree.a normal armv77159311993f4b641^78b9341993f4b641^-284"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/precomp.o has no symbols-0#0#0#--1102"Libtool /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/libopencv_nonfree.a normal armv7    cd /Users/Administrator/Development/AR/OpenCV    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/opt/ImageMagick/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release -filelist /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Objects-normal/armv7/opencv_nonfree.LinkFileList -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release/libopencv_nonfree.a36"055D8237-11E4-429A-AF9C-E59486023C53-
+
+CPhaseScriptExecution "CMake PostBuild Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Script-115F5C0C84334A3D93729D17.sh
+s385127276.672060
+e385127276.800722
+r1
+xPhaseScriptExecution
+xCMake PostBuild Rules
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Script-115F5C0C84334A3D93729D17.sh
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_nonfree.Release
+omake[1]: Nothing to be done for `PostBuild.opencv_nonfree.Release'.
+oecho "Depend check for xcode"
+oDepend check for xcode
+ocd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_nonfree.Release
+omake[1]: Nothing to be done for `PostBuild.opencv_nonfree.Release'.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Run custom shell script 'CMake PostBuild Rules'6c09ad6c93f4b641^59facc6c93f4b641^-880"echo "Depend check for xcode"Depend check for xcodecd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_nonfree.Releasemake[1]: Nothing to be done for `PostBuild.opencv_nonfree.Release'.echo "Depend check for xcode"Depend check for xcodecd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_nonfree.Releasemake[1]: Nothing to be done for `PostBuild.opencv_nonfree.Release'.8(21%IDEActivityLogMessage2@30"echo "Depend check for xcode"-385127276#0#30#-0#-----2@23"Depend check for xcode-385127276#30#23#-0#-----2@295"cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7 -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_nonfree.Release-385127276#53#295#-0#-----2@68"make[1]: Nothing to be done for `PostBuild.opencv_nonfree.Release'.-385127276#348#68#-0#-----2@30"echo "Depend check for xcode"-385127276#416#30#-0#-----2@23"Depend check for xcode-385127276#446#23#-0#-----2@343"cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree && make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/CMakeScripts/XCODE_DEPEND_HELPER.make PostBuild.opencv_nonfree.Release-385127276#469#343#-0#-----2@68"make[1]: Nothing to be done for `PostBuild.opencv_nonfree.Release'.-385127276#812#68#-0#-----0#0#0#--452"PhaseScriptExecution "CMake PostBuild Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Script-115F5C0C84334A3D93729D17.sh    cd /Users/Administrator/Development/AR/OpenCV    /bin/sh -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/nonfree/OpenCV.build/Release-iphoneos/opencv_nonfree.build/Script-115F5C0C84334A3D93729D17.sh36"E48632F1-7611-4F04-A518-B023CC7DA3DD-
+

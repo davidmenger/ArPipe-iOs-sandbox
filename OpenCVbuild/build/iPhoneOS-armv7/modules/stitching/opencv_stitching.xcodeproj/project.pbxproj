@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              BD3E6953A96B45DFAEB9CA6E /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = AB73530E25BB4B2FA823070F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            5E5A585A6D11493AB3CD3F43 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            F270323C5D8C4E2D926B5671 /* PBXTargetDependency */,
+                            5826B1418A164A48A7AE6E85 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              3D0D05DCF12D4F80864A3FFA /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = EE82F5BC28C143DCA00EA6B7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            338DB85C0EBB404CA06E375C /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+              6F7F7689E84A4B39B2427BEB /* install */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = C005F400EF8B45DCB0548BE3 /* Build configuration list for PBXAggregateTarget "install" */;
+                     buildPhases = (
+                            63927D0DF87243598A968C73 /* CMake PostBuild Rules */,
+                     );
+                     dependencies = (
+                            5FAAC96476C644B98411E7D6 /* PBXTargetDependency */,
+                     );
+                     name = install;
+                     productName = install;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+3AE58E27089F439A8E7856CE /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching.hpp */ = {isa = PBXBuildFile; fileRef = 3FBF065B93C2439BBD9DCE80 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+32826CB35FDF4EA989773CCA /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/warpers.hpp */ = {isa = PBXBuildFile; fileRef = EB61DB57666440228E073C3D /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/warpers.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+875659C9BB55413FB9D5677B /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp */ = {isa = PBXBuildFile; fileRef = 2F10DE95DE484F9199E7D50E /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+8D72F49CE5214ECA8F6875BB /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/blenders.hpp */ = {isa = PBXBuildFile; fileRef = 64EB8078242B4AAAAA3FCFEE /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/blenders.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+57D6C498BE0D4F8A88E4FC12 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/camera.hpp */ = {isa = PBXBuildFile; fileRef = 24E9E94818B747B0BBBA93C2 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/camera.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+5BF659E410BB47A5B8DE5740 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp */ = {isa = PBXBuildFile; fileRef = A457846F55D548C4A087AA50 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+59D91FFFAE2C409193B3617F /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/matchers.hpp */ = {isa = PBXBuildFile; fileRef = 0CD8AD5087824925B4149E2B /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/matchers.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+4C764A5B0E7C40228FA6B46B /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp */ = {isa = PBXBuildFile; fileRef = 5B12ABA5710A4534BE6994FB /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+1C5B066FAF344D5A91A7D8D3 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp */ = {isa = PBXBuildFile; fileRef = 70921FE13B8B4C58B1C25C57 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+349B2A2CE2AE4C2EB934E8DF /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/util.hpp */ = {isa = PBXBuildFile; fileRef = D7010C9B4DF84FD28BFB26FC /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/util.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+EA5C952DCAE846B9BFFEDBF8 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp */ = {isa = PBXBuildFile; fileRef = DDAF8E7D889E45D9B1AE9604 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+02F94E7317FF4C5E84F27303 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/warpers.hpp */ = {isa = PBXBuildFile; fileRef = 40B5F766387648E7AB5CC508 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/warpers.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+FAEFC64D3D014836B20DD025 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp */ = {isa = PBXBuildFile; fileRef = A48781D83EA44148992601D5 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+2D3BD5E5C6B94B4AA582B0D5 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/autocalib.cpp */ = {isa = PBXBuildFile; fileRef = FFC8B9EDA9224F0E852A5543 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/autocalib.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+F78E6709A12E4EFBAE5C4B4C /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/blenders.cpp */ = {isa = PBXBuildFile; fileRef = 42C644C0FDDF478087C75924 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/blenders.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+41F2BA4EE8DE4B2A9F0CC2DD /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/camera.cpp */ = {isa = PBXBuildFile; fileRef = 3D27B0DF4EAE489E978623E3 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/camera.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+241F3AAA400D45E882755490 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/exposure_compensate.cpp */ = {isa = PBXBuildFile; fileRef = 14E060C21A9F4B20AE03840D /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/exposure_compensate.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+6F49CD2B724C4E0A931F6951 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/matchers.cpp */ = {isa = PBXBuildFile; fileRef = 757D4F030879435687573DEC /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/matchers.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+7041EF482EE84A61A3711F56 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/motion_estimators.cpp */ = {isa = PBXBuildFile; fileRef = ABF8CFE408EB4024A265F869 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/motion_estimators.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+BF359F1F88B4408599135E2C /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/precomp.cpp */ = {isa = PBXBuildFile; fileRef = C1918DA17D7A477ABD89B5D8 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/precomp.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+58E9EF88968B444190302E26 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/seam_finders.cpp */ = {isa = PBXBuildFile; fileRef = 9C8F5704FCF34A3FB9DA234C /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/seam_finders.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+6C8F7FD438474A47A3A95294 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/stitcher.cpp */ = {isa = PBXBuildFile; fileRef = 362C5CC297394EECB5C1B4DF /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/stitcher.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+C5EB151390F0440EA5CCDFE9 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/util.cpp */ = {isa = PBXBuildFile; fileRef = C879FAEA2B9941BDBD63CC9E /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/util.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+3542CB06AE3A48D0BD8BA36B /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/warpers.cpp */ = {isa = PBXBuildFile; fileRef = 5375A72C853247DBBEC5CDDC /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/warpers.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+EFB55D65E6FB4CE69DFA2EA3 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/precomp.hpp */ = {isa = PBXBuildFile; fileRef = 6FCCBB714F8B4B46855FA407 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/precomp.hpp */; settings = { COMPILER_FLAGS = ""; }; };
+22073BC2CD684E7C8BAF949C /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D6EE64669B7C4EB68FA7F35B /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              6268AEF18CDD4729B400276B /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              F67907A4E3E6413A9B7DB856 /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              2695D61E96E3429294051C6B /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              7F002499FA584B1299D5B358 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 959FE70A5A2B4CDD906513D6 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 3D0D05DCF12D4F80864A3FFA;
+                     remoteInfo = ZERO_CHECK;
+              };
+              BE432A7E43314917B121F603 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 959FE70A5A2B4CDD906513D6 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 927D59EC81744DC4AB39220B;
+                     remoteInfo = opencv_stitching;
+              };
+              7DD2C89BD0E24DE5AEAC684F /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 959FE70A5A2B4CDD906513D6 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = BD3E6953A96B45DFAEB9CA6E;
+                     remoteInfo = ALL_BUILD;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+D6EE64669B7C4EB68FA7F35B /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+3FBF065B93C2439BBD9DCE80 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "stitching.hpp"; path = "include/opencv2/stitching.hpp"; sourceTree = SOURCE_ROOT; };
+EB61DB57666440228E073C3D /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/warpers.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "warpers.hpp"; path = "include/opencv2/stitching/warpers.hpp"; sourceTree = SOURCE_ROOT; };
+2F10DE95DE484F9199E7D50E /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "autocalib.hpp"; path = "include/opencv2/stitching/detail/autocalib.hpp"; sourceTree = SOURCE_ROOT; };
+64EB8078242B4AAAAA3FCFEE /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/blenders.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "blenders.hpp"; path = "include/opencv2/stitching/detail/blenders.hpp"; sourceTree = SOURCE_ROOT; };
+24E9E94818B747B0BBBA93C2 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/camera.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "camera.hpp"; path = "include/opencv2/stitching/detail/camera.hpp"; sourceTree = SOURCE_ROOT; };
+A457846F55D548C4A087AA50 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "exposure_compensate.hpp"; path = "include/opencv2/stitching/detail/exposure_compensate.hpp"; sourceTree = SOURCE_ROOT; };
+0CD8AD5087824925B4149E2B /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/matchers.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "matchers.hpp"; path = "include/opencv2/stitching/detail/matchers.hpp"; sourceTree = SOURCE_ROOT; };
+5B12ABA5710A4534BE6994FB /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "motion_estimators.hpp"; path = "include/opencv2/stitching/detail/motion_estimators.hpp"; sourceTree = SOURCE_ROOT; };
+70921FE13B8B4C58B1C25C57 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "seam_finders.hpp"; path = "include/opencv2/stitching/detail/seam_finders.hpp"; sourceTree = SOURCE_ROOT; };
+D7010C9B4DF84FD28BFB26FC /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/util.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "util.hpp"; path = "include/opencv2/stitching/detail/util.hpp"; sourceTree = SOURCE_ROOT; };
+DDAF8E7D889E45D9B1AE9604 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "util_inl.hpp"; path = "include/opencv2/stitching/detail/util_inl.hpp"; sourceTree = SOURCE_ROOT; };
+40B5F766387648E7AB5CC508 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/warpers.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "warpers.hpp"; path = "include/opencv2/stitching/detail/warpers.hpp"; sourceTree = SOURCE_ROOT; };
+A48781D83EA44148992601D5 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "warpers_inl.hpp"; path = "include/opencv2/stitching/detail/warpers_inl.hpp"; sourceTree = SOURCE_ROOT; };
+FFC8B9EDA9224F0E852A5543 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/autocalib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "autocalib.cpp"; path = "src/autocalib.cpp"; sourceTree = SOURCE_ROOT; };
+42C644C0FDDF478087C75924 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/blenders.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "blenders.cpp"; path = "src/blenders.cpp"; sourceTree = SOURCE_ROOT; };
+3D27B0DF4EAE489E978623E3 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "camera.cpp"; path = "src/camera.cpp"; sourceTree = SOURCE_ROOT; };
+14E060C21A9F4B20AE03840D /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/exposure_compensate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "exposure_compensate.cpp"; path = "src/exposure_compensate.cpp"; sourceTree = SOURCE_ROOT; };
+757D4F030879435687573DEC /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/matchers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "matchers.cpp"; path = "src/matchers.cpp"; sourceTree = SOURCE_ROOT; };
+ABF8CFE408EB4024A265F869 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/motion_estimators.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "motion_estimators.cpp"; path = "src/motion_estimators.cpp"; sourceTree = SOURCE_ROOT; };
+C1918DA17D7A477ABD89B5D8 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/precomp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "precomp.cpp"; path = "src/precomp.cpp"; sourceTree = SOURCE_ROOT; };
+9C8F5704FCF34A3FB9DA234C /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/seam_finders.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "seam_finders.cpp"; path = "src/seam_finders.cpp"; sourceTree = SOURCE_ROOT; };
+362C5CC297394EECB5C1B4DF /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/stitcher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "stitcher.cpp"; path = "src/stitcher.cpp"; sourceTree = SOURCE_ROOT; };
+C879FAEA2B9941BDBD63CC9E /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "util.cpp"; path = "src/util.cpp"; sourceTree = SOURCE_ROOT; };
+5375A72C853247DBBEC5CDDC /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/warpers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "warpers.cpp"; path = "src/warpers.cpp"; sourceTree = SOURCE_ROOT; };
+6FCCBB714F8B4B46855FA407 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/precomp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.h"; name = "precomp.hpp"; path = "src/precomp.hpp"; sourceTree = SOURCE_ROOT; };
+5A9BF2F770974DE69E5B97CA /* opencv_stitching */ = {isa = PBXFileReference; explicitFileType = "archive.ar"; path = "libopencv_stitching.a"; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              7E7A9FF419A54091893745CD  = {
+                     isa = PBXGroup;
+                     children = (
+                            5076D966B3CF40C68A886029 /* Sources */,
+                            B1470281B2B744D095709A90 /* Resources */,
+                            654909AE377D43EE857DAFBA /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              5076D966B3CF40C68A886029 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            F551A19328FD4FABA5D4A03F /* ALL_BUILD */,
+                            5E52419C269D45BC810D3566 /* ZERO_CHECK */,
+                            0CCC57AAA41846439804A447 /* modules */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              B1470281B2B744D095709A90 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              F551A19328FD4FABA5D4A03F /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            A29CF1D111A64630BF119303 /* CMake Rules */,
+                            D6EE64669B7C4EB68FA7F35B /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              A29CF1D111A64630BF119303 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              5E52419C269D45BC810D3566 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            6C0B96F1DC8F4E3DBD6025A3 /* CMake Rules */,
+                            D6EE64669B7C4EB68FA7F35B /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              6C0B96F1DC8F4E3DBD6025A3 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              0CCC57AAA41846439804A447 /* modules */ = {
+                     isa = PBXGroup;
+                     children = (
+                            81DF0F3B15E847BA8AC7F414 /* opencv_stitching */,
+                     );
+                     name = modules;
+                     sourceTree = "<group>";
+              };
+              81DF0F3B15E847BA8AC7F414 /* opencv_stitching */ = {
+                     isa = PBXGroup;
+                     children = (
+                            B5A09C802562492E947CF99E /* Include */,
+                            D2E787C738AE4D1392145D08 /* Include */,
+                            6653C5C76EF14078B726ADBA /* Src */,
+                            D6EE64669B7C4EB68FA7F35B /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/CMakeLists.txt */,
+                     );
+                     name = opencv_stitching;
+                     sourceTree = "<group>";
+              };
+              B5A09C802562492E947CF99E /* Include */ = {
+                     isa = PBXGroup;
+                     children = (
+                            3FBF065B93C2439BBD9DCE80 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching.hpp */,
+                            EB61DB57666440228E073C3D /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/warpers.hpp */,
+                     );
+                     name = Include;
+                     sourceTree = "<group>";
+              };
+              D2E787C738AE4D1392145D08 /* Include */ = {
+                     isa = PBXGroup;
+                     children = (
+                            FEE423CD187844F1AA4DA7EB /* detail */,
+                     );
+                     name = Include;
+                     sourceTree = "<group>";
+              };
+              FEE423CD187844F1AA4DA7EB /* detail */ = {
+                     isa = PBXGroup;
+                     children = (
+                            2F10DE95DE484F9199E7D50E /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/autocalib.hpp */,
+                            64EB8078242B4AAAAA3FCFEE /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/blenders.hpp */,
+                            24E9E94818B747B0BBBA93C2 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/camera.hpp */,
+                            A457846F55D548C4A087AA50 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp */,
+                            0CD8AD5087824925B4149E2B /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/matchers.hpp */,
+                            5B12ABA5710A4534BE6994FB /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp */,
+                            70921FE13B8B4C58B1C25C57 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp */,
+                            D7010C9B4DF84FD28BFB26FC /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/util.hpp */,
+                            DDAF8E7D889E45D9B1AE9604 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/util_inl.hpp */,
+                            40B5F766387648E7AB5CC508 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/warpers.hpp */,
+                            A48781D83EA44148992601D5 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp */,
+                     );
+                     name = detail;
+                     sourceTree = "<group>";
+              };
+              6653C5C76EF14078B726ADBA /* Src */ = {
+                     isa = PBXGroup;
+                     children = (
+                            FFC8B9EDA9224F0E852A5543 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/autocalib.cpp */,
+                            42C644C0FDDF478087C75924 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/blenders.cpp */,
+                            3D27B0DF4EAE489E978623E3 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/camera.cpp */,
+                            14E060C21A9F4B20AE03840D /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/exposure_compensate.cpp */,
+                            757D4F030879435687573DEC /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/matchers.cpp */,
+                            ABF8CFE408EB4024A265F869 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/motion_estimators.cpp */,
+                            C1918DA17D7A477ABD89B5D8 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/precomp.cpp */,
+                            9C8F5704FCF34A3FB9DA234C /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/seam_finders.cpp */,
+                            362C5CC297394EECB5C1B4DF /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/stitcher.cpp */,
+                            C879FAEA2B9941BDBD63CC9E /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/util.cpp */,
+                            5375A72C853247DBBEC5CDDC /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/warpers.cpp */,
+                            6FCCBB714F8B4B46855FA407 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/precomp.hpp */,
+                     );
+                     name = Src;
+                     sourceTree = "<group>";
+              };
+              654909AE377D43EE857DAFBA /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            5A9BF2F770974DE69E5B97CA /* opencv_stitching */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              927D59EC81744DC4AB39220B /* opencv_stitching */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 9CD716A70EDD4AFEB81D2648 /* Build configuration list for PBXNativeTarget "opencv_stitching" */;
+                     buildPhases = (
+                            1B1D28FB90C149E4BB03BCBC /* Sources */,
+                            10F0A7E0375445848E728709 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            F270323C5D8C4E2D926B5671 /* PBXTargetDependency */,
+                     );
+                     name = opencv_stitching;
+                     productName = opencv_stitching;
+                     productReference = 5A9BF2F770974DE69E5B97CA /* opencv_stitching */;
+                     productType = "com.apple.product-type.library.static";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              959FE70A5A2B4CDD906513D6 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = B1DD75116D6142B2B74A47CC /* Build configuration list for PBXProject  "opencv_stitching" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            F67907A4E3E6413A9B7DB856 /* Debug */,
+                            2695D61E96E3429294051C6B /* Release */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 7E7A9FF419A54091893745CD;
+                     projectDirPath = /Users/Administrator/Development/AR/OpenCV/modules/stitching;
+                     projectRoot = "";
+                     targets = (
+                            BD3E6953A96B45DFAEB9CA6E /* ALL_BUILD */,
+                            3D0D05DCF12D4F80864A3FFA /* ZERO_CHECK */,
+                            6F7F7689E84A4B39B2427BEB /* install */,
+                            927D59EC81744DC4AB39220B /* opencv_stitching */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              ED108E17CC664CC78D8EA624 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              5E5A585A6D11493AB3CD3F43 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/stitching -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/stitching/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              DCBA9CA0A5194E75A418DEC7 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              338DB85C0EBB404CA06E375C /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/stitching -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/stitching/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              AA730491F7B140BC9E06CD6C /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              63927D0DF87243598A968C73 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/stitching -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/stitching/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              10F0A7E0375445848E728709 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/stitching -f /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/stitching/CMakeScripts/opencv_stitching_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              1B1D28FB90C149E4BB03BCBC /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            2D3BD5E5C6B94B4AA582B0D5 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/autocalib.cpp */,
+                            F78E6709A12E4EFBAE5C4B4C /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/blenders.cpp */,
+                            41F2BA4EE8DE4B2A9F0CC2DD /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/camera.cpp */,
+                            241F3AAA400D45E882755490 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/exposure_compensate.cpp */,
+                            6F49CD2B724C4E0A931F6951 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/matchers.cpp */,
+                            7041EF482EE84A61A3711F56 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/motion_estimators.cpp */,
+                            BF359F1F88B4408599135E2C /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/precomp.cpp */,
+                            58E9EF88968B444190302E26 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/seam_finders.cpp */,
+                            6C8F7FD438474A47A3A95294 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/stitcher.cpp */,
+                            C5EB151390F0440EA5CCDFE9 /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/util.cpp */,
+                            3542CB06AE3A48D0BD8BA36B /* /Users/Administrator/Development/AR/OpenCV/modules/stitching/src/warpers.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              F270323C5D8C4E2D926B5671 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 3D0D05DCF12D4F80864A3FFA /* ZERO_CHECK */;
+                     targetProxy = 7F002499FA584B1299D5B358 /* PBXContainerItemProxy */;
+              };
+              5826B1418A164A48A7AE6E85 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 927D59EC81744DC4AB39220B /* opencv_stitching */;
+                     targetProxy = BE432A7E43314917B121F603 /* PBXContainerItemProxy */;
+              };
+              5FAAC96476C644B98411E7D6 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = BD3E6953A96B45DFAEB9CA6E /* ALL_BUILD */;
+                     targetProxy = 7DD2C89BD0E24DE5AEAC684F /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              0B4CB38FE1E24CA6BF3A02AB /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ONLY_ACTIVE_ARCH = YES;
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/stitching/build";
+                     };
+                     name = Debug;
+              };
+              38E530D8BB554E49A3978CD3 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ONLY_ACTIVE_ARCH = YES;
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/stitching/build";
+                     };
+                     name = Release;
+              };
+              AB89E9A192824FB68867B6E5 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, "'__OPENCV_BUILD=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/Administrator/Development/AR/OpenCV/modules/nonfree/include, /Users/Administrator/Development/AR/OpenCV/modules/objdetect/include, /Users/Administrator/Development/AR/OpenCV/modules/calib3d/include, /Users/Administrator/Development/AR/OpenCV/modules/features2d/include, /Users/Administrator/Development/AR/OpenCV/modules/highgui/include, /Users/Administrator/Development/AR/OpenCV/modules/flann/include, /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include, /Users/Administrator/Development/AR/OpenCV/modules/core/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/stitching", /Users/Administrator/Development/AR/OpenCV/modules/stitching/src, /Users/Administrator/Development/AR/OpenCV/modules/stitching/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/stitching";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              A11711DB175F4BE28C7D7DC5 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, "'__OPENCV_BUILD=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/Administrator/Development/AR/OpenCV/modules/nonfree/include, /Users/Administrator/Development/AR/OpenCV/modules/objdetect/include, /Users/Administrator/Development/AR/OpenCV/modules/calib3d/include, /Users/Administrator/Development/AR/OpenCV/modules/features2d/include, /Users/Administrator/Development/AR/OpenCV/modules/highgui/include, /Users/Administrator/Development/AR/OpenCV/modules/flann/include, /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include, /Users/Administrator/Development/AR/OpenCV/modules/core/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/stitching", /Users/Administrator/Development/AR/OpenCV/modules/stitching/src, /Users/Administrator/Development/AR/OpenCV/modules/stitching/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/stitching";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              5EB37C167FDC426C9BB80E01 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, "'__OPENCV_BUILD=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/Administrator/Development/AR/OpenCV/modules/nonfree/include, /Users/Administrator/Development/AR/OpenCV/modules/objdetect/include, /Users/Administrator/Development/AR/OpenCV/modules/calib3d/include, /Users/Administrator/Development/AR/OpenCV/modules/features2d/include, /Users/Administrator/Development/AR/OpenCV/modules/highgui/include, /Users/Administrator/Development/AR/OpenCV/modules/flann/include, /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include, /Users/Administrator/Development/AR/OpenCV/modules/core/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/stitching", /Users/Administrator/Development/AR/OpenCV/modules/stitching/src, /Users/Administrator/Development/AR/OpenCV/modules/stitching/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/stitching";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              A9AEA66DCABC4FD989294543 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, "'__OPENCV_BUILD=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/Administrator/Development/AR/OpenCV/modules/nonfree/include, /Users/Administrator/Development/AR/OpenCV/modules/objdetect/include, /Users/Administrator/Development/AR/OpenCV/modules/calib3d/include, /Users/Administrator/Development/AR/OpenCV/modules/features2d/include, /Users/Administrator/Development/AR/OpenCV/modules/highgui/include, /Users/Administrator/Development/AR/OpenCV/modules/flann/include, /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include, /Users/Administrator/Development/AR/OpenCV/modules/core/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/stitching", /Users/Administrator/Development/AR/OpenCV/modules/stitching/src, /Users/Administrator/Development/AR/OpenCV/modules/stitching/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/stitching";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              2F13DFEC80814AC49F424386 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, "'__OPENCV_BUILD=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/Administrator/Development/AR/OpenCV/modules/nonfree/include, /Users/Administrator/Development/AR/OpenCV/modules/objdetect/include, /Users/Administrator/Development/AR/OpenCV/modules/calib3d/include, /Users/Administrator/Development/AR/OpenCV/modules/features2d/include, /Users/Administrator/Development/AR/OpenCV/modules/highgui/include, /Users/Administrator/Development/AR/OpenCV/modules/flann/include, /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include, /Users/Administrator/Development/AR/OpenCV/modules/core/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/stitching", /Users/Administrator/Development/AR/OpenCV/modules/stitching/src, /Users/Administrator/Development/AR/OpenCV/modules/stitching/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/stitching";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              1F7AE68970924B918B72D395 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, "'__OPENCV_BUILD=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/Administrator/Development/AR/OpenCV/modules/nonfree/include, /Users/Administrator/Development/AR/OpenCV/modules/objdetect/include, /Users/Administrator/Development/AR/OpenCV/modules/calib3d/include, /Users/Administrator/Development/AR/OpenCV/modules/features2d/include, /Users/Administrator/Development/AR/OpenCV/modules/highgui/include, /Users/Administrator/Development/AR/OpenCV/modules/flann/include, /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include, /Users/Administrator/Development/AR/OpenCV/modules/core/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/stitching", /Users/Administrator/Development/AR/OpenCV/modules/stitching/src, /Users/Administrator/Development/AR/OpenCV/modules/stitching/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = install;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/stitching";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              A1244312C7C74763B79C633F /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Debug";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, "'__OPENCV_BUILD=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/Administrator/Development/AR/OpenCV/modules/nonfree/include, /Users/Administrator/Development/AR/OpenCV/modules/objdetect/include, /Users/Administrator/Development/AR/OpenCV/modules/calib3d/include, /Users/Administrator/Development/AR/OpenCV/modules/features2d/include, /Users/Administrator/Development/AR/OpenCV/modules/highgui/include, /Users/Administrator/Development/AR/OpenCV/modules/flann/include, /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include, /Users/Administrator/Development/AR/OpenCV/modules/core/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/stitching", /Users/Administrator/Development/AR/OpenCV/modules/stitching/src, /Users/Administrator/Development/AR/OpenCV/modules/stitching/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = " -fPIC   -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer         -DDEBUG -D_DEBUG         ";
+                            OTHER_CPLUSPLUSFLAGS = "-stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC   -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer         -DDEBUG -D_DEBUG         ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = opencv_stitching;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/stitching";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              32B1655E600E482CB8412F20 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            CONFIGURATION_BUILD_DIR = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/lib/Release";
+                            EXECUTABLE_PREFIX = lib;
+                            EXECUTABLE_SUFFIX = ".a";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", HAVE_CVCONFIG_H, HAVE_ALLOCA, HAVE_ALLOCA_H, HAVE_LIBPTHREAD, HAVE_UNISTD_H, "'__OPENCV_BUILD=1'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/Users/Administrator/Development/AR/OpenCV/modules/nonfree/include, /Users/Administrator/Development/AR/OpenCV/modules/objdetect/include, /Users/Administrator/Development/AR/OpenCV/modules/calib3d/include, /Users/Administrator/Development/AR/OpenCV/modules/features2d/include, /Users/Administrator/Development/AR/OpenCV/modules/highgui/include, /Users/Administrator/Development/AR/OpenCV/modules/flann/include, /Users/Administrator/Development/AR/OpenCV/modules/imgproc/include, /Users/Administrator/Development/AR/OpenCV/modules/core/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/stitching", /Users/Administrator/Development/AR/OpenCV/modules/stitching/src, /Users/Administrator/Development/AR/OpenCV/modules/stitching/include, "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7", );
+                            INSTALL_PATH = "";
+                            LIBRARY_STYLE = STATIC;
+                            OTHER_CFLAGS = " -fPIC   -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer     -DNDEBUG  -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "-stdlib=libc++ -headerpad_max_install_names -fvisibility=hidden -fvisibility-inlines-hidden -fPIC   -W -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -fno-omit-frame-pointer -DNDEBUG     -fomit-frame-pointer -ffast-math  -DNDEBUG  ";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = opencv_stitching;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/modules/stitching";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              B1DD75116D6142B2B74A47CC /* Build configuration list for PBXProject  "opencv_stitching" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            0B4CB38FE1E24CA6BF3A02AB /* Debug */,
+                            38E530D8BB554E49A3978CD3 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              AB73530E25BB4B2FA823070F /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            AB89E9A192824FB68867B6E5 /* Debug */,
+                            A11711DB175F4BE28C7D7DC5 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              EE82F5BC28C143DCA00EA6B7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            5EB37C167FDC426C9BB80E01 /* Debug */,
+                            A9AEA66DCABC4FD989294543 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              C005F400EF8B45DCB0548BE3 /* Build configuration list for PBXAggregateTarget "install" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            2F13DFEC80814AC49F424386 /* Debug */,
+                            1F7AE68970924B918B72D395 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              9CD716A70EDD4AFEB81D2648 /* Build configuration list for PBXNativeTarget "opencv_stitching" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            A1244312C7C74763B79C633F /* Debug */,
+                            32B1655E600E482CB8412F20 /* Release */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 959FE70A5A2B4CDD906513D6;
+}

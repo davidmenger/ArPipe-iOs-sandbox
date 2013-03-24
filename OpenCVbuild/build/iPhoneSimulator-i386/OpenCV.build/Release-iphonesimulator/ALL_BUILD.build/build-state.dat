@@ -1,0 +1,28 @@
+TALL_BUILD
+v5
+r1
+cCheck dependencies
+cPhaseScriptExecution "CMake Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-19644B6171CD4499871385D4.sh
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-19644B6171CD4499871385D4.sh
+c0000000051445EAA00000000000000EE
+t1363435178
+s238
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies76c1bc3196f4b641^a0f9bc3196f4b641^---0#1#0#--18"Check dependencies36"E6F569E4-87DB-4B28-AF38-E5501C44D960-
+
+CPhaseScriptExecution "CMake Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-19644B6171CD4499871385D4.sh
+s385127985.739720
+e385127985.776569
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-19644B6171CD4499871385D4.sh
+oecho ""
+o
+oecho Build\ all\ projects
+oBuild all projects
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'9830be3196f4b641^fbcbc63196f4b641^-54"echo ""echo Build\ all\ projectsBuild all projects3(21%IDEActivityLogMessage2@8"echo ""-385127985#0#8#-0#-----2@26"echo Build\ all\ projects-385127985#9#26#-0#-----2@19"Build all projects-385127985#35#19#-0#-----0#0#0#--426"PhaseScriptExecution "CMake Rules" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-19644B6171CD4499871385D4.sh    cd /Users/Administrator/Development/AR/OpenCV    /bin/sh -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneSimulator-i386/OpenCV.build/Release-iphonesimulator/ALL_BUILD.build/Script-19644B6171CD4499871385D4.sh36"24530B69-6402-46EC-9387-D0C43D739558-
+

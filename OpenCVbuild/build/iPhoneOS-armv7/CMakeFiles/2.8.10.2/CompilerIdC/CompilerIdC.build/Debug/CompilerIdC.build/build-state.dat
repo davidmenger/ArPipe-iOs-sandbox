@@ -1,0 +1,68 @@
+TCompilerIdC
+v5
+r1
+cCheck dependencies
+cCompileC ./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC normal i386
+cPhaseScriptExecution "Run Script" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC
+t2
+s0
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o
+t2
+s0
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList
+c0000000051445AAC00000000000000B8
+t1363434156
+s184
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+c0000000051445AAC000000000000002A
+t1363434156
+s42
+
+N/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c
+c0000000051445AAB0000000000002F20
+t1363434155
+s12064
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies89b6f72b92f4b641^d8bb0f2c92f4b641^---0#1#0#--18"Check dependencies36"9964CF4C-128E-4FEE-90EA-9B78392F8E6A-
+
+CCompileC ./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s385126956.066802
+e385126956.100811
+r1
+xCompileC
+x./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Compile /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.ca169112c92f4b641^fbcc192c92f4b641^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c0000000000000000^2744"CompileC ./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/i386 -I/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC -MMD -MT dependencies -MF /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.d --serialize-diagnostics /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.dia -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o36"DCE366EA-A1FC-41DD-851F-821B6D098DBA-
+
+CLd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC normal i386
+s385126956.107919
+e385126956.135737
+r1
+xLd
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection119"Link /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC50c31b2c92f4b641^12bf222c92f4b641^---0#0#0#--769"Ld ./CompilerIdC normal i386    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -L/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC -F/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC -filelist /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList -o /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC36"BDCF6393-1D94-4EC4-956F-806DF899CB2A-
+
+CPhaseScriptExecution "Run Script" /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+s385126956.143849
+e385126956.179789
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+oGCC_VERSION=com.apple.compilers.llvm.clang.1_0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'e4a3252c92f4b641^c9022e2c92f4b641^-47"GCC_VERSION=com.apple.compilers.llvm.clang.1_01(21%IDEActivityLogMessage2@47"GCC_VERSION=com.apple.compilers.llvm.clang.1_0-385126956#0#47#-0#-----0#0#0#--416"PhaseScriptExecution "Run Script" ./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh    cd /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC    /bin/sh -c /Users/Administrator/Development/AR/OpenCVbuild/build/iPhoneOS-armv7/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh36"76EBB257-FD44-4395-8F0B-9B1BB1949334-
+

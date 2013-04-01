@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "ArPipeFramework.h"
+#import "./../Framework/ArPipeFramework.h"
+#import "./../Framework/ArPipeObjcUtils.h"
 
 @interface ViewController ()
 
@@ -20,8 +21,20 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
+    CameraFrameSource *frameSource = [[CameraFrameSource alloc] init];
+    
+    BaseArView *previewLayer = [[BaseArView alloc]
+            initWithFrameAndCaptureSession: self.view.frame captureSession: [frameSource captureSession]];
+    
+    [frameSource setNextPipe: [previewLayer pipeConnector]];
+    
+    [self.view addSubview: previewLayer];
+    
+    [previewLayer showPreviewLayer];
     
     
+    
+    [frameSource start];
 }
 
 - (void)didReceiveMemoryWarning

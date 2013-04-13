@@ -26,11 +26,23 @@
     BaseArView *previewLayer = [[BaseArView alloc]
             initWithFrameAndCaptureSession: self.view.frame captureSession: [frameSource captureSession]];
     
-    [frameSource setNextPipe: [previewLayer pipeConnector]];
+    ArPipe::PipeLine* pipeline = new ArPipe::PipeLine([frameSource frameSource]);
+    
+    pipeline->addPipe(ArPipe::PolarRotate::init(90));
+    pipeline->addPipe(ArPipe::BlackAndWhite::init());
+    pipeline->addPipe(ArPipe::Blur::init(2));
+    pipeline->addPipe(ArPipe::Canny::init());
+    pipeline->addPipe(ArPipe::FindContours::init());
+    pipeline->addPipe(ArPipe::BlackAndWhite::init()->toColor());
+    pipeline->addPipe(ArPipe::DrawContours::init());
+    
+    
+    pipeline->addNextPipe([previewLayer pipeConnector]);
     
     [self.view addSubview: previewLayer];
     
-    [previewLayer showPreviewLayer];
+    [previewLayer showFrameOutput];
+    //[previewLayer showPreviewLayer];
     
     
     

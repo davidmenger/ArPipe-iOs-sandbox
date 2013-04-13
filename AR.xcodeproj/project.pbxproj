@@ -35,6 +35,16 @@
 		C39B025B16FF6599006A0A6E /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39B025A16FF6599006A0A6E /* ImageIO.framework */; };
 		C39B025C16FF65C5006A0A6E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39B025616FF645B006A0A6E /* CoreMedia.framework */; };
 		C39B025F16FF701A006A0A6E /* PipeOutputConnector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C39B025D16FF701A006A0A6E /* PipeOutputConnector.cpp */; };
+		C3BEB9BA1710AA90000B5C72 /* BlackAndWhite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3BEB9B81710AA8F000B5C72 /* BlackAndWhite.cpp */; };
+		C3BEB9BD17116141000B5C72 /* Canny.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3BEB9BB17116141000B5C72 /* Canny.cpp */; };
+		C3BEB9C017116204000B5C72 /* PipeLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3BEB9BE17116202000B5C72 /* PipeLine.cpp */; };
+		C3BEB9C31711AFF6000B5C72 /* Blur.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3BEB9C11711AFF5000B5C72 /* Blur.cpp */; };
+		C3BEB9C81711C759000B5C72 /* FindContours.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3BEB9C61711C759000B5C72 /* FindContours.cpp */; };
+		C3BEB9CB1711D688000B5C72 /* Shapes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3BEB9C91711D688000B5C72 /* Shapes.cpp */; };
+		C3BEB9CE1711F749000B5C72 /* DrawContrours.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3BEB9CC1711F749000B5C72 /* DrawContrours.cpp */; };
+		C3CB29071709DC840068E8BA /* original-coffee-88.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3CB29061709DC840068E8BA /* original-coffee-88.jpg */; };
+		C3CB290C1709F9C10068E8BA /* PolarRotate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3CB290A1709F9C10068E8BA /* PolarRotate.cpp */; };
+		C3CB290F170A1A7F0068E8BA /* Threshold.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3CB290D170A1A7E0068E8BA /* Threshold.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +93,25 @@
 		C39B025E16FF701A006A0A6E /* PipeOutputConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PipeOutputConnector.h; path = Framework/iOSConnectors/PipeOutputConnector.h; sourceTree = SOURCE_ROOT; };
 		C39B026016FF8B80006A0A6E /* ArPipeFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ArPipeFramework.h; path = Framework/ArPipeFramework.h; sourceTree = SOURCE_ROOT; };
 		C39B026116FF8DDF006A0A6E /* ArPipeObjcUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ArPipeObjcUtils.h; path = Framework/ArPipeObjcUtils.h; sourceTree = SOURCE_ROOT; };
+		C3BEB9B81710AA8F000B5C72 /* BlackAndWhite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BlackAndWhite.cpp; path = Framework/Pipes/Effects/BlackAndWhite.cpp; sourceTree = SOURCE_ROOT; };
+		C3BEB9B91710AA8F000B5C72 /* BlackAndWhite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlackAndWhite.h; path = Framework/Pipes/Effects/BlackAndWhite.h; sourceTree = SOURCE_ROOT; };
+		C3BEB9BB17116141000B5C72 /* Canny.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Canny.cpp; path = Framework/Pipes/Effects/Canny.cpp; sourceTree = SOURCE_ROOT; };
+		C3BEB9BC17116141000B5C72 /* Canny.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Canny.h; path = Framework/Pipes/Effects/Canny.h; sourceTree = SOURCE_ROOT; };
+		C3BEB9BE17116202000B5C72 /* PipeLine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PipeLine.cpp; path = Framework/Model/PipeLine.cpp; sourceTree = SOURCE_ROOT; };
+		C3BEB9BF17116203000B5C72 /* PipeLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PipeLine.h; path = Framework/Model/PipeLine.h; sourceTree = SOURCE_ROOT; };
+		C3BEB9C11711AFF5000B5C72 /* Blur.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Blur.cpp; path = Framework/Pipes/Effects/Blur.cpp; sourceTree = SOURCE_ROOT; };
+		C3BEB9C21711AFF6000B5C72 /* Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Blur.h; path = Framework/Pipes/Effects/Blur.h; sourceTree = SOURCE_ROOT; };
+		C3BEB9C61711C759000B5C72 /* FindContours.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FindContours.cpp; path = Framework/Pipes/Recognizers/FindContours.cpp; sourceTree = SOURCE_ROOT; };
+		C3BEB9C71711C759000B5C72 /* FindContours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FindContours.h; path = Framework/Pipes/Recognizers/FindContours.h; sourceTree = SOURCE_ROOT; };
+		C3BEB9C91711D688000B5C72 /* Shapes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Shapes.cpp; path = Framework/Model/Shapes.cpp; sourceTree = SOURCE_ROOT; };
+		C3BEB9CA1711D688000B5C72 /* Shapes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shapes.h; path = Framework/Model/Shapes.h; sourceTree = SOURCE_ROOT; };
+		C3BEB9CC1711F749000B5C72 /* DrawContrours.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DrawContrours.cpp; path = ../Framework/Pipes/Drawers/DrawContrours.cpp; sourceTree = "<group>"; };
+		C3BEB9CD1711F749000B5C72 /* DrawContrours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawContrours.h; path = ../Framework/Pipes/Drawers/DrawContrours.h; sourceTree = "<group>"; };
+		C3CB29061709DC840068E8BA /* original-coffee-88.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "original-coffee-88.jpg"; sourceTree = "<group>"; };
+		C3CB290A1709F9C10068E8BA /* PolarRotate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PolarRotate.cpp; path = Framework/Pipes/Basic/PolarRotate.cpp; sourceTree = SOURCE_ROOT; };
+		C3CB290B1709F9C10068E8BA /* PolarRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PolarRotate.h; path = Framework/Pipes/Basic/PolarRotate.h; sourceTree = SOURCE_ROOT; };
+		C3CB290D170A1A7E0068E8BA /* Threshold.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Threshold.cpp; path = Framework/Pipes/Effects/Threshold.cpp; sourceTree = SOURCE_ROOT; };
+		C3CB290E170A1A7F0068E8BA /* Threshold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Threshold.h; path = Framework/Pipes/Effects/Threshold.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +138,7 @@
 		C334A2D916F4979D0074DC8A /* ARFramework */ = {
 			isa = PBXGroup;
 			children = (
+				C3CB29081709F94D0068E8BA /* Pipes */,
 				C39B026116FF8DDF006A0A6E /* ArPipeObjcUtils.h */,
 				C39B026016FF8B80006A0A6E /* ArPipeFramework.h */,
 				C334A2DA16F4FB0C0074DC8A /* UI */,
@@ -145,6 +175,10 @@
 				C334A2FB16F643B10074DC8A /* BaseFrameContainer.h */,
 				C334A30016F650340074DC8A /* Frame.cpp */,
 				C334A30116F650340074DC8A /* Frame.h */,
+				C3BEB9BE17116202000B5C72 /* PipeLine.cpp */,
+				C3BEB9BF17116203000B5C72 /* PipeLine.h */,
+				C3BEB9C91711D688000B5C72 /* Shapes.cpp */,
+				C3BEB9CA1711D688000B5C72 /* Shapes.h */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -211,6 +245,7 @@
 		C380368616F47DE500961368 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C3CB29061709DC840068E8BA /* original-coffee-88.jpg */,
 				C380368716F47DE500961368 /* AR-Info.plist */,
 				C380368816F47DE500961368 /* InfoPlist.strings */,
 				C380368B16F47DE500961368 /* main.m */,
@@ -220,6 +255,59 @@
 				C380369516F47DE500961368 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3BEB9C41711C711000B5C72 /* Recognizers */ = {
+			isa = PBXGroup;
+			children = (
+				C3BEB9C61711C759000B5C72 /* FindContours.cpp */,
+				C3BEB9C71711C759000B5C72 /* FindContours.h */,
+			);
+			name = Recognizers;
+			sourceTree = "<group>";
+		};
+		C3BEB9C51711C728000B5C72 /* Drawers */ = {
+			isa = PBXGroup;
+			children = (
+				C3BEB9CC1711F749000B5C72 /* DrawContrours.cpp */,
+				C3BEB9CD1711F749000B5C72 /* DrawContrours.h */,
+			);
+			name = Drawers;
+			sourceTree = "<group>";
+		};
+		C3CB29081709F94D0068E8BA /* Pipes */ = {
+			isa = PBXGroup;
+			children = (
+				C3BEB9C51711C728000B5C72 /* Drawers */,
+				C3BEB9C41711C711000B5C72 /* Recognizers */,
+				C3CB2910170A1B560068E8BA /* Effects */,
+				C3CB29091709F95C0068E8BA /* Basic */,
+			);
+			name = Pipes;
+			sourceTree = "<group>";
+		};
+		C3CB29091709F95C0068E8BA /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				C3CB290A1709F9C10068E8BA /* PolarRotate.cpp */,
+				C3CB290B1709F9C10068E8BA /* PolarRotate.h */,
+			);
+			name = Basic;
+			sourceTree = "<group>";
+		};
+		C3CB2910170A1B560068E8BA /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				C3CB290D170A1A7E0068E8BA /* Threshold.cpp */,
+				C3CB290E170A1A7F0068E8BA /* Threshold.h */,
+				C3BEB9B81710AA8F000B5C72 /* BlackAndWhite.cpp */,
+				C3BEB9B91710AA8F000B5C72 /* BlackAndWhite.h */,
+				C3BEB9BB17116141000B5C72 /* Canny.cpp */,
+				C3BEB9BC17116141000B5C72 /* Canny.h */,
+				C3BEB9C11711AFF5000B5C72 /* Blur.cpp */,
+				C3BEB9C21711AFF6000B5C72 /* Blur.h */,
+			);
+			name = Effects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +366,7 @@
 				C380369416F47DE500961368 /* Default@2x.png in Resources */,
 				C380369616F47DE500961368 /* Default-568h@2x.png in Resources */,
 				C380369C16F47DE500961368 /* ViewController.xib in Resources */,
+				C3CB29071709DC840068E8BA /* original-coffee-88.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +390,15 @@
 				C334A2FF16F644FD0074DC8A /* CameraFrameSource.mm in Sources */,
 				C334A30216F650340074DC8A /* Frame.cpp in Sources */,
 				C39B025F16FF701A006A0A6E /* PipeOutputConnector.cpp in Sources */,
+				C3CB290C1709F9C10068E8BA /* PolarRotate.cpp in Sources */,
+				C3CB290F170A1A7F0068E8BA /* Threshold.cpp in Sources */,
+				C3BEB9BA1710AA90000B5C72 /* BlackAndWhite.cpp in Sources */,
+				C3BEB9BD17116141000B5C72 /* Canny.cpp in Sources */,
+				C3BEB9C017116204000B5C72 /* PipeLine.cpp in Sources */,
+				C3BEB9C31711AFF6000B5C72 /* Blur.cpp in Sources */,
+				C3BEB9C81711C759000B5C72 /* FindContours.cpp in Sources */,
+				C3BEB9CB1711D688000B5C72 /* Shapes.cpp in Sources */,
+				C3BEB9CE1711F749000B5C72 /* DrawContrours.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

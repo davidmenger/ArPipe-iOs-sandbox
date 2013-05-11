@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C334A2D816F4978B0074DC8A /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C334A2D716F4978B0074DC8A /* opencv2.framework */; };
-		C334A2DD16F5E7210074DC8A /* GLView.m in Sources */ = {isa = PBXBuildFile; fileRef = C334A2DC16F5E7210074DC8A /* GLView.m */; };
-		C334A2E016F5E7840074DC8A /* GLRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = C334A2DF16F5E7840074DC8A /* GLRenderer.m */; };
+		C334A2DD16F5E7210074DC8A /* GLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = C334A2DC16F5E7210074DC8A /* GLView.mm */; };
+		C334A2E016F5E7840074DC8A /* GLRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C334A2DF16F5E7840074DC8A /* GLRenderer.mm */; };
 		C334A2E216F5E9DF0074DC8A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C334A2E116F5E9DF0074DC8A /* OpenGLES.framework */; };
 		C334A2E416F5EBB90074DC8A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C334A2E316F5EBB90074DC8A /* QuartzCore.framework */; };
 		C334A2E716F5F4090074DC8A /* BaseArView.mm in Sources */ = {isa = PBXBuildFile; fileRef = C334A2E616F5F4090074DC8A /* BaseArView.mm */; };
@@ -24,7 +24,7 @@
 		C380368416F47DE400961368 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C380368316F47DE400961368 /* CoreGraphics.framework */; };
 		C380368A16F47DE500961368 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C380368816F47DE500961368 /* InfoPlist.strings */; };
 		C380368C16F47DE500961368 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C380368B16F47DE500961368 /* main.m */; };
-		C380369016F47DE500961368 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C380368F16F47DE500961368 /* AppDelegate.m */; };
+		C380369016F47DE500961368 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = C380368F16F47DE500961368 /* AppDelegate.mm */; };
 		C380369216F47DE500961368 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C380369116F47DE500961368 /* Default.png */; };
 		C380369416F47DE500961368 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C380369316F47DE500961368 /* Default@2x.png */; };
 		C380369616F47DE500961368 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C380369516F47DE500961368 /* Default-568h@2x.png */; };
@@ -35,6 +35,10 @@
 		C39B025B16FF6599006A0A6E /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39B025A16FF6599006A0A6E /* ImageIO.framework */; };
 		C39B025C16FF65C5006A0A6E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39B025616FF645B006A0A6E /* CoreMedia.framework */; };
 		C39B025F16FF701A006A0A6E /* PipeOutputConnector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C39B025D16FF701A006A0A6E /* PipeOutputConnector.cpp */; };
+		C3AA3B901719611600152746 /* DetectPolygons.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3AA3B8E1719611600152746 /* DetectPolygons.cpp */; };
+		C3AA3B9317196AF500152746 /* Marker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3AA3B9117196AF500152746 /* Marker.cpp */; };
+		C3AA3B97171B3E2400152746 /* cameraparameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3AA3B95171B3E2400152746 /* cameraparameters.cpp */; };
+		C3AA3B9B171B41BF00152746 /* SquareMarkerDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3AA3B99171B41BF00152746 /* SquareMarkerDetector.cpp */; };
 		C3BEB9BA1710AA90000B5C72 /* BlackAndWhite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3BEB9B81710AA8F000B5C72 /* BlackAndWhite.cpp */; };
 		C3BEB9BD17116141000B5C72 /* Canny.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3BEB9BB17116141000B5C72 /* Canny.cpp */; };
 		C3BEB9C017116204000B5C72 /* PipeLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3BEB9BE17116202000B5C72 /* PipeLine.cpp */; };
@@ -45,14 +49,17 @@
 		C3CB29071709DC840068E8BA /* original-coffee-88.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3CB29061709DC840068E8BA /* original-coffee-88.jpg */; };
 		C3CB290C1709F9C10068E8BA /* PolarRotate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3CB290A1709F9C10068E8BA /* PolarRotate.cpp */; };
 		C3CB290F170A1A7F0068E8BA /* Threshold.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3CB290D170A1A7E0068E8BA /* Threshold.cpp */; };
+		C3D69EE4173E5AD5004DE7FF /* FiducidalMarkerIdentifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3D69EE2173E5AD5004DE7FF /* FiducidalMarkerIdentifier.cpp */; };
+		C3D69EE8173E5C09004DE7FF /* CameraApply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3D69EE6173E5C09004DE7FF /* CameraApply.cpp */; };
+		C3D69EEA173E64F1004DE7FF /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D69EE9173E64F1004DE7FF /* libc++.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C334A2D716F4978B0074DC8A /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = OpenCVbuild/opencv2.framework; sourceTree = "<group>"; };
 		C334A2DB16F5E7210074DC8A /* GLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLView.h; path = Framework/UI/GLView.h; sourceTree = SOURCE_ROOT; };
-		C334A2DC16F5E7210074DC8A /* GLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLView.m; path = Framework/UI/GLView.m; sourceTree = SOURCE_ROOT; };
+		C334A2DC16F5E7210074DC8A /* GLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GLView.mm; path = Framework/UI/GLView.mm; sourceTree = SOURCE_ROOT; };
 		C334A2DE16F5E7840074DC8A /* GLRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLRenderer.h; path = Framework/UI/GLRenderer.h; sourceTree = SOURCE_ROOT; };
-		C334A2DF16F5E7840074DC8A /* GLRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLRenderer.m; path = Framework/UI/GLRenderer.m; sourceTree = SOURCE_ROOT; };
+		C334A2DF16F5E7840074DC8A /* GLRenderer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GLRenderer.mm; path = Framework/UI/GLRenderer.mm; sourceTree = SOURCE_ROOT; };
 		C334A2E116F5E9DF0074DC8A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		C334A2E316F5EBB90074DC8A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C334A2E516F5F4090074DC8A /* BaseArView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseArView.h; path = Framework/UI/BaseArView.h; sourceTree = SOURCE_ROOT; };
@@ -78,7 +85,7 @@
 		C380368B16F47DE500961368 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C380368D16F47DE500961368 /* AR-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AR-Prefix.pch"; sourceTree = "<group>"; };
 		C380368E16F47DE500961368 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C380368F16F47DE500961368 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C380368F16F47DE500961368 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		C380369116F47DE500961368 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C380369316F47DE500961368 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C380369516F47DE500961368 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -93,6 +100,14 @@
 		C39B025E16FF701A006A0A6E /* PipeOutputConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PipeOutputConnector.h; path = Framework/iOSConnectors/PipeOutputConnector.h; sourceTree = SOURCE_ROOT; };
 		C39B026016FF8B80006A0A6E /* ArPipeFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ArPipeFramework.h; path = Framework/ArPipeFramework.h; sourceTree = SOURCE_ROOT; };
 		C39B026116FF8DDF006A0A6E /* ArPipeObjcUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ArPipeObjcUtils.h; path = Framework/ArPipeObjcUtils.h; sourceTree = SOURCE_ROOT; };
+		C3AA3B8E1719611600152746 /* DetectPolygons.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DetectPolygons.cpp; path = Framework/Pipes/Recognizers/DetectPolygons.cpp; sourceTree = SOURCE_ROOT; };
+		C3AA3B8F1719611600152746 /* DetectPolygons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetectPolygons.h; path = Framework/Pipes/Recognizers/DetectPolygons.h; sourceTree = SOURCE_ROOT; };
+		C3AA3B9117196AF500152746 /* Marker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Marker.cpp; path = Framework/Model/Marker.cpp; sourceTree = SOURCE_ROOT; };
+		C3AA3B9217196AF500152746 /* Marker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Marker.h; path = Framework/Model/Marker.h; sourceTree = SOURCE_ROOT; };
+		C3AA3B95171B3E2400152746 /* cameraparameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = cameraparameters.cpp; path = Framework/ArucoUtils/cameraparameters.cpp; sourceTree = SOURCE_ROOT; };
+		C3AA3B96171B3E2400152746 /* cameraparameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cameraparameters.h; path = Framework/ArucoUtils/cameraparameters.h; sourceTree = SOURCE_ROOT; };
+		C3AA3B99171B41BF00152746 /* SquareMarkerDetector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SquareMarkerDetector.cpp; path = Framework/Pipes/Detectors/SquareMarkerDetector.cpp; sourceTree = SOURCE_ROOT; };
+		C3AA3B9A171B41BF00152746 /* SquareMarkerDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SquareMarkerDetector.h; path = Framework/Pipes/Detectors/SquareMarkerDetector.h; sourceTree = SOURCE_ROOT; };
 		C3BEB9B81710AA8F000B5C72 /* BlackAndWhite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BlackAndWhite.cpp; path = Framework/Pipes/Effects/BlackAndWhite.cpp; sourceTree = SOURCE_ROOT; };
 		C3BEB9B91710AA8F000B5C72 /* BlackAndWhite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlackAndWhite.h; path = Framework/Pipes/Effects/BlackAndWhite.h; sourceTree = SOURCE_ROOT; };
 		C3BEB9BB17116141000B5C72 /* Canny.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Canny.cpp; path = Framework/Pipes/Effects/Canny.cpp; sourceTree = SOURCE_ROOT; };
@@ -112,6 +127,11 @@
 		C3CB290B1709F9C10068E8BA /* PolarRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PolarRotate.h; path = Framework/Pipes/Basic/PolarRotate.h; sourceTree = SOURCE_ROOT; };
 		C3CB290D170A1A7E0068E8BA /* Threshold.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Threshold.cpp; path = Framework/Pipes/Effects/Threshold.cpp; sourceTree = SOURCE_ROOT; };
 		C3CB290E170A1A7F0068E8BA /* Threshold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Threshold.h; path = Framework/Pipes/Effects/Threshold.h; sourceTree = SOURCE_ROOT; };
+		C3D69EE2173E5AD5004DE7FF /* FiducidalMarkerIdentifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FiducidalMarkerIdentifier.cpp; path = Framework/Pipes/MarkerIdentifiers/FiducidalMarkerIdentifier.cpp; sourceTree = SOURCE_ROOT; };
+		C3D69EE3173E5AD5004DE7FF /* FiducidalMarkerIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FiducidalMarkerIdentifier.h; path = Framework/Pipes/MarkerIdentifiers/FiducidalMarkerIdentifier.h; sourceTree = SOURCE_ROOT; };
+		C3D69EE6173E5C09004DE7FF /* CameraApply.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CameraApply.cpp; path = Framework/Pipes/CameraApply/CameraApply.cpp; sourceTree = SOURCE_ROOT; };
+		C3D69EE7173E5C09004DE7FF /* CameraApply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraApply.h; path = Framework/Pipes/CameraApply/CameraApply.h; sourceTree = SOURCE_ROOT; };
+		C3D69EE9173E64F1004DE7FF /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3D69EEA173E64F1004DE7FF /* libc++.dylib in Frameworks */,
 				C39B025C16FF65C5006A0A6E /* CoreMedia.framework in Frameworks */,
 				C39B025B16FF6599006A0A6E /* ImageIO.framework in Frameworks */,
 				C39B025916FF6557006A0A6E /* AVFoundation.framework in Frameworks */,
@@ -138,6 +159,7 @@
 		C334A2D916F4979D0074DC8A /* ARFramework */ = {
 			isa = PBXGroup;
 			children = (
+				C3AA3B94171B3CD500152746 /* ArucoUtils */,
 				C3CB29081709F94D0068E8BA /* Pipes */,
 				C39B026116FF8DDF006A0A6E /* ArPipeObjcUtils.h */,
 				C39B026016FF8B80006A0A6E /* ArPipeFramework.h */,
@@ -153,9 +175,9 @@
 			isa = PBXGroup;
 			children = (
 				C334A2DB16F5E7210074DC8A /* GLView.h */,
-				C334A2DC16F5E7210074DC8A /* GLView.m */,
+				C334A2DC16F5E7210074DC8A /* GLView.mm */,
 				C334A2DE16F5E7840074DC8A /* GLRenderer.h */,
-				C334A2DF16F5E7840074DC8A /* GLRenderer.m */,
+				C334A2DF16F5E7840074DC8A /* GLRenderer.mm */,
 				C334A2E516F5F4090074DC8A /* BaseArView.h */,
 				C334A2E616F5F4090074DC8A /* BaseArView.mm */,
 			);
@@ -179,6 +201,8 @@
 				C3BEB9BF17116203000B5C72 /* PipeLine.h */,
 				C3BEB9C91711D688000B5C72 /* Shapes.cpp */,
 				C3BEB9CA1711D688000B5C72 /* Shapes.h */,
+				C3AA3B9117196AF500152746 /* Marker.cpp */,
+				C3AA3B9217196AF500152746 /* Marker.h */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -215,6 +239,7 @@
 		C380367E16F47DE400961368 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C3D69EE9173E64F1004DE7FF /* libc++.dylib */,
 				C39B025A16FF6599006A0A6E /* ImageIO.framework */,
 				C39B025816FF6557006A0A6E /* AVFoundation.framework */,
 				C39B025616FF645B006A0A6E /* CoreMedia.framework */,
@@ -233,7 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				C380368E16F47DE500961368 /* AppDelegate.h */,
-				C380368F16F47DE500961368 /* AppDelegate.m */,
+				C380368F16F47DE500961368 /* AppDelegate.mm */,
 				C380369716F47DE500961368 /* ViewController.h */,
 				C380369816F47DE500961368 /* ViewController.mm */,
 				C380369A16F47DE500961368 /* ViewController.xib */,
@@ -257,11 +282,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C3AA3B94171B3CD500152746 /* ArucoUtils */ = {
+			isa = PBXGroup;
+			children = (
+				C3AA3B95171B3E2400152746 /* cameraparameters.cpp */,
+				C3AA3B96171B3E2400152746 /* cameraparameters.h */,
+			);
+			name = ArucoUtils;
+			sourceTree = "<group>";
+		};
+		C3AA3B98171B3EC900152746 /* Detectors */ = {
+			isa = PBXGroup;
+			children = (
+				C3AA3B99171B41BF00152746 /* SquareMarkerDetector.cpp */,
+				C3AA3B9A171B41BF00152746 /* SquareMarkerDetector.h */,
+			);
+			name = Detectors;
+			sourceTree = "<group>";
+		};
 		C3BEB9C41711C711000B5C72 /* Recognizers */ = {
 			isa = PBXGroup;
 			children = (
 				C3BEB9C61711C759000B5C72 /* FindContours.cpp */,
 				C3BEB9C71711C759000B5C72 /* FindContours.h */,
+				C3AA3B8E1719611600152746 /* DetectPolygons.cpp */,
+				C3AA3B8F1719611600152746 /* DetectPolygons.h */,
 			);
 			name = Recognizers;
 			sourceTree = "<group>";
@@ -278,6 +323,9 @@
 		C3CB29081709F94D0068E8BA /* Pipes */ = {
 			isa = PBXGroup;
 			children = (
+				C3D69EE5173E5BC3004DE7FF /* CameraApply */,
+				C3D69EE1173E59D7004DE7FF /* MarkerIdentifiers */,
+				C3AA3B98171B3EC900152746 /* Detectors */,
 				C3BEB9C51711C728000B5C72 /* Drawers */,
 				C3BEB9C41711C711000B5C72 /* Recognizers */,
 				C3CB2910170A1B560068E8BA /* Effects */,
@@ -308,6 +356,24 @@
 				C3BEB9C21711AFF6000B5C72 /* Blur.h */,
 			);
 			name = Effects;
+			sourceTree = "<group>";
+		};
+		C3D69EE1173E59D7004DE7FF /* MarkerIdentifiers */ = {
+			isa = PBXGroup;
+			children = (
+				C3D69EE2173E5AD5004DE7FF /* FiducidalMarkerIdentifier.cpp */,
+				C3D69EE3173E5AD5004DE7FF /* FiducidalMarkerIdentifier.h */,
+			);
+			name = MarkerIdentifiers;
+			sourceTree = "<group>";
+		};
+		C3D69EE5173E5BC3004DE7FF /* CameraApply */ = {
+			isa = PBXGroup;
+			children = (
+				C3D69EE6173E5C09004DE7FF /* CameraApply.cpp */,
+				C3D69EE7173E5C09004DE7FF /* CameraApply.h */,
+			);
+			name = CameraApply;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -378,10 +444,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C380368C16F47DE500961368 /* main.m in Sources */,
-				C380369016F47DE500961368 /* AppDelegate.m in Sources */,
+				C380369016F47DE500961368 /* AppDelegate.mm in Sources */,
 				C380369916F47DE500961368 /* ViewController.mm in Sources */,
-				C334A2DD16F5E7210074DC8A /* GLView.m in Sources */,
-				C334A2E016F5E7840074DC8A /* GLRenderer.m in Sources */,
+				C334A2DD16F5E7210074DC8A /* GLView.mm in Sources */,
+				C334A2E016F5E7840074DC8A /* GLRenderer.mm in Sources */,
 				C334A2E716F5F4090074DC8A /* BaseArView.mm in Sources */,
 				C334A2EF16F6413E0074DC8A /* BasePipe.cpp in Sources */,
 				C334A2F516F641E40074DC8A /* BaseFrameSource.cpp in Sources */,
@@ -399,6 +465,12 @@
 				C3BEB9C81711C759000B5C72 /* FindContours.cpp in Sources */,
 				C3BEB9CB1711D688000B5C72 /* Shapes.cpp in Sources */,
 				C3BEB9CE1711F749000B5C72 /* DrawContrours.cpp in Sources */,
+				C3AA3B901719611600152746 /* DetectPolygons.cpp in Sources */,
+				C3AA3B9317196AF500152746 /* Marker.cpp in Sources */,
+				C3AA3B97171B3E2400152746 /* cameraparameters.cpp in Sources */,
+				C3AA3B9B171B41BF00152746 /* SquareMarkerDetector.cpp in Sources */,
+				C3D69EE4173E5AD5004DE7FF /* FiducidalMarkerIdentifier.cpp in Sources */,
+				C3D69EE8173E5C09004DE7FF /* CameraApply.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

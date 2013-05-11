@@ -2,6 +2,21 @@
 <Bucket
    type = "1"
    version = "1.0">
+   <SymbolicBreakpoints>
+      <AddressBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         symbolName = "*0x31dcb450">
+      </AddressBreakpoint>
+      <SymbolicBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "Yes"
+         symbolName = "malloc_error_break"
+         moduleName = "">
+      </SymbolicBreakpoint>
+   </SymbolicBreakpoints>
    <ExceptionBreakpoints>
       <ExceptionBreakpoint
          shouldBeEnabled = "Yes"
@@ -9,13 +24,6 @@
          continueAfterRunningActions = "No"
          scope = "0"
          stopOnStyle = "0">
-         <Actions>
-            <BreakpointActionProxy
-               ActionType = "Xcode.BreakpointAction.DebuggerCommand">
-               <ActionContent>
-               </ActionContent>
-            </BreakpointActionProxy>
-         </Actions>
       </ExceptionBreakpoint>
    </ExceptionBreakpoints>
 </Bucket>

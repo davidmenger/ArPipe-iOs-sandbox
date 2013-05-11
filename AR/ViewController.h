@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "./../Framework/ArPipeObjcUtils.h"
 
 @interface ViewController : UIViewController
-
-
 
 @end

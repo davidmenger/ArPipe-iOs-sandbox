@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ArPipe::FiducidalMarkerIdentifier::analyzeMarkerImage(cv::Mat&amp;, int&amp;):FiducidalMarkerIdentifier.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "ArPipe::BasePipe::pushNewFrameContainer(ArPipe::BaseFrameContainer*, ArPipe::BaseFrameSource*):BasePipe.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "ArPipe::SquareMarkerDetector::doTheDetection():SquareMarkerDetector.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "aruco::CameraParameters::glGetProjectionMatrix(cv::Size_&lt;int&gt;, cv::Size_&lt;int&gt;, double*, double, double, bool):cameraparameters.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "cv::countNonZero(Distorsion)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -8,9 +8,12 @@
 
 #import "ViewController.h"
 #import "./../Framework/ArPipeFramework.h"
-#import "./../Framework/ArPipeObjcUtils.h"
+
+
 
 @interface ViewController ()
+
+
 
 @end
 
@@ -30,18 +33,38 @@
     
     pipeline->addPipe(ArPipe::PolarRotate::init(90));
     pipeline->addPipe(ArPipe::BlackAndWhite::init());
-    pipeline->addPipe(ArPipe::Blur::init(2));
-    pipeline->addPipe(ArPipe::Canny::init());
-    pipeline->addPipe(ArPipe::FindContours::init());
-    pipeline->addPipe(ArPipe::BlackAndWhite::init()->toColor());
-    pipeline->addPipe(ArPipe::DrawContours::init());
+    ArPipe::BlackAndWhite *blackAndWhite = (ArPipe::BlackAndWhite*) pipeline->back();
     
+    //pipeline->addPipe(ArPipe::Blur::init(2));
+    pipeline->addPipe(ArPipe::Threshold::init());
+    //pipeline->addPipe(ArPipe::Canny::init());
+    pipeline->addPipe(ArPipe::FindContours::init()
+                      ->setTypeTree());
+    pipeline->addPipe(ArPipe::DetectPolygons::init()->setOnlyConvexObjects()
+                      ->setRequiredSideCount(4)
+                      ->setComplexityKoef(0.5));
     
-    pipeline->addNextPipe([previewLayer pipeConnector]);
+    ArPipe::FiducidalMarkerIdentifier *mId = (ArPipe::FiducidalMarkerIdentifier*) pipeline
+        ->addNextPipe(ArPipe::FiducidalMarkerIdentifier::init()
+                      ->setFrameSource(blackAndWhite)
+                      ->setShapesSource(pipeline));
+    
+    blackAndWhite->addNextPipe(mId);
+    
+    ArPipe::CameraApply *camApply = (ArPipe::CameraApply*) mId->addNextPipe(ArPipe::BlackAndWhite::init()->toColor())
+        ->addNextPipe(ArPipe::CameraApply::init());
+    
+    camApply->addNextPipe(ArPipe::DrawContours::init())
+        ->addNextPipe([previewLayer pipeConnector]);
+    
+    previewLayer->cp = camApply->getCameraParameters();
     
     [self.view addSubview: previewLayer];
     
+    
+    
     [previewLayer showFrameOutput];
+    [previewLayer showGlView];
     //[previewLayer showPreviewLayer];
     
     

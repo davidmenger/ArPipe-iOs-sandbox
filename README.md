@@ -2,7 +2,7 @@
 
 This sandbox is fully working Xcode project intended to demonstrate the [ArPipe Framework](https://github.com/megii/ArPipe-Framework) functionality and provide testing abilities for iOS defices.
 
-==================
+---------------
 
 ## Requirements
 

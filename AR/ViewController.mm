@@ -35,9 +35,7 @@
     pipeline->addPipe(ArPipe::BlackAndWhite::init());
     ArPipe::BlackAndWhite *blackAndWhite = (ArPipe::BlackAndWhite*) pipeline->back();
     
-    //pipeline->addPipe(ArPipe::Blur::init(2));
     pipeline->addPipe(ArPipe::Threshold::init());
-    //pipeline->addPipe(ArPipe::Canny::init());
     pipeline->addPipe(ArPipe::FindContours::init()
                       ->setTypeTree());
     pipeline->addPipe(ArPipe::DetectPolygons::init()->setOnlyConvexObjects()
@@ -51,8 +49,10 @@
     
     blackAndWhite->addNextPipe(mId);
     
-    ArPipe::CameraApply *camApply = (ArPipe::CameraApply*) mId->addNextPipe(ArPipe::BlackAndWhite::init()->toColor())
-        ->addNextPipe(ArPipe::CameraApply::init());
+    ArPipe::CameraApply *camApply
+        = (ArPipe::CameraApply*) mId->addNextPipe(
+                            ArPipe::BlackAndWhite::init()->toColor()
+                    )->addNextPipe(ArPipe::CameraApply::init());
     
     camApply->addNextPipe(ArPipe::DrawContours::init())
         ->addNextPipe([previewLayer pipeConnector]);
@@ -61,13 +61,8 @@
     
     [self.view addSubview: previewLayer];
     
-    
-    
     [previewLayer showFrameOutput];
     [previewLayer showGlView];
-    //[previewLayer showPreviewLayer];
-    
-    
     
     [frameSource start];
 }

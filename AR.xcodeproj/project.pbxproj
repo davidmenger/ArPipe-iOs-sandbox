@@ -46,6 +46,7 @@
 		C3BEB9C81711C759000B5C72 /* FindContours.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3BEB9C61711C759000B5C72 /* FindContours.cpp */; };
 		C3BEB9CB1711D688000B5C72 /* Shapes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3BEB9C91711D688000B5C72 /* Shapes.cpp */; };
 		C3BEB9CE1711F749000B5C72 /* DrawContrours.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3BEB9CC1711F749000B5C72 /* DrawContrours.cpp */; };
+		C3C4902F173EF4190076DD78 /* PipeMerge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3C4902D173EF4190076DD78 /* PipeMerge.cpp */; };
 		C3CB29071709DC840068E8BA /* original-coffee-88.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3CB29061709DC840068E8BA /* original-coffee-88.jpg */; };
 		C3CB290C1709F9C10068E8BA /* PolarRotate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3CB290A1709F9C10068E8BA /* PolarRotate.cpp */; };
 		C3CB290F170A1A7F0068E8BA /* Threshold.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3CB290D170A1A7E0068E8BA /* Threshold.cpp */; };
@@ -122,6 +123,8 @@
 		C3BEB9CA1711D688000B5C72 /* Shapes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shapes.h; path = Framework/Model/Shapes.h; sourceTree = SOURCE_ROOT; };
 		C3BEB9CC1711F749000B5C72 /* DrawContrours.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DrawContrours.cpp; path = ../Framework/Pipes/Drawers/DrawContrours.cpp; sourceTree = "<group>"; };
 		C3BEB9CD1711F749000B5C72 /* DrawContrours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawContrours.h; path = ../Framework/Pipes/Drawers/DrawContrours.h; sourceTree = "<group>"; };
+		C3C4902D173EF4190076DD78 /* PipeMerge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PipeMerge.cpp; path = Framework/Model/PipeMerge.cpp; sourceTree = SOURCE_ROOT; };
+		C3C4902E173EF4190076DD78 /* PipeMerge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PipeMerge.h; path = Framework/Model/PipeMerge.h; sourceTree = SOURCE_ROOT; };
 		C3CB29061709DC840068E8BA /* original-coffee-88.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "original-coffee-88.jpg"; sourceTree = "<group>"; };
 		C3CB290A1709F9C10068E8BA /* PolarRotate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PolarRotate.cpp; path = Framework/Pipes/Basic/PolarRotate.cpp; sourceTree = SOURCE_ROOT; };
 		C3CB290B1709F9C10068E8BA /* PolarRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PolarRotate.h; path = Framework/Pipes/Basic/PolarRotate.h; sourceTree = SOURCE_ROOT; };
@@ -203,6 +206,8 @@
 				C3BEB9CA1711D688000B5C72 /* Shapes.h */,
 				C3AA3B9117196AF500152746 /* Marker.cpp */,
 				C3AA3B9217196AF500152746 /* Marker.h */,
+				C3C4902D173EF4190076DD78 /* PipeMerge.cpp */,
+				C3C4902E173EF4190076DD78 /* PipeMerge.h */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -471,6 +476,7 @@
 				C3AA3B9B171B41BF00152746 /* SquareMarkerDetector.cpp in Sources */,
 				C3D69EE4173E5AD5004DE7FF /* FiducidalMarkerIdentifier.cpp in Sources */,
 				C3D69EE8173E5C09004DE7FF /* CameraApply.cpp in Sources */,
+				C3C4902F173EF4190076DD78 /* PipeMerge.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
